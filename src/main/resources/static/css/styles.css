@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+body a {
+    color: #d50000; /* Replace with your color */
+    text-decoration: underline;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.talent-management h1 {
+    color: #000;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.carousel {
+    width: 33%;
+    align: center;
+    left: 33%;
+}
+
+.carousel-inner {
+    width: 33%; /* Make the carousel cover the center 1/3 of the screen */
+    margin: 0 auto; /* Center the carousel */
+    max-height: 500px; /* Adjust as needed */
+}
+
+.carousel-item {
+    margin: 0 5px; /* Add horizontal margins to bring the images closer together */
+    display: block !important; /* Ensure the image is displayed */
+}
+
+.carousel-item img {
+    max-width: 100%; /* Adjust as needed */
+    max-height: auto; /* Adjust as needed */
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+    transform: translateY(-50%);
+    background: transparent;
+    color: #FF0000;
+    border: none;
+    font-size: 50px;
+}
+
+.carousel-control-prev {
+    left: -15%; /* Adjust as needed */
+}
+
+.carousel-control-next {
+    left: 100%; /* Adjust as needed */
+}
+
+.slick-prev,
+.slick-next {
+    background-color: #000; /* Change the background color of the arrows */
+    border: 2px solid #FF0000; /* Add a border to the arrows */
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #FF0000; /* Change the color of the arrows */
+    font-size: 30px; /* Change the size of the arrows */
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    background-color: #FF0000; /* Change the background color of the arrows on hover */
+    color: #000; /* Change the color of the arrows on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.footer-content {
+    text-align: center;
+    font-size: 20px; /* Increase font size */
+}
+
+.footer .footer-content .footer-info .logo span {
+    font-size: 40px; /* Increase font size */
+    color: #fff; /* Match text color */
+}
+
+.footer .footer-content .social-links a {
+    width: 40px; /* Increase icon size */
+    height: 40px; /* Increase icon size */
+    font-size: 20px; /* Increase icon size */
+    margin-right: 15px; /* Increase space between icons */
+    color: #fff; /* Match text color */
+    background-color: #000; /* Match background color */
+    border-radius: 50%; /* Make icons circular */
+    display: inline-flex; /* Fix alignment issue */
+    justify-content: center; /* Fix alignment issue */
+    align-items: center; /* Fix alignment issue */
+}
+
+.footer .footer-content .social-links a:hover {
+    color: #fff; /* Match text color */
+    background-color: #fff; /* Change hover background color to red */
+}
+
+.footer .footer-content h4 {
+    font-size: 20px; /* Increase font size */
+    color: #fff; /* Match text color */
+}
+
+.footer .footer-content .footer-links ul i {
+    font-size: 20px; /* Increase icon size */
+    margin-right: 5px; /* Adjust spacing */
+    color: #fff; /* Match text color */
+}
+
+.footer .footer-content .footer-links ul li {
+    padding: 15px 0; /* Adjust padding */
+}
+
+.footer .footer-content .footer-links ul a {
+    color: #fff; /* Match text color */
+}
+
+.footer .footer-content .footer-links ul a:hover {
+    color: #d50000; /* Change hover color to red */
+}
+
+.footer .footer-content .footer-contact p {
+    font-size: 16px; /* Increase font size */
+    line-height: 30px; /* Increase line height */
+    color: #fff; /* Match text color */
+}
+
+.footer .footer-legal {
+    background: #000; /* Match background color */
+    color: #fff; /* Match text color */
+}
+
+.footer .footer-legal .copyright {
+    text-align: center; /* Center text */
+}
+
+.footer .footer-legal .credits {
+    text-align: center; /* Center text */
+    font-size: 13px; /* Adjust font size */
+}
