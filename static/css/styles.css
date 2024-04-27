@@ -35,11 +35,17 @@ body a {
     font-color: #FF0000;
     text-align: center;
     margin-bottom: 20px;
+
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
+}
+
+.header .logo a {
+    color: #FF0000;
+    text-decoration: none;
 }
 
 /** Menu **/
