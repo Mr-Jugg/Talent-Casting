@@ -71,10 +71,9 @@ main {
 }
 
 .carousel-item img {
-    max-width: 100%; /* Adjust as needed */
-    max-height: auto; /* Adjust as needed */
-    border: 5px solid #fff;
-    border-radius: 10px;
+    width: 100%; /* Set the width of the images */
+    height: 100%; /* Set the height of the images */
+    object-fit: cover; /* Ensure that the images cover their entire container */
 }
 
 .carousel-control-prev,
@@ -96,6 +95,10 @@ main {
 .carousel-control-next {
     left: 100%; /* Adjust as needed */
 }
+
+.slick-slide {
+ -webkit-transform: translate3d(0,0,0);
+ }
 
 .slick-prev,
 .slick-next {
