@@ -26,7 +26,6 @@
             <span></span>
         </div>
     </nav>
-
 </header>
 <main>
     <section class="talent-management">
@@ -82,17 +81,9 @@
     </section>
 </main>
 
-<div class="menu">
-    <ul>
-        <li></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Our Team</a></li>
-        <li><a href="#">Talent</a></li>
-        <li><a href="#">Join Us</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Terms & Conditions</a></li>
-    </ul>
-</div>
+<!-- ======= Menu ======= -->
+<div id="menu"></div>
+<!--End Menu-->
 
 <!-- ======= Join us ======= -->
 <div class="container">
@@ -170,22 +161,6 @@
         carousel.slick('slickPrev'); // Trigger slickNext when right arrow is clicked
     });
 });
-</script>
-
-<script>
-    document.querySelector('.burger-menu').addEventListener('click', function() {
-    var menu = document.querySelector('.menu');
-    if (menu.style.display === 'none' || menu.style.display === '') {
-        menu.style.display = 'flex'; /* Change this line */
-    } else {
-        menu.style.display = 'none';
-    }
-    });
-</script>
-<script>
-    $(function(){
-        $("#footer").load("footer.html");
-    });
 </script>
 </body>
 </html>
