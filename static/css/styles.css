@@ -249,8 +249,6 @@ main {
     color: #000;
 }
 
-
-
 /* About us page */
 
 /* Team page */
@@ -294,8 +292,89 @@ main {
 
 
 
+/** Our Talent page **/
+.talent-section {
+    color: white;
+    width: 66%;
+    align: center;
+    margin: auto;
+}
 
+.talent-section img {
+    width: 300px; /* Set the width of the images */
+    height: 200px; /* Set the height of the images */
+    border: 2px solid red; /* Add a red border around the images */
+}
 
+.talent-section .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center the text */
+    color: white; /* Make the text white */
+    text-decoration: none !important; /* Remove the underline from the link */
+    width: 100%; /* Make sure the width is set to 100% */
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+}
+
+.talent-section .name p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center the text */
+    color: white; /* Make the text white */
+    text-decoration: none; /* Remove the underline from the link */
+    width: 100%; /* Make sure the width is set to 100% */
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+}
+
+.talent-section .name:hover {
+    text-decoration: none; /* Remove the underline from the link on hover */
+}
+
+.talent-section .col-md-3 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none !important; /* Remove the underline from the link */
+}
+
+.talent-section .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 50px;
+}
+
+.talent-section .arrow a {
+    text-decoration: none; /* Remove the underline from the link */
+}
+
+.talent-section .arrow a:hover {
+    text-decoration: none; /* Remove the underline from the link on hover */
+}
+
+.talent-section .arrow:hover {
+    color: white;
+}
+
+.talent-section .circle {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Should be equal to width */
+    border: 2px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.talent-section .circle:hover {
+    background-color: red;
+    color: white;
+}
 
 /* Footer */
 footer {
