@@ -226,18 +226,18 @@ main {
 
 /* Follow us section */
 
-.container p{
+.follow-us p{
     text-align: center;
     font-size: 30px;
     color: #fff;
 }
 
-.container .social-links {
+.follow-us .social-links {
     text-align: center;
     padding: 20px 0;
 }
 
-.container .social-links a {
+.follow-us .social-links a {
     color: #fff;
     background-color: #000;
     border-radius: 50%;
@@ -250,7 +250,7 @@ main {
     margin-right: 15px;
 }
 
-.container .social-links a:hover {
+.follow-us .social-links a:hover {
     background-color: #fff;
     color: #000;
 }
