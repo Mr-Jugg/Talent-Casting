@@ -3,6 +3,11 @@
     src: url('/static/fonts/OstrichSansInline-Regular.otf') format('opentype');
 }
 
+@font-face {
+    font-family: 'PermanentMarker-Regular';
+    src: url('/static/fonts/PermanentMarker-Regular.ttf') format('truetype');
+}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -18,7 +23,7 @@ body a {
 
 /** Header **/
 
-header {
+.header {
     background-color: #000;
     color: #fff;
     padding: 20px;
@@ -243,6 +248,54 @@ main {
     background-color: #fff;
     color: #000;
 }
+
+
+
+/* About us page */
+
+/* Team page */
+.team-section {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    border: 2px solid red;
+    width: 600px;
+    height: 400px;
+}
+
+.name, .role, .description {
+    font-family: 'PermanentMarker-Regular';
+}
+
+.name {
+    font-size: 48px;
+}
+
+.role {
+    font-size: 42px;
+}
+
+.description {
+    font-size: xx-large;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+/* Contact page */
+
+
+
+
+
 
 /* Footer */
 footer {
