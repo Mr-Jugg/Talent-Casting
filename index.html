@@ -19,8 +19,14 @@
         <div class="logo">
             <img src="static/img/logo.png" alt="FHM Productions Logo">
         </div>
-        <h1>Talent Management</h1>
+        <h1 class="title">Talent Management</h1>
+        <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </nav>
+
 </header>
 <main>
     <section class="talent-management">
@@ -75,32 +81,40 @@
         </div>
     </section>
 </main>
+
+<div class="menu">
+    <ul>
+        <li></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Talent</a></li>
+        <li><a href="#">Join Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+    </ul>
+</div>
+
+<!-- ======= Join us ======= -->
+<div class="container">
+    <div class="join-us">
+        <a href="#" class="btn btn-outline-light">Join us</a>
+    </div>
+</div><!-- End Join us -->
+
+<!-- ======= Follow us ======= -->
+<div class="container">
+    <p>FOLLOW US:</p>
+    <div class="social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+</div><!-- End Follow us -->
+
 <!-- ======= Footer ======= -->
 <footer id="footer">
-    <div class="footer-top">
-        <div class="container">
-        <div class="join-us">
-            <a href="#" class="btn btn-outline-light">Join us</a>
-        </div>
-
-            <p>FOLLOW US:</p>
-            <div class="social-links">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            </div>
-        </div>
-    </div>
-    <div class="container footer-bottom clearfix">
-        <div class="copyright">
-            &copy; Copyright <strong><span>FHM Productions © 2023</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            Designed by <a href="https://willfulsolutions.github.io/">Willful Solutions</a>
-        </div>
-    </div>
 </footer><!-- End Footer -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -156,6 +170,22 @@
         carousel.slick('slickPrev'); // Trigger slickNext when right arrow is clicked
     });
 });
+</script>
+
+<script>
+    document.querySelector('.burger-menu').addEventListener('click', function() {
+    var menu = document.querySelector('.menu');
+    if (menu.style.display === 'none' || menu.style.display === '') {
+        menu.style.display = 'flex'; /* Change this line */
+    } else {
+        menu.style.display = 'none';
+    }
+    });
+</script>
+<script>
+    $(function(){
+        $("#footer").load("footer.html");
+    });
 </script>
 </body>
 </html>
