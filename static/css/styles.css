@@ -131,6 +131,12 @@ main {
     text-decoration: none;
 }
 
+@media (min-width: 1000px) {
+    .menu li {
+        font-size: 4vw; /* Adjust as needed */
+    }
+}
+
 
 
 /* ====================================
