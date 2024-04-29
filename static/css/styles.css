@@ -21,17 +21,26 @@ body a {
     text-decoration: underline;
 }
 
-/** Header **/
+main {
+    padding: 20px;
+}
+
+/* ====================================
+                Header
+ =====================================*/
 
 .header {
     background-color: #000;
     color: #fff;
     padding: 20px;
+    margin-bottom: 4vw;
+    height: 10vw;
+    position: relative;
 }
 
 .title{
     font-family: 'OstrichSansInline-Regular';
-    font-size: 120px;
+    font-size: 7vw;
     font-color: #FF0000;
     text-align: center;
     margin-bottom: 20px;
@@ -41,6 +50,17 @@ body a {
 .logo {
     font-size: 24px;
     font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%; /* Make the logo fill its container vertically */
+    width: 100%; /* Set the width of the logo */
+}
+
+.logo img {
+    max-height: 80%; /* Set the height of the logo */
+    max-width: 100%; /* Allow the width to adjust automatically */
+    object-fit: contain; /* Ensure that the entire image is visible within its container */
 }
 
 .header .logo a {
@@ -48,10 +68,14 @@ body a {
     text-decoration: none;
 }
 
-/** Menu **/
+
+
+/* ====================================
+              Menu
+ =====================================*/
 
 .burger-menu {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
     display: flex;
@@ -82,6 +106,7 @@ body a {
     justify-content: center;
     text-align: center;
     z-index: 999;
+    overflow-y: auto; /* Added this line to make the menu scrollable */
 }
 
 .menu ul {
@@ -94,7 +119,7 @@ body a {
 
 .menu li {
     color: #fff;
-    font-size: 72px; /* Adjust as needed */
+    font-size: 6vw; /* Adjust as needed */
     border-bottom: 2px solid #fff;
     width: fit-content;
     margin: auto;
@@ -106,23 +131,16 @@ body a {
     text-decoration: none;
 }
 
-main {
-    padding: 20px;
-}
 
-.talent-management h1 {
-    color: #000;
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 30px;
-}
 
-/* Carousel */
+/* ====================================
+              Carousel
+ =====================================*/
 
 .carousel {
-    width: 33%;
+    width: 66%;
     align: center;
-    left: 33%;
+    margin: auto;
     padding-bottom: 30px;
 }
 
@@ -135,12 +153,11 @@ main {
 .carousel-item {
     margin: 0 5px; /* Add horizontal margins to bring the images closer together */
     display: block !important; /* Ensure the image is displayed */
-
 }
 
 .carousel-item img {
-    width: 300px; /* Set the width of the images */
-    height: 200px; /* Set the height of the images */
+    width: 15vw; /* Set the width of the images */
+    height: 100%; /* Set the height of the images */
     object-fit: cover; /* Ensure that the images cover their entire container */
     border-radius: 10px; /* Add rounded corners to the images */
     border: 2px solid #FF0000; /* Add a border around the images */
@@ -166,30 +183,24 @@ main {
     left: 100%; /* Adjust as needed */
 }
 
-.slick-slide {
- -webkit-transform: translate3d(0,0,0);
- }
 
-.slick-prev,
-.slick-next {
-    background-color: #000; /* Change the background color of the arrows */
-    border: 2px solid #FF0000; /* Add a border to the arrows */
-}
 
-.slick-prev:before,
-.slick-next:before {
-    color: #FF0000; /* Change the color of the arrows */
-    font-size: 30px; /* Change the size of the arrows */
-}
+@media (max-width: 600px) {
+    .carousel-item img {
+        width: 40vw; /* Adjust as needed */
+        height: auto; /* Maintain the image's aspect ratio */
+    }
 
-.slick-prev:hover,
-.slick-next:hover {
-    background-color: #FF0000; /* Change the background color of the arrows on hover */
-    color: #000; /* Change the color of the arrows on hover */
+    .carousel-control-prev,
+    .carousel-control-next {
+        font-size: 30px; /* Adjust as needed */
+    }
 }
 
 
-/* Video */
+/* ====================================
+            Video section
+ =====================================*/
 
 .video-container {
     width: 66%; /* 2/3 of the page width */
@@ -200,7 +211,7 @@ main {
 
 .video-container video {
     width: 100%; /* make the video fill its container */
-    height: 600px; /* maintain the video's aspect ratio */
+    height: 80vw; /* maintain the video's aspect ratio */
 }
 
 /*** Join us section ****/
@@ -224,7 +235,9 @@ main {
     color: #000;
 }
 
-/* Follow us section */
+/* ====================================
+          Follow us section
+ =====================================*/
 
 .follow-us p{
     text-align: center;
@@ -255,23 +268,30 @@ main {
     color: #000;
 }
 
-/* About us page */
+/* ====================================
+            About us page
+ =====================================*/
 
-/* Team page */
+
+/* ====================================
+              Team page
+ =====================================*/
 .team-section {
     display: flex;
     justify-content: space-around;
     color: white;
+
 }
 
 .team-member {
     text-align: center;
+    width: 100%; /* On small screens, make each team member take up the full width */
 }
 
 .team-member img {
     border: 2px solid red;
-    width: 600px;
-    height: 400px;
+    width: 20vw; /* Make the image fill 80% of the screen width */
+    height: auto; /* Maintain the image's aspect ratio */
 }
 
 .name, .role, .description {
@@ -279,36 +299,76 @@ main {
 }
 
 .name {
-    font-size: 48px;
+    font-size: 4vw;
 }
 
 .role {
-    font-size: 42px;
+    font-size: 3vw;
 }
 
 .description {
-    font-size: xx-large;
-    width: 60%;
+    font-size: 2vw;
+    width: 90%;
     margin: 0 auto;
+}
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    .team-section {
+        flex-direction: column !important; /* Stack the team members vertically */
+    }
+
+    .team-member {
+        text-align: center;
+        width: 100% !important; /* On small screens, make each team member take up the full width */
+    }
+
+    .team-member img {
+        border: 2px solid red;
+        width: 80vw !important; /* Use viewport width units to make the width responsive */
+        height: auto; /* Maintain the image's aspect ratio */
+    }
+
+    .name, .role, .description {
+        font-family: 'PermanentMarker-Regular';
+    }
+
+    .name {
+        font-size: 5vw !important; /* Use viewport width units to make the font size responsive */
+    }
+
+    .role {
+        font-size: 4vw !important; /* Use viewport width units to make the font size responsive */
+    }
+
+    .description {
+        font-size: 3vw !important; /* Use viewport width units to make the font size responsive */
+        width: 90%; /* Use a percentage to make the width responsive */
+        margin: 0 auto;
+    }
 }
 
 
 
-/* Contact page */
+
+/* ====================================
+              Contact page
+ =====================================*/
 
 
 
-/** Our Talent page **/
+/* ====================================
+            Our Talent page
+ =====================================*/
 .talent-section {
     color: white;
-    width: 66%;
+    width: 69%;
     align: center;
     margin: auto;
 }
 
 .talent-section img {
-    width: 300px; /* Set the width of the images */
-    height: 200px; /* Set the height of the images */
+    width: 30vw; /* Set the width of the images */
+    height: 20vw; /* Set the height of the images */
     border: 2px solid red; /* Add a red border around the images */
 }
 
@@ -322,19 +382,12 @@ main {
     width: 100%; /* Make sure the width is set to 100% */
     padding: 0; /* Remove any padding */
     margin: 0; /* Remove any margin */
+    font-size: 3vw; /* Adjust as needed */
+    max-font-size: 50px; /* Adjust as needed */
+    min-font-size: 16px; /* Adjust as needed */
 }
 
-.talent-section .name p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; /* Center the text */
-    color: white; /* Make the text white */
-    text-decoration: none; /* Remove the underline from the link */
-    width: 100%; /* Make sure the width is set to 100% */
-    padding: 0; /* Remove any padding */
-    margin: 0; /* Remove any margin */
-}
+
 
 .talent-section .name:hover {
     text-decoration: none; /* Remove the underline from the link on hover */
@@ -347,7 +400,7 @@ main {
     text-decoration: none !important; /* Remove the underline from the link */
 }
 
-.talent-section .arrow {
+.talent-section-arrow .arrow {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -355,19 +408,19 @@ main {
     font-size: 50px;
 }
 
-.talent-section .arrow a {
+.talent-section-arrow .arrow a {
     text-decoration: none; /* Remove the underline from the link */
 }
 
-.talent-section .arrow a:hover {
+.talent-section-arrow .arrow a:hover {
     text-decoration: none; /* Remove the underline from the link on hover */
 }
 
-.talent-section .arrow:hover {
+.talent-section-arrow .arrow:hover {
     color: white;
 }
 
-.talent-section .circle {
+.talent-section-arrow .circle {
     width: 50px; /* Adjust as needed */
     height: 50px; /* Should be equal to width */
     border: 2px solid red;
@@ -377,12 +430,38 @@ main {
     align-items: center;
 }
 
-.talent-section .circle:hover {
+.talent-section-arrow .circle:hover {
     background-color: red;
     color: white;
 }
 
-/* Footer */
+@media (min-width: 600px) {
+    .last-section .row{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .talent-section img {
+        width: 40vw; /* Adjust as needed */
+        height: auto; /* Maintain the image's aspect ratio */
+        min-height: 30vw; /* Set a minimum height */
+    }
+
+    .talent-section .col-md-3 {
+        flex: 0 0 50%; /* Bootstrap 4 uses flexbox, so you can use flex to control the width */
+        max-width: 50%; /* Maximum width is also 50% */
+    }
+
+    .talent-section .col-md-3:last-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* ====================================
+                Footer
+ =====================================*/
 footer {
     background-color: #000;
     color: #fff;
