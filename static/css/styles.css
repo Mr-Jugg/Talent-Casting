@@ -239,6 +239,12 @@ main {
     color: #000;
 }
 
+@media (min-width: 1000px) {
+    .video-container video {
+        height: 49vw; /* Adjust as needed */
+    }
+}
+
 /* ====================================
           Follow us section
  =====================================*/
