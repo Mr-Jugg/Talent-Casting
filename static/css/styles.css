@@ -137,8 +137,6 @@ main {
     }
 }
 
-
-
 /* ====================================
               Carousel
  =====================================*/
@@ -152,7 +150,7 @@ main {
 
 .carousel-inner {
     width: 33%; /* Make the carousel cover the center 1/3 of the screen */
-    margin: 0 auto; /* Center the carousel */
+    margin: auto; /* Center the carousel */
     max-height: 500px; /* Adjust as needed */
 }
 
