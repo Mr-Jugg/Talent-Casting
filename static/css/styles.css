@@ -119,7 +119,7 @@ main {
 
 .menu li {
     color: #fff;
-    font-size: 6vw; /* Adjust as needed */
+    font-size: 5vw; /* Adjust as needed */
     border-bottom: 2px solid #fff;
     width: fit-content;
     margin: auto;
