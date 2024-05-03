@@ -119,7 +119,7 @@ main {
 
 .menu li {
     color: #fff;
-    font-size: 6vw; /* Adjust as needed */
+    font-size: 5vw; /* Adjust as needed */
     border-bottom: 2px solid #fff;
     width: fit-content;
     margin: auto;
@@ -237,6 +237,12 @@ main {
 .join-us a:hover {
     background-color: #fff;
     color: #000;
+}
+
+@media (min-width: 1000px) {
+    .video-container video {
+        height: 49vw; /* Adjust as needed */
+    }
 }
 
 /* ====================================
