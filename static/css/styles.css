@@ -215,7 +215,7 @@ main {
 
 .video-container video {
     width: 100%; /* make the video fill its container */
-    height: 80vw; /* maintain the video's aspect ratio */
+    height: 49vw; /* maintain the video's aspect ratio */
 }
 
 /*** Join us section ****/
