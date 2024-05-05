@@ -88,18 +88,21 @@
 <script src="static/js/main.js"></script>
 <script>
     $(document).ready(function(){
-        // Fetch the data from the JSON file
-        fetch('static/data/talent.json')
-        .then(response => response.json())
-            .then(data => {
-                // Generate the HTML for each carousel item
-                const carouselItems = data.map((item, index) => `
+    // Fetch the data from the JSON file
+    fetch('static/data/talent.json')
+    .then(response => response.json())
+        .then(data => {
+            // Generate the HTML for each carousel item
+            const carouselItems = data.map((item, index) => {
+                const hyphenatedName = item.imgSrc.split('/').pop().split('.')[0];
+                return `
                     <div class="carousel-item col-md-3 ${index === 0 ? 'active' : ''}">
-                        <a href="/under-construction.html">
+                        <a href="talent-detail.html?name=${hyphenatedName}">
                             <img class="img-fluid mx-auto d-block" src="${item.imgSrc}" alt="${item.altText}">
                         </a>
                     </div>
-                    `).join('');
+                `;
+            }).join('');
 
                 // Insert the carousel items into the carousel
                 document.querySelector('.carousel-inner').innerHTML = carouselItems;
