@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -33,10 +33,27 @@
 <div id="menu"></div>
 <!--End Menu-->
 
-<h1 class="name"></h1>
-<img src="" class="img" alt="Talent image">
-<p class="description"></p>
-<button>Enquire</button>
+<div class="talent-detail">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="" class="img" alt="Talent image">
+        </div>
+        <div class="col-md-6">
+            <p class="tag-line"></p>
+            <p class="description"></p>
+            <p class="credits"></p>
+            <div class="contact">
+                <a href="/under-construction.html" class="btn btn-outline-light">Contact</a>
+            </div>
+            <div class="video-container-detail">
+                <video controls>
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- ======= Footer ======= -->
 <footer id="footer">
@@ -59,6 +76,9 @@
         // Derive the name from the imgSrc property
         const derivedName = name.replace(/-/g, ' ');
 
+        // Set the page title to the derivedName
+        document.title = derivedName;
+
         // Find the talent that matches the name
         const talent = data.find(item => {
             const imgName = item.imgSrc.split('/').pop().split('.')[0];
@@ -66,13 +86,18 @@
         });
 
         // Populate the HTML elements with the talent's information
-        document.querySelector('title').textContent = derivedName;
-        document.querySelector('.name').textContent = derivedName;
+        document.querySelector('.title').textContent = derivedName;
+        document.querySelector('.tag-line').textContent = talent.tagLine;
         document.querySelector('.img').src = talent.imgSrc;
         document.querySelector('.img').alt = talent.altText;
         document.querySelector('.description').textContent = talent.description;
+        document.querySelector('.credits').textContent = talent.credits;
+        const videoElement = document.querySelector('.video-container-detail video');
+        const sourceElement = videoElement.querySelector('source');
+
+        sourceElement.src = talent.video;
+        videoElement.load();
     });
 </script>
-
 </body>
 </html>
