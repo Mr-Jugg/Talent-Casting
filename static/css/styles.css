@@ -33,7 +33,7 @@ main {
     background-color: #000;
     color: #fff;
     padding: 20px;
-    margin-bottom: 4vw;
+    margin-bottom: 1vw;
     height: 10vw;
     position: relative;
 }
@@ -188,7 +188,6 @@ main {
 }
 
 
-
 @media (max-width: 600px) {
     .carousel-item img {
         width: 40vw; /* Adjust as needed */
@@ -218,7 +217,26 @@ main {
     height: 49vw; /* maintain the video's aspect ratio */
 }
 
-/*** Join us section ****/
+@media (min-width: 1000px) {
+    .video-container video {
+        height: 49vw; /* Adjust as needed */
+    }
+}
+
+.video-container-detail {
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid #FF0000; /* Add a border around the video */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.video-container-detail video{
+    width: 100%;
+}
+
+/* ====================================
+            Join us section
+ =====================================*/
 .join-us {
     text-align: center;
     padding: 60px 0;
@@ -239,11 +257,7 @@ main {
     color: #000;
 }
 
-@media (min-width: 1000px) {
-    .video-container video {
-        height: 49vw; /* Adjust as needed */
-    }
-}
+
 
 /* ====================================
           Follow us section
@@ -304,7 +318,7 @@ main {
     height: auto; /* Maintain the image's aspect ratio */
 }
 
-.name, .role, .description {
+.name, .role, .description, .tag-line{
     font-family: 'PermanentMarker-Regular';
 }
 
@@ -338,10 +352,6 @@ main {
         height: auto; /* Maintain the image's aspect ratio */
     }
 
-    .name, .role, .description {
-        font-family: 'PermanentMarker-Regular';
-    }
-
     .name {
         font-size: 5vw !important; /* Use viewport width units to make the font size responsive */
     }
@@ -372,7 +382,6 @@ main {
 .talent-section {
     color: white;
     width: 69%;
-    align: center;
     margin: auto;
 }
 
@@ -396,8 +405,6 @@ main {
     max-font-size: 50px; /* Adjust as needed */
     min-font-size: 16px; /* Adjust as needed */
 }
-
-
 
 .talent-section .name:hover {
     text-decoration: none; /* Remove the underline from the link on hover */
@@ -468,6 +475,91 @@ main {
         margin-right: auto;
     }
 }
+
+
+/* ====================================
+            Talent details
+ =====================================*/
+ .talent-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 69%;
+    margin: auto;
+ }
+
+ .talent-detail .row {
+     align-items: center; /* Vertically align the image and the description */
+ }
+
+ .talent-detail .img {
+     width: 100%; /* Make the image take up half of the screen width */
+     max-width: 100%; /* Ensure the image doesn't overflow its container */
+     height: 100%; /* Set the height of the image */
+     object-fit: cover; /* Ensure the image covers its entire container */
+ }
+
+ .talent-detail .tag-line {
+    text-align: center;
+    font-size: 2vw;
+    margin: 20px 0;
+ }
+
+ .talent-detail .description, .talent-detail .credits{
+     text-align: center;
+     font-size: 1.5vw;
+     width: 100%; /* Make the description and the button take up the other half of the screen width */
+     padding: 0 20px; /* Add some horizontal padding */
+ }
+
+ .talent-detail .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+ }
+
+ .talent-detail a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    font-size: 24px;
+
+ }
+
+ .talent-detail a:hover {
+    background-color: #fff;
+    color: #000;
+ }
+
+  .talent-detail .credits{
+     font-family: 'PermanentMarker-Regular';
+  }
+
+  .talent-detail .row {
+      display: flex;
+      align-items: stretch; /* Make the children stretch to fill the container */
+  }
+
+  .talent-detail .col-md-6 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Center the content vertically */
+  }
+
+ @media (max-width: 768px) {
+     .talent-detail .img,
+     .talent-detail .description,
+     .talent-detail button {
+         width: 100%; /* Make the image and the description each take up the full screen width */
+     }
+ }
+
+
 
 /* ====================================
                 Footer

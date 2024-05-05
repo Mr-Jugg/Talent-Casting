@@ -83,11 +83,14 @@
                     }, []).map((row, rowIndex) => `
                         <div class="row">
                             ${row.map(item => {
+
+                                const hyphenatedName = item.imgSrc.split('/').pop().split('.')[0];
+
                                 // Extract the name from the imgSrc and replace hyphens with spaces
                                 const name = item.imgSrc.split('/').pop().split('.')[0].replace(/-/g, ' ');
                                 return `
                                     <div class="col-md-3">
-                                        <a href="${item.link}">
+                                        <a href="/talent-detail.html?name=${hyphenatedName}">
                                             <img src="${item.imgSrc}" alt="${item.altText}" class="img-fluid">
                                             <h2 class="name">${name}</h2>
                                         </a>
