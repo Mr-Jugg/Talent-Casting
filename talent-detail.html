@@ -67,7 +67,7 @@
     .then(response => response.json())
     .then(data => {
         // Derive the name from the imgSrc property
-        const derivedName = name.replace(/-/g, ' ');
+        let derivedName = name.replace(/-/g, ' ');
 
             // If the name contains an underscore, replace it with a space
             if (derivedName.includes('_')) {
