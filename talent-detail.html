@@ -69,6 +69,11 @@
         // Derive the name from the imgSrc property
         const derivedName = name.replace(/-/g, ' ');
 
+            // If the name contains an underscore, replace it with a space
+            if (derivedName.includes('_')) {
+                derivedName = derivedName.replace(/_/g, ' ');
+            }
+
         // Set the page title to the derivedName
         document.title = derivedName;
 

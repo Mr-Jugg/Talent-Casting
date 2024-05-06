@@ -78,17 +78,38 @@
                             ${row.map(item => {
 
                                 const hyphenatedName = item.imgSrc.split('/').pop().split('.')[0];
+                                // Check if the name contains an underscore
+                                if (hyphenatedName.includes('_')) {
+                                    // Split the name on the underscore
+                                    const splitName = hyphenatedName.split('_');
 
-                                // Extract the name from the imgSrc and replace hyphens with spaces
-                                const name = item.imgSrc.split('/').pop().split('.')[0].replace(/-/g, ' ');
-                                return `
-                                    <div class="col-md-3">
-                                        <a href="/talent-detail.html?name=${hyphenatedName}">
-                                            <img src="${item.imgSrc}" alt="${item.altText}" class="img-fluid">
-                                            <h2 class="name">${name}</h2>
-                                        </a>
-                                    </div>
-                                `;
+                                    // The first part of the splitName array is the actual name
+                                    const name = splitName[0].replace(/-/g, ' ');
+
+                                    // Use the name for the displayed name
+                                    // Use the hyphenatedName for the URL
+                                    return `
+                                        <div class="col-md-3">
+                                            <a href="/talent-detail.html?name=${hyphenatedName}">
+                                                <img src="${item.imgSrc}" alt="${item.altText}" class="img-fluid">
+                                                <h2 class="name">${name}</h2>
+                                            </a>
+                                        </div>
+                                    `;
+                                } else {
+                                    // If the name doesn't contain an underscore, use the entire name
+                                    const name = hyphenatedName.replace(/-/g, ' ');
+
+                                    // Use the name for both the displayed name and the URL
+                                    return `
+                                        <div class="col-md-3">
+                                            <a href="/talent-detail.html?name=${hyphenatedName}">
+                                                <img src="${item.imgSrc}" alt="${item.altText}" class="img-fluid">
+                                                <h2 class="name">${name}</h2>
+                                            </a>
+                                        </div>
+                                    `;
+                                }
                             }).join('')}
                         </div>
                     `).join('');

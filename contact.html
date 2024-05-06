@@ -66,6 +66,10 @@
     if (name) {
         // Autofill the subject line with the talent name
         document.getElementById('subject').value = name.replace(/-/g, ' ');
+        // If the name contains an underscore, replace it with a space
+        if (name.includes('_')) {
+            name = name.replace(/_/g, ' ');
+        }
     }
 
     // Handle the form submission
