@@ -21,18 +21,11 @@
             </a>
         </div>
         <h1 class="title"></h1>
-        <div class="burger-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+        <!-- ======= Menu ======= -->
+        <div id="menu"></div>
+        <!--End Menu-->
     </nav>
 </header>
-
-<!-- ======= Menu ======= -->
-<div id="menu"></div>
-<!--End Menu-->
-
 <div class="talent-detail">
     <div class="row">
         <div class="col-md-6">
@@ -97,6 +90,15 @@
 
         sourceElement.src = talent.video;
         videoElement.load();
+
+                // Add the click event listener to the contact button
+        document.querySelector('.contact a').addEventListener('click', function(event) {
+            // Prevent the default action
+            event.preventDefault();
+
+            // Redirect to the contact page with the talent name as a URL parameter
+            window.location.href = `/contact.html?name=${name}`;
+        });
     });
 </script>
 </body>

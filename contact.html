@@ -62,8 +62,11 @@
     const urlParams = new URLSearchParams(window.location.search);
     const name = urlParams.get('name');
 
-    // Autofill the subject line with the talent name
-    document.getElementById('subject').value = name.replace(/-/g, ' ');
+    // Check if the name parameter exists
+    if (name) {
+        // Autofill the subject line with the talent name
+        document.getElementById('subject').value = name.replace(/-/g, ' ');
+    }
 
     // Handle the form submission
     document.getElementById('submitBtn').addEventListener('click', function(event) {
