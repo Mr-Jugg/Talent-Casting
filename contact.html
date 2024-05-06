@@ -60,7 +60,7 @@
 <script>
     // Get the name from the URL
     const urlParams = new URLSearchParams(window.location.search);
-    const name = urlParams.get('name');
+    let name = urlParams.get('name');
 
     // Check if the name parameter exists
     if (name) {
