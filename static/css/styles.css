@@ -1,6 +1,41 @@
 @font-face {
+    font-family: 'almendra-regular';
+    src: url('/static/fonts/Almendra-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'anton-regular';
+    src: url('/static/fonts/Anton-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bebas-regular';
+    src: url('/static/fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'biorhyme-regular';
+    src: url('/static/fonts/BioRhymeExpanded-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bree-regular';
+    src: url('/static/fonts/BreeSerif-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'dekko-regular';
+    src: url('/static/fonts/Dekko-Regular.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'OstrichSansInline-Regular';
     src: url('/static/fonts/OstrichSansInline-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'patrick-hand-regular';
+    src: url('/static/fonts/PatrickHand-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -8,6 +43,20 @@
     src: url('/static/fonts/PermanentMarker-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'rowdies-regular';
+    src: url('/static/fonts/PatrickHand-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'salsa-regular';
+    src: url('/static/fonts/Salsa-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'shantell-regular';
+    src: url('/static/fonts/ShantellSans-Regular.ttf') format('truetype');
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -38,10 +87,11 @@ main {
     position: relative;
 }
 
-.title{
+.header h1{
     font-family: 'OstrichSansInline-Regular';
     font-size: 7vw;
-    font-color: #FF0000;
+    color: #fff;
+    text-shadow: -2px -2px 0 red, 2px -2px 0 red, -2px 2px 0 red, 2px 2px 0 red;
     text-align: center;
     margin-bottom: 20px;
 
@@ -328,7 +378,7 @@ main {
 }
 
 .name, .role, .description, .tag-line{
-    font-family: 'PermanentMarker-Regular';
+    font-family: 'shantell-regular';
 }
 
 .name {
@@ -353,11 +403,12 @@ main {
     .team-member {
         text-align: center;
         width: 100% !important; /* On small screens, make each team member take up the full width */
+        margin-top: 20px; /* Add some space between the team members */
     }
 
     .team-member img {
         border: 2px solid red;
-        width: 80vw !important; /* Use viewport width units to make the width responsive */
+        width: 50vw !important; /* Use viewport width units to make the width responsive */
         height: auto; /* Maintain the image's aspect ratio */
     }
 
@@ -397,7 +448,7 @@ main {
 
 .contact-us .form-group label{
     font-size: 1.5vw;
-    font-family: 'PermanentMarker-Regular';
+    font-family: 'patrick-hand-regular';
 }
 
 .contact-us .form-group input, .contact-us .form-group textarea {
@@ -424,6 +475,7 @@ main {
     width: 30vw; /* Set the width of the images */
     height: 20vw; /* Set the height of the images */
     border: 2px solid red; /* Add a red border around the images */
+
 }
 
 .talent-section .name {
@@ -445,7 +497,7 @@ main {
     text-decoration: none; /* Remove the underline from the link on hover */
 }
 
-.talent-section .col-md-3 a {
+.talent-section .col-lg-3 a, .col-md-6 a {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -487,27 +539,29 @@ main {
     color: white;
 }
 
-@media (min-width: 600px) {
-    .last-section .row{
-        justify-content: center;
+@media (max-width: 800px) {
+    .talent-section {
+        padding-top:20px;
     }
-}
 
-@media (max-width: 600px) {
     .talent-section img {
-        width: 40vw; /* Adjust as needed */
-        height: auto; /* Maintain the image's aspect ratio */
-        min-height: 30vw; /* Set a minimum height */
+        width: 100%; /* Adjust as needed */
+        height: 100%; /* Maintain the image's aspect ratio */
     }
 
-    .talent-section .col-md-3 {
+    .talent-section .col-md-6 {
         flex: 0 0 50%; /* Bootstrap 4 uses flexbox, so you can use flex to control the width */
         max-width: 50%; /* Maximum width is also 50% */
+        padding-bottom: 2px; /* Add some space between the images */
     }
 
     .talent-section .col-md-3:last-child {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .last-section .row{
+        justify-content: center;
     }
 }
 
@@ -571,7 +625,7 @@ main {
  }
 
   .talent-detail .credits{
-     font-family: 'PermanentMarker-Regular';
+     font-family: 'patrick-hand-regular';
   }
 
   .talent-detail .row {
