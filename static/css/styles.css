@@ -149,16 +149,17 @@ main {
 
 .dropdown-menu{
     display: none;
-    position: absolute;
+    position: fixed;
     right: 0;
     transform: translateX(-10%); /* Move it slightly to the left */
-    top: 30%;
+    top: 60px;
     background-color: rgba(35,35,35,0.5);
     min-width: 200px;
     height: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     text-align: center;
+    scrollable: true;
 }
 
 .dropdown-menu ul {
@@ -191,6 +192,7 @@ main {
     .dropdown-menu {
         transform: translateY(15%);
         min-width:80px;
+        top:12px;
     }
 
     .dropdown-menu li {
