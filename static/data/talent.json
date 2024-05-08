@@ -51,9 +51,9 @@
   },
   {
 
-    "imgSrc": "static/img/talent/Reynold.JPG",
+    "imgSrc": "static/img/talent/Ray.JPG",
     "altText": "Talent 6",
-    "altImg": "static/img/talent/Reynold.JPG",
+    "altImg": "static/img/talent/Ray.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "credits": "credits go here",
@@ -271,9 +271,9 @@
   },
   {
 
-    "imgSrc": "static/img/talent/Ray.JPG",
+    "imgSrc": "static/img/talent/Raymond.JPG",
     "altText": "Talent 28",
-    "altImg": "static/img/talent/Ray.JPG",
+    "altImg": "static/img/talent/Raymond.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "credits": "credits go here",

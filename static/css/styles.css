@@ -66,7 +66,7 @@ body {
 }
 
 body a {
-    color: #d50000;
+    color: white;
     text-decoration: underline;
 }
 
@@ -91,7 +91,6 @@ main {
     font-family: 'OstrichSansInline-Regular';
     font-size: 7vw;
     color: #fff;
-    text-shadow: -2px -2px 0 red, 2px -2px 0 red, -2px 2px 0 red, 2px 2px 0 red;
     text-align: center;
     margin-bottom: 20px;
 
@@ -108,7 +107,7 @@ main {
 }
 
 .logo img {
-    max-height: 80%; /* Set the height of the logo */
+    max-height: 100%; /* Set the height of the logo */
     max-width: 100%; /* Allow the width to adjust automatically */
     object-fit: contain; /* Ensure that the entire image is visible within its container */
 }
@@ -152,7 +151,7 @@ main {
     display: none;
     position: absolute;
     right: 0;
-    transform: translateX(-20%); /* Move it slightly to the left */
+    transform: translateX(-10%); /* Move it slightly to the left */
     top: 30%;
     background-color: rgba(35,35,35,0.5);
     min-width: 200px;
@@ -172,7 +171,7 @@ main {
 
 .dropdown-menu li {
     color: #fff;
-    font-size: 2vw; /* Adjust as needed */
+    font-size: 1.7vw; /* Adjust as needed */
     border-bottom: 2px solid #fff;
     width: fit-content;
     margin: auto;
@@ -189,8 +188,13 @@ main {
 }
 
 @media (max-width: 600px) {
+    .dropdown-menu {
+        transform: translateY(15%);
+        min-width:80px;
+    }
+
     .dropdown-menu li {
-        font-size: 4vw; /* Adjust as needed */
+        font-size: 2.25vw; /* Adjust as needed */
     }
 }
 
@@ -221,7 +225,7 @@ main {
     height: 100%; /* Set the height of the images */
     object-fit: cover; /* Ensure that the images cover their entire container */
     border-radius: 10px; /* Add rounded corners to the images */
-    border: 2px solid #FF0000; /* Add a border around the images */
+    border: 2px solid white; /* Add a border around the images */
 }
 
 .carousel-control-prev,
@@ -265,7 +269,7 @@ main {
 .video-container {
     width: 66%; /* 2/3 of the page width */
     margin: 0 auto; /* center the video */
-    border: 2px solid #FF0000; /* Add a border around the video */
+    border: 2px solid white; /* Add a border around the video */
     border-radius: 10px; /* Add rounded corners */
 }
 
@@ -474,7 +478,7 @@ main {
 .talent-section img {
     width: 30vw; /* Set the width of the images */
     height: 20vw; /* Set the height of the images */
-    border: 2px solid red; /* Add a red border around the images */
+    border: 2px solid white; /* Add a red border around the images */
 
 }
 
@@ -487,7 +491,7 @@ main {
     text-decoration: none !important; /* Remove the underline from the link */
     width: 100%; /* Make sure the width is set to 100% */
     padding: 0; /* Remove any padding */
-    margin: 0; /* Remove any margin */
+    margin-bottom: 5px; /* Remove any margin */
     font-size: 3vw; /* Adjust as needed */
     max-font-size: 50px; /* Adjust as needed */
     min-font-size: 16px; /* Adjust as needed */
@@ -508,7 +512,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: red;
+    color: white;
     font-size: 50px;
 }
 
@@ -535,7 +539,7 @@ main {
 }
 
 .talent-section-arrow .circle:hover {
-    background-color: red;
+    background-color: white;
     color: white;
 }
 
