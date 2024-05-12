@@ -289,7 +289,7 @@ main {
 .video-container-detail {
     width: 100%;
     margin-top: 10px;
-    border: 2px solid #FF0000; /* Add a border around the video */
+    border: 2px solid #fff; /* Add a border around the video */
     border-radius: 10px; /* Add rounded corners */
 }
 
@@ -608,8 +608,8 @@ main {
 
  .talent-detail .contact {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
  }
 
