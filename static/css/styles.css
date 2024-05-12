@@ -585,7 +585,7 @@ main {
  }
 
  .talent-detail .row {
-     justify-content: center; /* Vertically align the image and the description */
+     justify-content: center;
  }
 
  .talent-detail .img {
@@ -641,6 +641,12 @@ main {
       flex-direction: column;
       justify-content: left; /* Center the content vertically */
   }
+
+    .talent-detail .col-md-12 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center the content vertically */
+    }
 
  @media (max-width: 768px) {
      .talent-detail .img,
