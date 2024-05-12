@@ -589,20 +589,19 @@ main {
  }
 
  .talent-detail .img {
-     width: 100%; /* Make the image take up half of the screen width */
-     max-width: 100%; /* Ensure the image doesn't overflow its container */
-     height: 100%; /* Set the height of the image */
-     object-fit: cover; /* Ensure the image covers its entire container */
+     width: 50%; /* Make the image take up half of the screen width */
+     max-width: 50; /* Ensure the image doesn't overflow its container */
+     height: auto; /* Set the height of the image */
  }
 
  .talent-detail .tag-line {
-    text-align: center;
+    text-align: left;
     font-size: 2vw;
     margin: 20px 0;
  }
 
  .talent-detail .description, .talent-detail .credits{
-     text-align: center;
+     text-align: left;
      font-size: 1.5vw;
      width: 100%; /* Make the description and the button take up the other half of the screen width */
      padding: 0 20px; /* Add some horizontal padding */
@@ -610,8 +609,8 @@ main {
 
  .talent-detail .contact {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     margin-top: 20px;
  }
 
@@ -642,7 +641,7 @@ main {
   .talent-detail .col-md-6 {
       display: flex;
       flex-direction: column;
-      justify-content: center; /* Center the content vertically */
+      justify-content: left; /* Center the content vertically */
   }
 
  @media (max-width: 768px) {
