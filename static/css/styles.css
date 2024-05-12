@@ -585,12 +585,11 @@ main {
  }
 
  .talent-detail .row {
-     align-items: center; /* Vertically align the image and the description */
+     justify-content: center; /* Vertically align the image and the description */
  }
 
  .talent-detail .img {
-     width: 50%; /* Make the image take up half of the screen width */
-     height: auto; /* Set the height of the image */
+     width: 80%; /* Make the image take up half of the screen width */
  }
 
  .talent-detail .tag-line {
