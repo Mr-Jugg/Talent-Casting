@@ -590,7 +590,6 @@ main {
 
  .talent-detail .img {
      width: 50%; /* Make the image take up half of the screen width */
-     max-width: 50; /* Ensure the image doesn't overflow its container */
      height: auto; /* Set the height of the image */
  }
 
