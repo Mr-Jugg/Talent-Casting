@@ -378,7 +378,7 @@ main {
 }
 
 .team-member img {
-    border: 2px solid red;
+    border: 2px solid white;
     width: 20vw; /* Make the image fill 80% of the screen width */
     height: auto; /* Maintain the image's aspect ratio */
 }
