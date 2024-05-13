@@ -13,7 +13,7 @@
 
     "imgSrc": "static/img/talent/main/Ex-the-Barber.JPG",
     "altText": "Talent 2",
-    "altImg": "static/img/talent/main/Ex-the-Barber.JPG",
+    "altImg": "static/img/talent/alt/Ex-the-Barber.JPG",
     "tagLine": "Glasgow's Celebrity Barber",
     "description": "Clients include: DJ Khalid, Ahmad Diallo, Rangers FC, Celtic FC, MUFC, Chris Eubank Jr, Wes Nelson, Bash The Entertainer, and many more.",
     "credits": "TV Credits: Jimmy Carr's 'I Literally Just Told You', Strangers on a Plane",
@@ -73,7 +73,7 @@
 
     "imgSrc": "static/img/talent/main/Wyen-Solo.JPG",
     "altText": "Talent 8",
-    "altImg": "static/img/talent/main/Wyen-Solo.JPG",
+    "altImg": "static/img/talent/alt/Wyen-Solo.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "credits": "credits go here",
@@ -173,7 +173,7 @@
 
     "imgSrc": "static/img/talent/main/Lexie.JPG",
     "altText": "Talent 18",
-    "altImg": "static/img/talent/main/Lexie.JPG",
+    "altImg": "static/img/talent/alt/Lexie.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "credits": "credits go here",
@@ -193,7 +193,7 @@
 
     "imgSrc": "static/img/talent/main/Smythe-Bros.JPG",
     "altText": "Talent 20",
-    "altImg": "static/img/talent/main/Smythe-Bros.JPG",
+    "altImg": "static/img/talent/alt/Smythe-Bros.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "credits": "credits go here",
@@ -203,7 +203,7 @@
 
     "imgSrc": "static/img/talent/main/Alisha.JPG",
     "altText": "Talent 21",
-    "altImg": "static/img/talent/main/Alisha.JPG",
+    "altImg": "static/img/talent/alt/Alisha.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "credits": "credits go here",
@@ -253,7 +253,7 @@
 
     "imgSrc": "static/img/talent/main/Erina.JPG",
     "altText": "Talent 26",
-    "altImg": "static/img/talent/main/Erina.JPG",
+    "altImg": "static/img/talent/alt/Erina.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "credits": "credits go here",
@@ -303,7 +303,7 @@
 
     "imgSrc": "static/img/talent/main/Alex.JPG",
     "altText": "Talent 31",
-    "altImg": "static/img/talent/main/Alex.JPG",
+    "altImg": "static/img/talent/alt/Alex.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "credits": "credits go here",
@@ -350,7 +350,7 @@
 
     "imgSrc": "static/img/talent/main/Kaci-May.JPG",
     "altText": "Talent 36",
-    "altImg": "static/img/talent/main/Kaci-May.JPG",
+    "altImg": "static/img/talent/alt/Kaci-May.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "video": "/static/video/compilation.mp4"
@@ -368,7 +368,7 @@
 
     "imgSrc": "static/img/talent/main/Leonardo.JPG",
     "altText": "Talent 38",
-    "altImg": "static/img/talent/main/Leonardo.JPG",
+    "altImg": "static/img/talent/alt/Leonardo.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "video": "/static/video/compilation.mp4"
@@ -386,7 +386,7 @@
 
     "imgSrc": "static/img/talent/main/Tom.JPG",
     "altText": "Talent 40",
-    "altImg": "static/img/talent/main/Tom.JPG",
+    "altImg": "static/img/talent/alt/Tom.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "video": "/static/video/compilation.mp4"
