@@ -590,6 +590,8 @@ main {
 
  .talent-detail .img {
      width: 80%; /* Make the image take up half of the screen width */
+     margin: auto;
+     border: 2px solid white; /* Add a border around the image */
  }
 
  .talent-detail .tag-line {
