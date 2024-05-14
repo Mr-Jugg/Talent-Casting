@@ -2,7 +2,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Ella.JPG",
-    "altText": "Talent 1",
+    "altText": "Ella",
     "altImg": "static/img/talent/alt/Ella.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -12,7 +12,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Ex-the-Barber.JPG",
-    "altText": "Talent 2",
+    "altText": "Ex-the-Barber",
     "altImg": "static/img/talent/alt/Ex-the-Barber.JPG",
     "tagLine": "Glasgow's Celebrity Barber",
     "description": "Clients include: DJ Khalid, Ahmad Diallo, Rangers FC, Celtic FC, MUFC, Chris Eubank Jr, Wes Nelson, Bash The Entertainer, and many more.",
@@ -22,7 +22,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Libby-Mae.JPG",
-    "altText": "Talent 3",
+    "altText": "Libby-Mae",
     "altImg": "static/img/talent/alt/Libby-Mae.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -32,7 +32,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Emma.JPG",
-    "altText": "Talent 4",
+    "altText": "Emma",
     "altImg": "static/img/talent/alt/Emma.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -42,7 +42,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Jack.JPG",
-    "altText": "Talent 5",
+    "altText": "Jack",
     "altImg": "static/img/talent/alt/Jack.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -52,7 +52,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Ray.JPG",
-    "altText": "Talent 6",
+    "altText": "Ray",
     "altImg": "static/img/talent/alt/Ray.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -62,7 +62,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Liam.JPG",
-    "altText": "Talent 7",
+    "altText": "Liam",
     "altImg": "static/img/talent/alt/Liam.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -72,7 +72,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Wyen-Solo.JPG",
-    "altText": "Talent 8",
+    "altText": "Wyen Solo",
     "altImg": "static/img/talent/alt/Wyen-Solo.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -82,7 +82,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Marina_P.JPG",
-    "altText": "Talent 9",
+    "altText": "Marina P",
     "altImg": "static/img/talent/alt/Marina_P.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -92,7 +92,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Bhambras.JPG",
-    "altText": "Talent 10",
+    "altText": "Bhambras",
     "altImg": "static/img/talent/alt/Bhambras.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -102,7 +102,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Ryan.JPG",
-    "altText": "Talent 11",
+    "altText": "Ryan",
     "altImg": "static/img/talent/alt/Ryan.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -112,7 +112,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Ramona.JPG",
-    "altText": "Talent 12",
+    "altText": "Ramona",
     "altImg": "static/img/talent/alt/Ramona.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -122,7 +122,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Fanny-Gogh.JPG",
-    "altText": "Talent 13",
+    "altText": "Fanny Gogh",
     "altImg": "static/img/talent/alt/Fanny-Gogh.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -131,8 +131,18 @@
   },
   {
 
+    "imgSrc": "static/img/talent/alt/Mikie.JPG",
+    "altText": "Mikie",
+    "altImg": "static/img/talent/alt/Mikie.JPG",
+    "tagLine": "tagline goes here",
+    "description": "a description of the talent goes here.",
+    "credits": "credits go here",
+    "video": "/static/video/compilation.mp4"
+  },
+  {
+
     "imgSrc": "static/img/talent/main/Vleenam-Twins.JPG",
-    "altText": "Talent 14",
+    "altText": "Vleenam Twins",
     "altImg": "static/img/talent/alt/Vleenam-Twins.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -142,7 +152,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Cassell-Twins.JPG",
-    "altText": "Talent 15",
+    "altText": "Cassell Twins",
     "altImg": "static/img/talent/alt/Cassell-Twins.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -152,7 +162,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Drew.JPG",
-    "altText": "Talent 16",
+    "altText": "Drew",
     "altImg": "static/img/talent/alt/Drew.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -162,7 +172,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Ellie.JPG",
-    "altText": "Talent 17",
+    "altText": "Ellie",
     "altImg": "static/img/talent/alt/Ellie.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -172,7 +182,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Lexie.JPG",
-    "altText": "Talent 18",
+    "altText": "Lexie",
     "altImg": "static/img/talent/alt/Lexie.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -182,7 +192,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Linz.JPG",
-    "altText": "Talent 19",
+    "altText": "Linz",
     "altImg": "static/img/talent/alt/Linz.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -192,7 +202,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Smythe-Bros.JPG",
-    "altText": "Talent 20",
+    "altText": "Smythe Bros",
     "altImg": "static/img/talent/alt/Smythe-Bros.jpg",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -202,7 +212,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Alisha.JPG",
-    "altText": "Talent 21",
+    "altText": "Alisha",
     "altImg": "static/img/talent/alt/Alisha.jpg",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -212,7 +222,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Elle.JPG",
-    "altText": "Talent 22",
+    "altText": "Elle",
     "altImg": "static/img/talent/main/Elle.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -222,7 +232,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Lou.JPG",
-    "altText": "Talent 23",
+    "altText": "Lou",
     "altImg": "static/img/talent/alt/Lou.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -232,7 +242,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Ishmael.JPG",
-    "altText": "Talent 24",
+    "altText": "Ishmael",
     "altImg": "static/img/talent/alt/Ishmael.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -242,7 +252,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Marina_I.JPG",
-    "altText": "Talent 25",
+    "altText": "Marina I",
     "altImg": "static/img/talent/alt/Marina_I.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -252,7 +262,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Erina.JPG",
-    "altText": "Talent 26",
+    "altText": "Erina",
     "altImg": "static/img/talent/alt/Erina.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -262,7 +272,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Helen.JPG",
-    "altText": "Talent 27",
+    "altText": "Helen",
     "altImg": "static/img/talent/main/Helen.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -272,7 +282,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Raymond.JPG",
-    "altText": "Talent 28",
+    "altText": "Raymond",
     "altImg": "static/img/talent/alt/Raymond.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -282,7 +292,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Letom.JPG",
-    "altText": "Talent 29",
+    "altText": "Letom",
     "altImg": "static/img/talent/alt/Letom.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -292,7 +302,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Adam.JPG",
-    "altText": "Talent 30",
+    "altText": "Adam",
     "altImg": "static/img/talent/alt/Adam.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -302,7 +312,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Alex.JPG",
-    "altText": "Talent 31",
+    "altText": "Alex",
     "altImg": "static/img/talent/alt/Alex.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -312,7 +322,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Arnold.JPG",
-    "altText": "Talent 32",
+    "altText": "Arnold",
     "altImg": "static/img/talent/alt/Arnold.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -322,7 +332,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Jamie.JPG",
-    "altText": "Talent 33",
+    "altText": "Jamie",
     "altImg": "static/img/talent/main/Jamie.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -331,7 +341,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Kirsty.JPG",
-    "altText": "Talent 34",
+    "altText": "Kirsty",
     "altImg": "static/img/talent/main/Kirsty.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -340,7 +350,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Robbie.JPG",
-    "altText": "Talent 35",
+    "altText": "Robbie",
     "altImg": "static/img/talent/main/Robbie.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -349,7 +359,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Kaci-May.JPG",
-    "altText": "Talent 36",
+    "altText": "Kaci-May",
     "altImg": "static/img/talent/alt/Kaci-May.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -358,7 +368,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Yasmin.JPG",
-    "altText": "Talent 37",
+    "altText": "Yasmin",
     "altImg": "static/img/talent/alt/Yasmin.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -367,7 +377,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Leonardo.JPG",
-    "altText": "Talent 38",
+    "altText": "Leonardo",
     "altImg": "static/img/talent/alt/Leonardo.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -376,7 +386,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Kristian.JPG",
-    "altText": "Talent 39",
+    "altText": "Kristian",
     "altImg": "static/img/talent/main/Kristian.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
@@ -385,7 +395,7 @@
   {
 
     "imgSrc": "static/img/talent/main/Tom.JPG",
-    "altText": "Talent 40",
+    "altText": "Tom",
     "altImg": "static/img/talent/alt/Tom.jpg",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
