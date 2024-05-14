@@ -183,7 +183,7 @@
 
     "imgSrc": "static/img/talent/main/Lexie.JPG",
     "altText": "Lexie",
-    "altImg": "static/img/talent/alt/Lexie.JPG",
+    "altImg": "static/img/talent/alt/Lexie.jpg",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "credits": "credits go here",
@@ -263,7 +263,7 @@
 
     "imgSrc": "static/img/talent/main/Erina.JPG",
     "altText": "Erina",
-    "altImg": "static/img/talent/alt/Erina.JPG",
+    "altImg": "static/img/talent/alt/Erina.jpg",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "credits": "credits go here",
@@ -313,7 +313,7 @@
 
     "imgSrc": "static/img/talent/main/Alex.JPG",
     "altText": "Alex",
-    "altImg": "static/img/talent/alt/Alex.JPG",
+    "altImg": "static/img/talent/alt/Alex.jpg",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "credits": "credits go here",
@@ -360,7 +360,7 @@
 
     "imgSrc": "static/img/talent/main/Kaci-May.JPG",
     "altText": "Kaci-May",
-    "altImg": "static/img/talent/alt/Kaci-May.JPG",
+    "altImg": "static/img/talent/alt/Kaci-May.jpg",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "video": "/static/video/compilation.mp4"
@@ -378,7 +378,7 @@
 
     "imgSrc": "static/img/talent/main/Leonardo.JPG",
     "altText": "Leonardo",
-    "altImg": "static/img/talent/alt/Leonardo.JPG",
+    "altImg": "static/img/talent/alt/Leonardo.jpg",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "video": "/static/video/compilation.mp4"
