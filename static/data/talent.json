@@ -131,7 +131,7 @@
   },
   {
 
-    "imgSrc": "static/img/talent/alt/Mikie.JPG",
+    "imgSrc": "static/img/talent/main/Mikie.JPG",
     "altText": "Mikie",
     "altImg": "static/img/talent/alt/Mikie.JPG",
     "tagLine": "tagline goes here",
@@ -273,7 +273,7 @@
 
     "imgSrc": "static/img/talent/main/Helen.JPG",
     "altText": "Helen",
-    "altImg": "static/img/talent/main/Helen.JPG",
+    "altImg": "static/img/talent/alt/Helen.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "credits": "credits go here",
@@ -333,7 +333,7 @@
 
     "imgSrc": "static/img/talent/main/Jamie.JPG",
     "altText": "Jamie",
-    "altImg": "static/img/talent/main/Jamie.JPG",
+    "altImg": "static/img/talent/alt/Jamie.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "video": "/static/video/compilation.mp4"
@@ -342,7 +342,7 @@
 
     "imgSrc": "static/img/talent/main/Kirsty.JPG",
     "altText": "Kirsty",
-    "altImg": "static/img/talent/main/Kirsty.JPG",
+    "altImg": "static/img/talent/alt/Kirsty.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "video": "/static/video/compilation.mp4"
@@ -351,7 +351,7 @@
 
     "imgSrc": "static/img/talent/main/Robbie.JPG",
     "altText": "Robbie",
-    "altImg": "static/img/talent/main/Robbie.JPG",
+    "altImg": "static/img/talent/alt/Robbie.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "video": "/static/video/compilation.mp4"
@@ -387,7 +387,7 @@
 
     "imgSrc": "static/img/talent/main/Kristian.JPG",
     "altText": "Kristian",
-    "altImg": "static/img/talent/main/Kristian.JPG",
+    "altImg": "static/img/talent/alt/Kristian.JPG",
     "tagLine": "tagline goes here",
     "description": "a description of the talent goes here.",
     "video": "/static/video/compilation.mp4"
