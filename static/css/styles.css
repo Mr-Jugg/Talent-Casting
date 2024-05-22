@@ -1,6 +1,41 @@
 @font-face {
+    font-family: 'almendra-regular';
+    src: url('/static/fonts/Almendra-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'anton-regular';
+    src: url('/static/fonts/Anton-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bebas-regular';
+    src: url('/static/fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'biorhyme-regular';
+    src: url('/static/fonts/BioRhymeExpanded-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bree-regular';
+    src: url('/static/fonts/BreeSerif-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'dekko-regular';
+    src: url('/static/fonts/Dekko-Regular.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'OstrichSansInline-Regular';
     src: url('/static/fonts/OstrichSansInline-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'patrick-hand-regular';
+    src: url('/static/fonts/PatrickHand-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -8,6 +43,20 @@
     src: url('/static/fonts/PermanentMarker-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'rowdies-regular';
+    src: url('/static/fonts/PatrickHand-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'salsa-regular';
+    src: url('/static/fonts/Salsa-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'shantell-regular';
+    src: url('/static/fonts/ShantellSans-Regular.ttf') format('truetype');
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -17,7 +66,7 @@ body {
 }
 
 body a {
-    color: #d50000;
+    color: white;
     text-decoration: underline;
 }
 
@@ -38,10 +87,10 @@ main {
     position: relative;
 }
 
-.title{
+.header h1{
     font-family: 'OstrichSansInline-Regular';
     font-size: 7vw;
-    font-color: #FF0000;
+    color: #fff;
     text-align: center;
     margin-bottom: 20px;
 
@@ -58,7 +107,7 @@ main {
 }
 
 .logo img {
-    max-height: 80%; /* Set the height of the logo */
+    max-height: 100%; /* Set the height of the logo */
     max-width: 100%; /* Allow the width to adjust automatically */
     object-fit: contain; /* Ensure that the entire image is visible within its container */
 }
@@ -94,22 +143,26 @@ main {
 }
 
 .menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #000;
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    z-index: 999;
+    position: relative;
     overflow-y: auto; /* Added this line to make the menu scrollable */
 }
 
-.menu ul {
+.dropdown-menu{
+    display: none;
+    position: fixed;
+    right: 0;
+    transform: translateX(-10%); /* Move it slightly to the left */
+    top: 60px;
+    background-color: rgba(35,35,35,0.5);
+    min-width: 200px;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    scrollable: true;
+}
+
+.dropdown-menu ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -117,23 +170,33 @@ main {
     text-align: center; /* Add this line */
 }
 
-.menu li {
+.dropdown-menu li {
     color: #fff;
-    font-size: 5vw; /* Adjust as needed */
+    font-size: 1.7vw; /* Adjust as needed */
     border-bottom: 2px solid #fff;
     width: fit-content;
     margin: auto;
-    padding: 10px 0; /* Adjust as needed */
+    padding: 10px; /* Adjust as needed */
 }
 
-.menu a {
-    color: #fff;
+.dropdown-menu a {
     text-decoration: none;
+    display: block;
 }
 
-@media (min-width: 1000px) {
-    .menu li {
-        font-size: 4vw; /* Adjust as needed */
+.dropdown-menu a:hover {
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .dropdown-menu {
+        transform: translateY(15%);
+        min-width:80px;
+        top:12px;
+    }
+
+    .dropdown-menu li {
+        font-size: 2.25vw; /* Adjust as needed */
     }
 }
 
@@ -164,7 +227,7 @@ main {
     height: 100%; /* Set the height of the images */
     object-fit: cover; /* Ensure that the images cover their entire container */
     border-radius: 10px; /* Add rounded corners to the images */
-    border: 2px solid #FF0000; /* Add a border around the images */
+    border: 2px solid white; /* Add a border around the images */
 }
 
 .carousel-control-prev,
@@ -208,7 +271,7 @@ main {
 .video-container {
     width: 66%; /* 2/3 of the page width */
     margin: 0 auto; /* center the video */
-    border: 2px solid #FF0000; /* Add a border around the video */
+    border: 2px solid white; /* Add a border around the video */
     border-radius: 10px; /* Add rounded corners */
 }
 
@@ -226,7 +289,7 @@ main {
 .video-container-detail {
     width: 100%;
     margin-top: 10px;
-    border: 2px solid #FF0000; /* Add a border around the video */
+    border: 2px solid #fff; /* Add a border around the video */
     border-radius: 10px; /* Add rounded corners */
 }
 
@@ -295,7 +358,9 @@ main {
 /* ====================================
             About us page
  =====================================*/
-
+.about p{
+    color: #fff;
+}
 
 /* ====================================
               Team page
@@ -313,13 +378,13 @@ main {
 }
 
 .team-member img {
-    border: 2px solid red;
+    border: 2px solid white;
     width: 20vw; /* Make the image fill 80% of the screen width */
     height: auto; /* Maintain the image's aspect ratio */
 }
 
 .name, .role, .description, .tag-line{
-    font-family: 'PermanentMarker-Regular';
+    font-family: 'shantell-regular';
 }
 
 .name {
@@ -344,11 +409,12 @@ main {
     .team-member {
         text-align: center;
         width: 100% !important; /* On small screens, make each team member take up the full width */
+        margin-top: 20px; /* Add some space between the team members */
     }
 
     .team-member img {
         border: 2px solid red;
-        width: 80vw !important; /* Use viewport width units to make the width responsive */
+        width: 50vw !important; /* Use viewport width units to make the width responsive */
         height: auto; /* Maintain the image's aspect ratio */
     }
 
@@ -367,14 +433,40 @@ main {
     }
 }
 
-
-
-
 /* ====================================
               Contact page
  =====================================*/
+.contact-us{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 30%;
+    margin: auto;
+}
 
+.contact-form{
+    width: 50%;
+}
 
+.contact-us .form-group {
+    margin-bottom: 10px;
+}
+
+.contact-us .form-group label{
+    font-size: 1.5vw;
+    font-family: 'patrick-hand-regular';
+}
+
+.contact-us .form-group input, .contact-us .form-group textarea {
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #232323;
+    color: #fff;
+}
+.contact-us .form-group input:focus, .contact-us .form-group textarea:focus {
+    outline: #FF0000;  /* Remove the default outline */
+    border: 1px solid #FF0000; /* Add a red border */
+}
 
 /* ====================================
             Our Talent page
@@ -388,7 +480,8 @@ main {
 .talent-section img {
     width: 30vw; /* Set the width of the images */
     height: 20vw; /* Set the height of the images */
-    border: 2px solid red; /* Add a red border around the images */
+    border: 2px solid white; /* Add a red border around the images */
+
 }
 
 .talent-section .name {
@@ -400,7 +493,7 @@ main {
     text-decoration: none !important; /* Remove the underline from the link */
     width: 100%; /* Make sure the width is set to 100% */
     padding: 0; /* Remove any padding */
-    margin: 0; /* Remove any margin */
+    margin-bottom: 5px; /* Remove any margin */
     font-size: 3vw; /* Adjust as needed */
     max-font-size: 50px; /* Adjust as needed */
     min-font-size: 16px; /* Adjust as needed */
@@ -410,7 +503,7 @@ main {
     text-decoration: none; /* Remove the underline from the link on hover */
 }
 
-.talent-section .col-md-3 a {
+.talent-section .col-lg-3 a, .col-md-6 a {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -421,7 +514,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: red;
+    color: white;
     font-size: 50px;
 }
 
@@ -448,34 +541,35 @@ main {
 }
 
 .talent-section-arrow .circle:hover {
-    background-color: red;
+    background-color: white;
     color: white;
 }
 
-@media (min-width: 600px) {
-    .last-section .row{
-        justify-content: center;
+@media (max-width: 800px) {
+    .talent-section {
+        padding-top:20px;
     }
-}
 
-@media (max-width: 600px) {
     .talent-section img {
-        width: 40vw; /* Adjust as needed */
-        height: auto; /* Maintain the image's aspect ratio */
-        min-height: 30vw; /* Set a minimum height */
+        width: 100%; /* Adjust as needed */
+        height: 100%; /* Maintain the image's aspect ratio */
     }
 
-    .talent-section .col-md-3 {
+    .talent-section .col-md-6 {
         flex: 0 0 50%; /* Bootstrap 4 uses flexbox, so you can use flex to control the width */
         max-width: 50%; /* Maximum width is also 50% */
+        padding-bottom: 2px; /* Add some space between the images */
     }
 
     .talent-section .col-md-3:last-child {
         margin-left: auto;
         margin-right: auto;
     }
-}
 
+    .last-section .row{
+        justify-content: center;
+    }
+}
 
 /* ====================================
             Talent details
@@ -491,24 +585,23 @@ main {
  }
 
  .talent-detail .row {
-     align-items: center; /* Vertically align the image and the description */
+     justify-content: center;
  }
 
  .talent-detail .img {
-     width: 100%; /* Make the image take up half of the screen width */
-     max-width: 100%; /* Ensure the image doesn't overflow its container */
-     height: 100%; /* Set the height of the image */
-     object-fit: cover; /* Ensure the image covers its entire container */
+     width: 80%; /* Make the image take up half of the screen width */
+     margin: auto;
+     border: 2px solid white; /* Add a border around the image */
  }
 
  .talent-detail .tag-line {
-    text-align: center;
+    text-align: left;
     font-size: 2vw;
     margin: 20px 0;
  }
 
  .talent-detail .description, .talent-detail .credits{
-     text-align: center;
+     text-align: left;
      font-size: 1.5vw;
      width: 100%; /* Make the description and the button take up the other half of the screen width */
      padding: 0 20px; /* Add some horizontal padding */
@@ -537,7 +630,7 @@ main {
  }
 
   .talent-detail .credits{
-     font-family: 'PermanentMarker-Regular';
+     font-family: 'patrick-hand-regular';
   }
 
   .talent-detail .row {
@@ -548,8 +641,14 @@ main {
   .talent-detail .col-md-6 {
       display: flex;
       flex-direction: column;
-      justify-content: center; /* Center the content vertically */
+      justify-content: left; /* Center the content vertically */
   }
+
+    .talent-detail .col-md-12 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center the content vertically */
+    }
 
  @media (max-width: 768px) {
      .talent-detail .img,
@@ -559,6 +658,21 @@ main {
      }
  }
 
+/* ====================================
+          Terms & Conditions
+ =====================================*/
+ .terms {
+    color: white;
+    width: 100%;
+    margin: auto;
+ }
+
+  .terms p{
+     color: white;
+     width: 100%;
+     margin: auto;
+     font-size: 1vw;
+  }
 
 
 /* ====================================
