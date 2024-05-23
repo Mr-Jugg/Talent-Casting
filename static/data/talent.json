@@ -475,8 +475,8 @@
     "altImg": "static/img/talent/alt/Kirsty.JPG",
     
     "description": ["-Dental Surgeon", "-Volunteer Dental Surgeon in Ghana (2014)", "-Cofounder 'Dance Mania' "],
-    "credits": [],
-    "websites": ["TV Credits: -In With a Shout (ITV, 2024)"],
+    "credits": ["TV Credits: -In With a Shout (ITV, 2024)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
