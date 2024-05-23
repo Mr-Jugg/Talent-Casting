@@ -1,12 +1,17 @@
 [
   {
-
     "imgSrc": "static/img/talent/main/Ella.JPG",
     "altText": "Ella",
     "altImg": "static/img/talent/alt/Ella.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": [
+      "-Disability Advocate",
+      "-Raising awareness for 'Fixed Functional Dystonia'",
+      "-Tik tok star with 1.8 million followers",
+      "-Videos have a combined total of, nearly 33 million views across social media, platforms."],
+    "credits": ["TV Credits: -I Literally Just Told You (CH4, 2023)",
+      "-Money Bags (CH4, 2022)", "-Blankety Blank (BBC 2021)"],
+    "websites": [],
     "video": "/static/video/talent/Ella.mp4"
   },
   {
@@ -15,8 +20,11 @@
     "altText": "Ex-the-Barber",
     "altImg": "static/img/talent/alt/Ex-the-Barber.JPG",
     "tagLine": "Glasgow's Celebrity Barber",
-    "description": "Clients include: DJ Khalid, Ahmad Diallo, Rangers FC, Celtic FC, MUFC, Chris Eubank Jr, Wes Nelson, Bash The Entertainer, and many more.",
-    "credits": "TV Credits: Jimmy Carr's 'I Literally Just Told You', Strangers on a Plane",
+    "description": ["Clients include: DJ Khalid", "Ahmad Diallo", "Rangers FC", "Celtic FC", "MUFC", "Chris Eubank Jr",
+      "Wes Nelson", "Bash The Entertainer", "and many more."],
+    "credits": ["TV Credits: -Jimmy Carr's 'I Literally Just Told You'",
+      "-Strangers on a Plane"],
+    "websites": [],
     "video": "/static/video/talent/Ex-the-Barber.mp4"
   },
   {
@@ -24,9 +32,12 @@
     "imgSrc": "static/img/talent/main/Libby-Mae.JPG",
     "altText": "Libby-Mae",
     "altImg": "static/img/talent/alt/Libby-Mae.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-LGBTQ+ Viral Tik Tok star",
+      "-2.9 million followers/336.5 Million likes",
+      "-234K followers on Instagram"],
+    "credits": [],
+    "websites": [],
     "video": "/static/video/talent/Libby-Mae.mp4"
   },
   {
@@ -34,9 +45,12 @@
     "imgSrc": "static/img/talent/main/Emma.JPG",
     "altText": "Emma",
     "altImg": "static/img/talent/alt/Emma.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-TV debut on Jimmy Carr's 'I Literally Just Told You'",
+      "-Tik Tok - almost 5 million views, 712K likes",
+      "-Artist"],
+    "credits": ["TV Credits: -I Literally Just Told You (CH4, 2023) "],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -44,9 +58,11 @@
     "imgSrc": "static/img/talent/main/Jack.JPG",
     "altText": "Jack",
     "altImg": "static/img/talent/alt/Jack.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Amputee and Disability Advocate",
+      "-Tik Tok star with roughly 300K followers/4.2 million likes/71 million views", "-Wheelchair Tennis/Rugby player"],
+    "credits": ["TV Credits: -I Literally Just Told You (CH4, 2023)", "-Money bags (CH4, 2021)", "-Creator Lab  (BBC, 2024)"],
+    "websites": [],
     "video": "/static/video/talent/Jack.mp4"
   },
   {
@@ -54,9 +70,11 @@
     "imgSrc": "static/img/talent/main/Ray.JPG",
     "altText": "Ray",
     "altImg": "static/img/talent/alt/Ray.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-3x British Champion", "-European finalist",
+      "-European U23 Finalist", "-BUCS long jump Champion & record holder", "-England senior long jump champion"],
+    "credits": [],
+    "websites": [],
     "video": "/static/video/talent/Ray.mp4"
   },
   {
@@ -64,9 +82,15 @@
     "imgSrc": "static/img/talent/main/Liam.JPG",
     "altText": "Liam",
     "altImg": "static/img/talent/alt/Liam.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Everton & England Amputee footballer",
+      "-Plays as a striker or forward",
+      "-Disability advocate",
+      "-Tik Tok - 35 million views, nearly 3 million likes",
+      "-Selected for the England national team and made his debut at the World Cup in Istanbul against Indonesia, Argentina, Poland and Japan.",
+      "-In 2024 became dual signed for Everton and Warta Poznan (Polish league)"],
+    "credits": [],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -74,9 +98,15 @@
     "imgSrc": "static/img/talent/main/Wyen-Solo.JPG",
     "altText": "Wyen Solo",
     "altImg": "static/img/talent/alt/Wyen-Solo.jpg",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Award winning R&B singer",
+      "-Her album 'Hennessy & Rose Petals' was compared to R&B greats Toni Braxton, Whitney Houston, with a new school twist likening to singers Mila J, Ella Mai and Jhené Aiko",
+      "-Founder of 'Alerah Cosmetics', an inclusive luxury brand, available at an affordable price! Clients include cast members from 'The Real Housewives' and 'Love & Hip Hop'."],
+    "credits": ["TV Credits: -Strangers On A Plane (CH4, 2022)"],
+    "websites": [
+      "https://open.spotify.com/artist/4hRmpX5BTFnyJHTon7o7Wa",
+      "http://alerahcosmetics.com"
+    ],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -84,9 +114,14 @@
     "imgSrc": "static/img/talent/main/Marina_P.JPG",
     "altText": "Marina P",
     "altImg": "static/img/talent/alt/Marina_P.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Currently presenting for 'Cherry Bay' Producing party/luxury travel content ",
+      "-Made TV debut on reality TV aged 18, after dropping out of University",
+      "-Advanced level Skier",
+      "-Plays Trumpet at a professional level",
+      "-Tik Tok - over 3M views, 161.7K likes"],
+    "credits": ["TV Credits: -Cherry Bay (2024)", "-Oatly Ad (2024) ", "-Rise & Fall (CH4, 2023)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -94,9 +129,10 @@
     "imgSrc": "static/img/talent/main/Bhambras.JPG",
     "altText": "Bhambras",
     "altImg": "static/img/talent/alt/Bhambras.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Tight knit competitive Sikh brothers", "-Love playing football together", "-Professional Bhangra dancers"],
+    "credits": ["TV Credits: -In With A Shout (ITV, 2024)", "-The Chase (ITV, 2019)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -104,9 +140,13 @@
     "imgSrc": "static/img/talent/main/Ryan.JPG",
     "altText": "Ryan",
     "altImg": "static/img/talent/alt/Ryan.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Scottish influencer with ",
+      "-Tik Tok - 1.9M followers, 25.1M likes and roughly 530k on Instagram",
+      "-known for Reading cheeky adult books, trying snacks from around the world and pronouncing different words with his Scottish accent.",
+      "-Ex Navy "],
+    "credits": ["TV Credits: -I Literally Just Told You (CH4, 2023)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -114,9 +154,13 @@
     "imgSrc": "static/img/talent/main/Ramona.JPG",
     "altText": "Ramona",
     "altImg": "static/img/talent/alt/Ramona.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-CEO in the business world", "-NRTA winner (2023)",
+      "-Theatre performances include 'Lady Macbeth' in Macbeth, 'Romeo' in Romeo & Juliet and Comedia  Dell'arte.",
+      "-Motivantional Speaker",
+      "-English, German & Punjabi speaker"],
+    "credits": ["TV Credits: -Rise & Fall (CH4, 2023)", "-The Green Hour (National Geographic)"],
+    "websites": [],
     "video": "/static/video/talent/Ramona.mp4"
   },
   {
@@ -124,9 +168,14 @@
     "imgSrc": "static/img/talent/main/Fanny-Gogh.JPG",
     "altText": "Fanny Gogh",
     "altImg": "static/img/talent/alt/Fanny-Gogh.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Mancunian artist ‘Fanny Gogh’, known for her work with celebrity lingerie!",
+      "-Has worked with celebrities Keith Lemon, Simon Cowell, Englebert Humperdinck, Nick Knowles, Rob Schneider, Eammon Holmes, Ruth Langsford, Ranvir Singh, Kunle Barker, Sam Allardyce, William Roach, Ella Toone, Paul Scholes etc.",
+      "-Owner of 'The Rum Fanny’"],
+    "credits": ["TV Credits: -Lost & Found In The Lakes (BBC, 2024)",
+      "-I Literally Just Told You (CH4, 2023)",
+      "-My Beautiful Green Home (ITV)", "-Home Is Where The Art Is (BBC)"],
+    "websites": ["https://www.fannygogh.co.uk"],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -134,9 +183,13 @@
     "imgSrc": "static/img/talent/main/Mikie.JPG",
     "altText": "Mikie",
     "altImg": "static/img/talent/alt/Mikie.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Social Media star with videos having a combined total of nearly 8 million views across social media platforms",
+      "-Nearly 500k followers and 6.5 million likes.",
+      "-Raising awareness of ADHD, through witty online content",
+      "-Avid gamer"],
+    "credits": ["TV Credits: -Squid Games (Netflix, 2023)", "I Literally Just Told You (CH4, 2023)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -144,9 +197,14 @@
     "imgSrc": "static/img/talent/main/Vleenam-Twins.JPG",
     "altText": "Vleenam Twins",
     "altImg": "static/img/talent/alt/Vleenam-Twins.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Identical twins",
+      "-Bollywood dancers",
+      "-Tik Tok: 4.6M followers, 74.2M likes",
+      "-Youtube 1.53M Subscribers",
+      "-Instagram: 1M followers"],
+    "credits": ["TV Credits: -Tara Vs Bilal 'Bollywood Film' (2022)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -154,9 +212,11 @@
     "imgSrc": "static/img/talent/main/Cassell-Twins.JPG",
     "altText": "Cassell Twins",
     "altImg": "static/img/talent/alt/Cassell-Twins.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Identical twin sisters",
+      "-Travel/food/activity vlogs", "-Photography"],
+    "credits": [],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -164,9 +224,12 @@
     "imgSrc": "static/img/talent/main/Drew.JPG",
     "altText": "Drew",
     "altImg": "static/img/talent/alt/Drew.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Afro Beat Music Producer/Singer",
+      "- Album 'A Flavoured Kid' released (2013) worldwide",
+      "-Check out his other 6 singles on ITunes "],
+    "credits": [],
+    "websites": [],
     "video": "/static/video/talent/Drew.mp4"
   },
   {
@@ -174,9 +237,13 @@
     "imgSrc": "static/img/talent/main/Ellie.JPG",
     "altText": "Ellie",
     "altImg": "static/img/talent/alt/Ellie.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-'Crystal Palace Academy'",
+      "-4 years/Captained the development team.",
+      "-'Malaga City Academy’ -Right back 1 year",
+      "-Tik Tok - 1.3M views, 126K likes"],
+    "credits": ["TV Credits: -BT Sport's Ultimate Goal (2020)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -184,9 +251,13 @@
     "imgSrc": "static/img/talent/main/Lexie.JPG",
     "altText": "Lexie",
     "altImg": "static/img/talent/alt/Lexie.jpg",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Current Mid Fielder ‘Pontefract Colliers’ - 1 year",
+      "-Leeds united for 1 season ",
+      "-West End Terriers - 4 years ",
+      "-Tik Tok: Almost 85.5K followers, 16M views &1M likes"],
+    "credits": [],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -194,9 +265,12 @@
     "imgSrc": "static/img/talent/main/Linz.JPG",
     "altText": "Linz",
     "altImg": "static/img/talent/alt/Linz.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Jimmy Carr's 'I Literally Just Told You' was her TV debut, where she left audiences in stitches!",
+      "-Mother of Libby-Mae & Lexie",
+      "-Tik Tok- nearly 780K followers, 43.9 Million likes"],
+    "credits": ["TV Credits: -I Literally Just Told You (CH4, 2023)"],
+    "websites": [],
     "video": "/static/video/talent/Linz.mp4"
   },
   {
@@ -204,9 +278,11 @@
     "imgSrc": "static/img/talent/main/Smythe-Bros.JPG",
     "altText": "Smythe Bros",
     "altImg": "static/img/talent/alt/Smythe-Bros.jpg",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-3 prankster siblings from Essex", "-Produce music",
+      "-Travel/Food Vloggers", "-Attempt extreme food challenges"],
+    "credits": ["TV Credits: -Unforgiveable (Dave, 2023)", "-The Void (ITV, 2021)"],
+    "websites": [],
     "video": "/static/video/talent/Smythe-Bros.mp4"
   },
   {
@@ -214,9 +290,14 @@
     "imgSrc": "static/img/talent/main/Alisha.JPG",
     "altText": "Alisha",
     "altImg": "static/img/talent/alt/Alisha.jpg",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Miss Sovereign GB (2020)",
+      "-Diploma in acting - LIPA (2018)", "-Winner of BBC's Hire Me 'Property Broker'"],
+    "credits": ["TV Credits: -Hire Me (2022)",
+      "-I Literally Just Told You (CH4, 2023)",
+      "-Birchall’s Pints (2023) Amazon Prime Comedy series", "-Hollyoaks ",
+      "-In Plain Sight -ITV", "-National Trust Advert", "-Unite Students Advert "],
+    "websites": [],
     "video": "/static/video/talent/Alisha.mp4"
   },
   {
@@ -224,9 +305,12 @@
     "imgSrc": "static/img/talent/main/Elle.JPG",
     "altText": "Elle",
     "altImg": "static/img/talent/main/Elle.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Disability Advocate",
+      "-Raising awareness for 'Hypermobility', Postural Tachycardia Syndrome', and 'Sinus Tachycardia'",
+      "-Artist & Creator @ANIMATEME_X", "-Tik Tok -Almost 7M views, 519K likes"],
+    "credits": [],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -234,9 +318,12 @@
     "imgSrc": "static/img/talent/main/Lou.JPG",
     "altText": "Lou",
     "altImg": "static/img/talent/alt/Lou.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Winner of his episode on 'Strangers on a Plane'",
+      "-Won the girl's heart on 'Five Guys a week'"],
+    "credits": ["TV Credits: -The Motorway Hotel (2024)",
+      "-Strangers on a Plane (2022)", "-Five Guys a week (2019)"],
+    "websites": [],
     "video": "/static/video/talent/Lou.mp4"
   },
   {
@@ -244,9 +331,12 @@
     "imgSrc": "static/img/talent/main/Ishmael.JPG",
     "altText": "Ishmael",
     "altImg": "static/img/talent/alt/Ishmael.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Dancing landscape gardener",
+      "-Styles include 'freestyle', 'Body Popping', 'handstands' and 'back flips', etc.",
+      "-Kickboxer ", "-Tik Tok - 2M views, 150K likes "],
+    "credits": [],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -254,9 +344,15 @@
     "imgSrc": "static/img/talent/main/Marina_I.JPG",
     "altText": "Marina I",
     "altImg": "static/img/talent/alt/Marina_I.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Alto singer",
+      "-Trained in Makeup/Beauty/Hair",
+      "-Placed 3rd 'Warpaint Competition' (2014)",
+      "-Artist, specialising in drawing/paintings",
+      "-Contemporary/Modern Hip Hop dancer",
+      "-Grade A in music 'Voices & Instruments'", "-Violin grade 4"],
+    "credits": ["Theatre Credits: -Fame 'Carmen' (2008)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -264,9 +360,10 @@
     "imgSrc": "static/img/talent/main/Erina.JPG",
     "altText": "Erina",
     "altImg": "static/img/talent/alt/Erina.jpg",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": [],
+    "credits": [],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -274,9 +371,17 @@
     "imgSrc": "static/img/talent/main/Helen.JPG",
     "altText": "Helen",
     "altImg": "static/img/talent/alt/Helen.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Upper Alto Singer",
+      "-Singer for 'Rock Choir'",
+      "-performed at 'Carfest North' (2022), Chris Evans invited us to the main stage",
+      "-Performed at the Edinburgh Fringe Festival (2023)",
+      "-Manchester Street Cheer Competition '2nd place' (2010)",
+      "-Cruise ship dancer (1990)",
+      "-Lead singer of the band 'The Tide' (1991)",
+      "-Singer/Dancer UK, Greece, Japan (1989 -1991)"],
+    "credits": ["TV Credits: -Cheap, cheap, cheap with Noel Edmonds (2017)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -284,9 +389,10 @@
     "imgSrc": "static/img/talent/main/Raymond.JPG",
     "altText": "Raymond",
     "altImg": "static/img/talent/alt/Raymond.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Former Publican", "-Trained Chef", "-Avid Golfer ", "-Classic car enthusiast "],
+    "credits": ["TV Credits: -Strangers on a Plane (CH4, 2022)", "-Masterpiece (ITV)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -294,9 +400,12 @@
     "imgSrc": "static/img/talent/main/Letom.JPG",
     "altText": "Letom",
     "altImg": "static/img/talent/alt/Letom.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Owner of Labtainment/Labbeautystudios",
+      "-Dance styles include 'Break dancing', 'Old School Hip Hop', '90's Krump', 'Body Popping', 'Afro Beats' and 'Salsa'",
+      "-Music Producer", "-Voiceover artist "],
+    "credits": [],
+    "websites": ["https://labbeautystudios.co.uk", "https://labtainment.com"],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -304,9 +413,14 @@
     "imgSrc": "static/img/talent/main/Adam.JPG",
     "altText": "Adam",
     "altImg": "static/img/talent/alt/Adam.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Disability Advocate",
+      "-Raising awareness for Tourettes & ADHD",
+      "-Known for being a 'cheeky chappy' and for his cheeky videos relating to his conditions",
+      "-Avid golfer"],
+    "credits": ["TV Credits: -Strangers on a Plane (CH4, 2022)",
+      "-Money Bags (CH4, 2023)"],
+    "websites": [],
     "video": "/static/video/talent/Adam.mp4"
   },
   {
@@ -314,9 +428,21 @@
     "imgSrc": "static/img/talent/main/Alex.JPG",
     "altText": "Alex",
     "altImg": "static/img/talent/alt/Alex.jpg",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-Singer 'Mezzo Soprano'",
+      "-Lead Vocalist for High Tides on Luxury Cruise Liners (2017-2020)",
+      "-BA 'Popular Music Performance (2016)",
+      "-1 of 3 lead vocalists in the band 'The Soul Rays (2016)",
+      "-Actress/script writer"],
+    "credits": ["TV Credits: -Wings (to be released)",
+      "-In With A Shout (ITV, 2024)",
+      "-Unhinged - short film (2024)",
+      "-Tim's Dad - Short film (2023)",
+      "-The Void (ITV, 2021)",
+      "-Chester: Foodie Capitol of the North West (2021)", 
+    "Theatre Credits: -'Made in Motor City' - 1 of 3 lead vocalists (2022 - present)",
+      "'Two' (2023)", "'The Pier' (2022)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -324,9 +450,11 @@
     "imgSrc": "static/img/talent/main/Arnold.JPG",
     "altText": "Arnold",
     "altImg": "static/img/talent/alt/Arnold.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
-    "credits": "credits go here",
+    
+    "description": ["-High energy dancer",
+      "styles include 'Break dancing', 'Roboting', and 'Body Popping'."],
+    "credits": ["TV Credits: -Darling what have you done with your hair (CH4 2021)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -334,8 +462,10 @@
     "imgSrc": "static/img/talent/main/Jamie.JPG",
     "altText": "Jamie",
     "altImg": "static/img/talent/alt/Jamie.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
+    
+    "description": ["-British Boxing MC", "-Welsh Tug Of War competitor"],
+    "credits": ["TV Credits: -In With a Shout (ITV, 2024) ", "-Undercooked (2019)", "-Casualty (BBC, 2018)", "-Captain America (2010)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -343,8 +473,10 @@
     "imgSrc": "static/img/talent/main/Kirsty.JPG",
     "altText": "Kirsty",
     "altImg": "static/img/talent/alt/Kirsty.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
+    
+    "description": ["-Dental Surgeon", "-Volunteer Dental Surgeon in Ghana (2014)", "-Cofounder 'Dance Mania' "],
+    "credits": [],
+    "websites": ["TV Credits: -In With a Shout (ITV, 2024)"],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -352,8 +484,10 @@
     "imgSrc": "static/img/talent/main/Robbie.JPG",
     "altText": "Robbie",
     "altImg": "static/img/talent/alt/Robbie.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
+    
+    "description": ["-Countdown winner", "-Speaks Russian"],
+    "credits": ["TV Credits: -In With a Shout (2024)", "-Countdown (2022)", "-Captain America (2010)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -361,8 +495,10 @@
     "imgSrc": "static/img/talent/main/Kaci-May.JPG",
     "altText": "Kaci-May",
     "altImg": "static/img/talent/alt/Kaci-May.jpg",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
+    
+    "description": [],
+    "credits": [],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -370,8 +506,11 @@
     "imgSrc": "static/img/talent/main/Yasmin.JPG",
     "altText": "Yasmin",
     "altImg": "static/img/talent/alt/Yasmin.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
+    
+    "description": ["-Mobile hairdresser, known for giving Fat Man Scoop a beard trim ",
+      "-Former Street dancer ", "-Can play the flute"],
+    "credits": ["TV Credits: -I Literally Just Told You (CH4, 2023)"],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -379,8 +518,10 @@
     "imgSrc": "static/img/talent/main/Leonardo.JPG",
     "altText": "Leonardo",
     "altImg": "static/img/talent/alt/Leonardo.jpg",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
+    
+    "description": [],
+    "credits": [],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -388,8 +529,10 @@
     "imgSrc": "static/img/talent/main/Kristian.JPG",
     "altText": "Kristian",
     "altImg": "static/img/talent/alt/Kristian.JPG",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
+    
+    "description": [],
+    "credits": [],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   },
   {
@@ -397,8 +540,13 @@
     "imgSrc": "static/img/talent/main/Tom.JPG",
     "altText": "Tom",
     "altImg": "static/img/talent/alt/Tom.jpg",
-    "tagLine": "tagline goes here",
-    "description": "a description of the talent goes here.",
+    
+    "description": ["-Produces Comic related online content",
+      "-Tik Tok - over 22 million views/ 3.2 million likes",
+      "-Everyday superhero, with an array of costumes",
+      "-Can walk on his hands", "-Impressions"],
+    "credits": [],
+    "websites": [],
     "video": "/static/video/compilation.mp4"
   }
 ]

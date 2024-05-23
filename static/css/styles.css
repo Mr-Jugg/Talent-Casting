@@ -1,56 +1,6 @@
 @font-face {
-    font-family: 'almendra-regular';
-    src: url('/static/fonts/Almendra-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'anton-regular';
-    src: url('/static/fonts/Anton-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'bebas-regular';
-    src: url('/static/fonts/BebasNeue-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'biorhyme-regular';
-    src: url('/static/fonts/BioRhymeExpanded-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'bree-regular';
-    src: url('/static/fonts/BreeSerif-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'dekko-regular';
-    src: url('/static/fonts/Dekko-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'OstrichSansInline-Regular';
-    src: url('/static/fonts/OstrichSansInline-Regular.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'patrick-hand-regular';
-    src: url('/static/fonts/PatrickHand-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'PermanentMarker-Regular';
-    src: url('/static/fonts/PermanentMarker-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'rowdies-regular';
-    src: url('/static/fonts/PatrickHand-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'salsa-regular';
-    src: url('/static/fonts/Salsa-Regular.ttf') format('truetype');
+    font-family: 'edo';
+    src: url('/static/fonts/edo.ttf') format('truetype');
 }
 
 @font-face {
@@ -88,8 +38,8 @@ main {
 }
 
 .header h1{
-    font-family: 'OstrichSansInline-Regular';
-    font-size: 7vw;
+    font-family: 'edo';
+    font-size: 5vw;
     color: #fff;
     text-align: center;
     margin-bottom: 20px;
@@ -383,7 +333,7 @@ main {
     height: auto; /* Maintain the image's aspect ratio */
 }
 
-.name, .role, .description, .tag-line{
+.name, .role, .description-list, .credits-list, .websites-list, .credits, .copyright{
     font-family: 'shantell-regular';
 }
 
@@ -589,23 +539,31 @@ main {
  }
 
  .talent-detail .img {
-     width: 80%; /* Make the image take up half of the screen width */
+     width: 100%;
      margin: auto;
      border: 2px solid white; /* Add a border around the image */
  }
 
- .talent-detail .tag-line {
-    text-align: left;
-    font-size: 2vw;
-    margin: 20px 0;
- }
+.description-list, .credits-list, .websites-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin-bottom: 20px; /* Add some space below the list */
+}
 
- .talent-detail .description, .talent-detail .credits{
-     text-align: left;
-     font-size: 1.5vw;
-     width: 100%; /* Make the description and the button take up the other half of the screen width */
-     padding: 0 20px; /* Add some horizontal padding */
- }
+.description-list li, .credits-list li, .websites-list li {
+    margin-bottom: 10px; /* Space between list items */
+    color: white; /* Text color */
+    text-align: right;
+    font-size: 1vw;
+    width: 100%; /* Make the description and the button take up the other half of the screen width */
+    padding: 0 20px; /* Add some horizontal padding */
+}
+
+.websites-list li a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove the underline from the link */
+    text-align: right;
+}
 
  .talent-detail .contact {
     display: flex;
@@ -614,24 +572,11 @@ main {
     margin-top: 20px;
  }
 
- .talent-detail a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: auto;
-    font-size: 24px;
-
- }
-
  .talent-detail a:hover {
     background-color: #fff;
     color: #000;
  }
 
-  .talent-detail .credits{
-     font-family: 'patrick-hand-regular';
-  }
 
   .talent-detail .row {
       display: flex;
@@ -687,5 +632,5 @@ footer {
 
 footer .copyright,
 footer .credits {
-    font-size: 13px;
+    font-size: 0.6vw;
 }

@@ -34,12 +34,9 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-            <p class="tag-line"></p>
-            <p class="description"></p>
-            <p class="credits"></p>
-            <div class="contact">
-                <a href="/contact.html" class="btn btn-outline-light">Contact</a>
-            </div>
+            <ul class="description-list"></ul>
+            <ul class="credits-list"></ul>
+            <ul class="websites-list"></ul> <!-- Placeholder for websites list -->
         </div>
         <div class = "col-md-6">
             <div class="video-container-detail">
@@ -47,6 +44,9 @@
                     <source src="" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
+            </div>
+            <div class="contact">
+                <a href="/contact.html" class="btn btn-outline-light">Contact</a>
             </div>
         </div>
     </div>
@@ -62,53 +62,62 @@
 <script src="static/js/main.js"></script>
 
 <script>
-    // Get the name from the URL
+document.addEventListener('DOMContentLoaded', function() {
     const urlParams = new URLSearchParams(window.location.search);
     const name = urlParams.get('name');
 
-    // Fetch the data from the JSON file
     fetch('static/data/talent.json')
     .then(response => response.json())
     .then(data => {
-        // Derive the name from the imgSrc property
         let derivedName = name.replace(/-/g, ' ');
-
-            // If the name contains an underscore, replace it with a space
-            if (derivedName.includes('_')) {
-                derivedName = derivedName.replace(/_/g, ' ');
-            }
-
-        // Set the page title to the derivedName
+        if (derivedName.includes('_')) {
+            derivedName = derivedName.replace(/_/g, ' ');
+        }
         document.title = derivedName;
 
-        // Find the talent that matches the name
         const talent = data.find(item => {
             const imgName = item.imgSrc.split('/').pop().split('.')[0];
             return imgName === name;
         });
 
-        // Populate the HTML elements with the talent's information
         document.querySelector('.title').textContent = derivedName;
-        document.querySelector('.tag-line').textContent = talent.tagLine;
         document.querySelector('.img').src = talent.altImg;
         document.querySelector('.img').alt = talent.altText;
-        document.querySelector('.description').textContent = talent.description;
-        document.querySelector('.credits').textContent = talent.credits;
+
+        const descriptionList = document.querySelector('.description-list');
+        descriptionList.innerHTML = ''; // Clear existing list items
+        talent.description.forEach(item => {
+            let li = document.createElement('li');
+            li.textContent = item.trim();
+            descriptionList.appendChild(li);
+        });
+
+        const creditsList = document.querySelector('.credits-list');
+        creditsList.innerHTML = ''; // Clear existing list items
+        if (talent.credits && talent.credits.length > 0) {
+            talent.credits.forEach(item => {
+                let li = document.createElement('li');
+                li.textContent = item.trim();
+                creditsList.appendChild(li);
+            });
+        }
+
+        const websitesList = document.querySelector('.websites-list');
+        websitesList.innerHTML = ''; // Clear existing list items
+        if (talent.websites) {
+            talent.websites.forEach(website => {
+                let li = document.createElement('li');
+                li.innerHTML = `<a href="${website}" target="_blank">${website}</a>`;
+                websitesList.appendChild(li);
+            });
+        }
+
         const videoElement = document.querySelector('.video-container-detail video');
         const sourceElement = videoElement.querySelector('source');
-
         sourceElement.src = talent.video;
         videoElement.load();
-
-                // Add the click event listener to the contact button
-        document.querySelector('.contact a').addEventListener('click', function(event) {
-            // Prevent the default action
-            event.preventDefault();
-
-            // Redirect to the contact page with the talent name as a URL parameter
-            window.location.href = `/contact.html?name=${name}`;
-        });
     });
+});
 </script>
 </body>
 </html>
