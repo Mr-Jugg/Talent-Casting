@@ -460,7 +460,7 @@ main {
     text-decoration: none !important; /* Remove the underline from the link */
 }
 
-.talent-section-arrow .arrow {
+.talent-section-down-arrow .arrow, .talent-section-up-arrow .arrow {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -468,19 +468,19 @@ main {
     font-size: 50px;
 }
 
-.talent-section-arrow .arrow a {
+.talent-section-down-arrow .arrow a, .talent-section-up-arrow .arrow a {
     text-decoration: none; /* Remove the underline from the link */
 }
 
-.talent-section-arrow .arrow a:hover {
+.talent-section-down-arrow .arrow a:hover, .talent-section-up-arrow .arrow a:hover {
     text-decoration: none; /* Remove the underline from the link on hover */
 }
 
-.talent-section-arrow .arrow:hover {
+.talent-section-down-arrow .arrow:hover, .talent-section-up-arrow .arrow:hover {
     color: white;
 }
 
-.talent-section-arrow .circle {
+.talent-section-down-arrow .circle, .talent-section-up-arrow .circle {
     width: 50px; /* Adjust as needed */
     height: 50px; /* Should be equal to width */
     border: 2px solid red;
@@ -490,7 +490,7 @@ main {
     align-items: center;
 }
 
-.talent-section-arrow .circle:hover {
+.talent-section-down-arrow .circle:hover, .talent-section-up-arrow .circle:hover {
     background-color: white;
     color: white;
 }
