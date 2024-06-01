@@ -20,30 +20,22 @@
                 <img src="static/img/logo.png" alt="FHM Productions Logo">
             </a>
         </div>
-        <h1 class="title">Our Talent</h1>
         <!-- ======= Menu ======= -->
         <div id="menu"></div>
         <!--End Menu-->
     </nav>
 </header>
-
-<section class="talent-section-up-arrow">
-    <div class="arrow" id="up-arrow" style="display: none;">
-        <a href="#"><i class="fas fa-arrow-up"></i></a>
-    </div>
-</section>
+<main>
+<div>
+    <h1 class="title">Our Talent</h1>
+</div>
 
 <section class="talent-section-container">
 <div class="talent-section"></div>
 </section>
 
-
-<section class="talent-section-down-arrow">
-    <div class="arrow" id="down-arrow">
-        <a href="#"><i class="fas fa-arrow-down"></i></a>
-    </div>
-</section>
-
+<div id="pagination-container"></div>
+</main>
 <!-- ======= Footer ======= -->
 <footer id="footer">
 </footer><!-- End Footer -->
@@ -128,42 +120,43 @@
                 }).join('');
 
                 // Insert the sections before the talent-section-arrow div
-                document.querySelector('.talent-section-down-arrow').insertAdjacentHTML('beforebegin', sections);
+                document.querySelector('#pagination-container').insertAdjacentHTML('beforebegin', sections);
+
+            // Generate the HTML for the pagination buttons
+            const paginationButtons = `
+                <button class="pagination-button" id="prev-button"><i class="bi bi-arrow-left"></i></button>
+                <span id="page-info">Page 1 of ${groupedData.length}</span>
+                <button class="pagination-button" id="next-button"><i class="bi bi-arrow-right"></i></button>
+            `;
+
+            // Insert the pagination buttons into the pagination-container div
+            document.querySelector('#pagination-container').innerHTML = paginationButtons;
+
+            // Add event listeners to the navigation buttons
+            let currentPage = 1;
+            const totalPages = groupedData.length;
+            document.querySelectorAll('.pagination-button').forEach(button => {
+                button.addEventListener('click', function() {
+                    // Hide all sections
+                    document.querySelectorAll('.talent-section').forEach(section => {
+                        section.style.display = 'none';
+                    });
+
+                    // Show the section that corresponds to the clicked button
+                    if (this.id === 'prev-button') {
+                        currentPage = currentPage > 1 ? currentPage - 1 : totalPages;
+                    } else if (this.id === 'next-button') {
+                        currentPage = currentPage < totalPages ? currentPage + 1 : 1;
+                    }
+
+                    document.querySelector(`#set-${currentPage}`).style.display = 'block';
+
+                    // Update the page info
+                    document.querySelector('#page-info').textContent = `Page ${currentPage} of ${totalPages}`;
+                });
             });
-    });
-</script>
-<script>
-    document.querySelector('#down-arrow').addEventListener('click', function() {
-        // Get only the sections that have content
-        var sets = Array.prototype.filter.call(document.querySelectorAll('.talent-section'), function(set) {
-            return set.innerHTML.trim() !== '';
         });
-        var currentSetIndex = Array.prototype.findIndex.call(sets, function(set) {
-            return set.style.display !== 'none';
-        });
-        sets[currentSetIndex].style.display = 'none';
-        var nextSetIndex = (currentSetIndex + 1) % sets.length;
-        sets[nextSetIndex].style.display = 'block';
-
-      // Show #up-arrow when not on the first page
-        document.querySelector('#up-arrow').style.display = nextSetIndex > 0 ? 'flex' : 'none';
     });
-
-    document.querySelector('#up-arrow').addEventListener('click', function() {
-    // Get only the sections that have content
-    var sets = Array.prototype.filter.call(document.querySelectorAll('.talent-section'), function(set) {
-        return set.innerHTML.trim() !== '';
-    });
-    var currentSetIndex = Array.prototype.findIndex.call(sets, function(set) {
-        return set.style.display !== 'none';
-    });
-    sets[currentSetIndex].style.display = 'none';
-    var prevSetIndex = (currentSetIndex - 1 + sets.length) % sets.length;
-    sets[prevSetIndex].style.display = 'block';
-
-    // Hide #up-arrow when on the first page
-    document.querySelector('#up-arrow').style.display = prevSetIndex > 0 ? 'flex' : 'none';
-});
 </script>
 </body>
 </html>
