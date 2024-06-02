@@ -544,7 +544,7 @@ main {
      justify-content: center;
  }
 
- .talent-detail .img {
+ .talent-detail .img-fluid {
      width: 100%;
      margin: auto;
      border: 2px solid white; /* Add a border around the image */
@@ -595,25 +595,40 @@ main {
       justify-content: left; /* Center the content vertically */
   }
 
-    .talent-detail .col-md-12 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center; /* Center the content vertically */
-    }
+.talent-detail .col-md-12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+}
 
  @media (max-width: 600px) {
-     .talent-detail .col-md-12 {
-         width: 100%; /* Make the container take up 90% of the screen width */
-         margin: auto; /* Center the container */
-     }
 
-     .talent-detail .img,
+    .talent-detail .title {
+     margin-bottom: 20px;
+    }
+
+    .talent-detail .col-md-12 {
+        /* Adjust the container size to match the scaled image */
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .talent-detail .img-fluid {
+        transform: scale(1.4); /* Increase the size of the image by 50% */
+        transform-origin: center; /* The transformation will scale from the top left corner of the image */
+        border: 2px solid white; /* Add a border around the image */
+    }
+
+     .talent-detail .img-fluid,
      .talent-detail .description,
      .talent-detail button {
          max-width: 100vw; /* Make the image and the description each take up the full screen width */
          height: auto; /* Maintain the image's aspect ratio */
          object-fit: cover; /* Ensure that the entire image is visible within its container */
      }
+
 
      .description-list li, .credits-list li, .websites-list li {
          font-size: 4vw; /* Adjust as needed */
@@ -650,5 +665,14 @@ footer {
 
 footer .copyright,
 footer .credits {
-    font-size: 2vw;
+    font-size: .8vw;
+}
+
+
+
+@media (max-width: 600px) {
+    footer .copyright,
+    footer .credits {
+        font-size: 2vw; /* Adjust as needed */
+    }
 }
