@@ -105,8 +105,7 @@
     "credits": ["TV Credits: -Strangers On A Plane (CH4, 2022)"],
     "websites": [
       "https://open.spotify.com/artist/4hRmpX5BTFnyJHTon7o7Wa",
-      "http://alerahcosmetics.com"
-    ],
+      "http://alerahcosmetics.com"],
     "video": "/static/video/talent/Wyen.mp4"
   },
   {
@@ -361,8 +360,13 @@
     "altText": "Erina",
     "altImg": "static/img/talent/alt/Erina.jpg",
     
-    "description": [],
-    "credits": [],
+    "description": ["-Singer 'high range Alto'",
+      "-Theatre performer",
+      "-Can follow basic choreography",
+      "-Keen baker 'specialising in cakes' (15 years experience)"],
+    "credits": ["Theatre Credits: -Saturday Night 'Penny' (2011)",
+      "Fame 'Miss Esther Sherman' (2011)",
+      "Chicago 'Roxie Hart' (2010)"],
     "websites": [],
     "video": "/static/video/compilation.mp4"
   },
@@ -496,8 +500,11 @@
     "altText": "Kaci-May",
     "altImg": "static/img/talent/alt/Kaci-May.jpg",
     
-    "description": [],
-    "credits": [],
+    "description": ["-Known for her strong Bristolian accent/comedic timing",
+      "-Singer 'specialising in slow/contemporary/theatrical songs",
+      "-Keen Cook",
+      "-Skilled in hair/makeup"],
+    "credits": ["Theatre Credits: -Hairspray 'singing solo' (awaiting date)"],
     "websites": [],
     "video": "/static/video/compilation.mp4"
   },
@@ -519,7 +526,10 @@
     "altText": "Leonardo",
     "altImg": "static/img/talent/alt/Leonardo.jpg",
     
-    "description": [],
+    "description": ["-5-year-old Leo aspires to be like Youtuber 'Mr Beast'",
+      "-Loves to dance freestyle/breakdance",
+      "-Plays football and most recently played for Lindley Moor FC",
+      "-Child model"],
     "credits": [],
     "websites": [],
     "video": "/static/video/talent/Leo.mp4"
@@ -530,8 +540,14 @@
     "altText": "Kristian",
     "altImg": "static/img/talent/alt/Kristian.JPG",
     
-    "description": [],
-    "credits": [],
+    "description": ["-Mancunian with 'Energiser Bunny' energy",
+      "-TV debut on Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)",
+      "-Known for crying when getting tattoos",
+      "-Trained Croupier",
+      "-MMA Boxer",
+      "-Gym enthusiast",
+      "-Former Bricklayer"],
+    "credits": ["TV Credits: -'I Literally Just Told You' (CH4, 2023)"],
     "websites": [],
     "video": "/static/video/talent/Kristian.mp4"
   },
@@ -555,8 +571,17 @@
     "altText": "Charlotte",
     "altImg": "static/img/talent/alt/Charlotte.JPG",
 
-    "description": [],
-    "credits": [],
+    "description": ["-Bubbly 'Welshie' from the Valleys",
+      "-Qualified makeup artist/Theatrical makeup",
+      "-Performing Arts Qualification",
+      "-Former Hunter, mean shot with a gun!",
+      "-Keen Fisherman",
+      "-Professional Spray tanner"],
+    "credits": ["TV Credits: -Casualty ‘Drunk Girl’ (BBC,2024)",
+      "-Jimmy Carr’s 'I Literally Just Told You' (CH4, 2023)",
+      "-Big Brother Late & Live (2023, ITV)",
+      "-Bad Chefs (ITVX, 2022)",
+      "-Alan Carr’s Epic Game Show (ITV, 2020)"],
     "websites": [],
     "video": "/static/video/talent/Charlotte.mp4"
   }
