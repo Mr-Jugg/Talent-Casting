@@ -85,8 +85,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         document.querySelector('.title').textContent = derivedName;
-        document.querySelector('.img').src = talent.altImg;
-        document.querySelector('.img').alt = talent.altText;
+        document.querySelector('.img-fluid').src = talent.altImg;
+        document.querySelector('.img-fluid').alt = talent.altText;
 
         const descriptionList = document.querySelector('.description-list');
         descriptionList.innerHTML = ''; // Clear existing list items
