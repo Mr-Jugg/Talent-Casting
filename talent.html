@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="static/css/styles.css">
 </head>
-<body>
+<body class="talent-page">
 <header class="header">
     <nav>
         <div class="logo">
@@ -46,117 +46,111 @@
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="static/js/main.js"></script>
 <script>
-    $(document).ready(function(){
-        // Fetch the data from the JSON file
-        fetch('static/data/talent.json')
-        .then(response => response.json())
-            .then(data => {
-                // Group the data into sets of 12 (for each section)
-                const groupedData = data.reduce((resultArray, item, index) => {
-                    const chunkIndex = Math.floor(index/12)
-                    if(!resultArray[chunkIndex]) {
-                        resultArray[chunkIndex] = [] // start a new chunk
-                    }
-                    resultArray[chunkIndex].push(item)
-                    return resultArray
-                }, [])
+ $(document).ready(function(){
+    // Fetch the data from the JSON file
+    fetch('static/data/talent.json')
+    .then(response => response.json())
+        .then(data => {
+            // Group the data into sets of 12 (for each section)
+            const groupedData = data.reduce((resultArray, item, index) => {
+                const chunkIndex = Math.floor(index/12)
+                if(!resultArray[chunkIndex]) {
+                    resultArray[chunkIndex] = [] // start a new chunk
+                }
+                resultArray[chunkIndex].push(item)
+                return resultArray
+            }, [])
 
-                // Generate the HTML for each section
-                const sections = groupedData.map((group, groupIndex) => {
-                    // Generate the HTML for each row in the section
-                    const rows = group.reduce((resultArray, item, index) => {
-                        const chunkIndex = Math.floor(index/4)
-                        if(!resultArray[chunkIndex]) {
-                            resultArray[chunkIndex] = [] // start a new chunk
-                        }
-                        resultArray[chunkIndex].push(item)
-                        return resultArray
-                    }, []).map((row, rowIndex) => `
-                        <div class="row">
-                            ${row.map(item => {
+    let currentPage = 1; // Initialize currentPage to 1
+    const totalPages = groupedData.length; // Total number of pages
 
-                                const hyphenatedName = item.imgSrc.split('/').pop().split('.')[0];
-                                // Check if the name contains an underscore
-                                if (hyphenatedName.includes('_')) {
-                                    // Split the name on the underscore
-                                    const splitName = hyphenatedName.split('_');
+    // Function to update the display of the sections
+    function updateSectionDisplay() {
+        // Hide all sections
+        document.querySelectorAll('.talent-section').forEach(section => {
+            section.style.display = 'none';
+        });
 
-                                    // The first part of the splitName array is the actual name
-                                    const name = splitName[0].replace(/-/g, ' ');
+        // Show the section that corresponds to the current page
+        document.querySelector(`#set-${currentPage}`).style.display = 'contents';
+    }
 
-                                    // Use the name for the displayed name
-                                    // Use the hyphenatedName for the URL
-                                    return `
-                                        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                                            <a href="/talent-detail.html?name=${hyphenatedName}">
-                                                <img src="${item.imgSrc}" alt="${item.altText}" class="img-fluid">
-                                                <h2 class="name">${name}</h2>
-                                            </a>
-                                        </div>
-                                    `;
-                                } else {
-                                    // If the name doesn't contain an underscore, use the entire name
-                                    const name = hyphenatedName.replace(/-/g, ' ');
+    // Generate the HTML for each section
+    const sections = groupedData.map((group, groupIndex) => {
+        // Generate the HTML for each row in the section
+        const rows = group.reduce((resultArray, item, index) => {
+            const chunkIndex = Math.floor(index/4)
+            if(!resultArray[chunkIndex]) {
+                resultArray[chunkIndex] = [] // start a new chunk
+            }
+            resultArray[chunkIndex].push(item)
+            return resultArray
+        }, []).map((row, rowIndex) => `
+            <div class="row">
+                ${row.map(item => {
+                    const hyphenatedName = item.imgSrc.split('/').pop().split('.')[0];
+                    // Split the name on the underscore
+                    const splitName = hyphenatedName.split('_');
 
-                                    // Use the name for both the displayed name and the URL
-                                    return `
-                                        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-                                            <a href="/talent-detail.html?name=${hyphenatedName}">
-                                                <img src="${item.imgSrc}" alt="${item.altText}" class="img-fluid">
-                                                <h2 class="name">${name}</h2>
-                                            </a>
-                                        </div>
-                                    `;
-                                }
-                            }).join('')}
-                        </div>
-                    `).join('');
+                    // The first part of the splitName array is the actual name
+                    const name = splitName[0].replace(/-/g, ' ');
 
+                    // Use the name for the displayed name
+                    // Use the hyphenatedName for the URL
                     return `
-                        <section class="talent-section" id="set-${groupIndex+1}" style="display: ${groupIndex === 0 ? 'block' : 'none'};">
-                            ${rows}
-                        </section>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-6">
+                            <a href="/talent-detail.html?name=${hyphenatedName}">
+                                <img src="${item.imgSrc}" alt="${item.altText}" class="img-fluid">
+                                <h2 class="name">${name}</h2>
+                            </a>
+                        </div>
                     `;
-                }).join('');
+                }).join('')}
+            </div>
+        `).join('');
 
-                // Insert the sections before the talent-section-arrow div
-                document.querySelector('#pagination-container').insertAdjacentHTML('beforebegin', sections);
+        return `
+            <section class="talent-section" id="set-${groupIndex+1}">
+                ${rows}
+            </section>
+        `;
+    }).join('');
 
-            // Generate the HTML for the pagination buttons
-            const paginationButtons = `
-                <button class="pagination-button" id="prev-button"><i class="bi bi-arrow-left"></i></button>
-                <span id="page-info">Page 1 of ${groupedData.length}</span>
-                <button class="pagination-button" id="next-button"><i class="bi bi-arrow-right"></i></button>
-            `;
+    // Insert the sections before the talent-section-arrow div
+    document.querySelector('#pagination-container').insertAdjacentHTML('beforebegin', sections);
 
-            // Insert the pagination buttons into the pagination-container div
-            document.querySelector('#pagination-container').innerHTML = paginationButtons;
+    // Generate the HTML for the pagination buttons
+    const paginationButtons = `
+        <button class="pagination-button" id="prev-button"><i class="bi bi-arrow-left"></i></button>
+        <span id="page-info">Page 1 of ${groupedData.length}</span>
+        <button class="pagination-button" id="next-button"><i class="bi bi-arrow-right"></i></button>
+    `;
 
-            // Add event listeners to the navigation buttons
-            let currentPage = 1;
-            const totalPages = groupedData.length;
-            document.querySelectorAll('.pagination-button').forEach(button => {
-                button.addEventListener('click', function() {
-                    // Hide all sections
-                    document.querySelectorAll('.talent-section').forEach(section => {
-                        section.style.display = 'none';
-                    });
+    // Insert the pagination buttons into the pagination-container div
+    document.querySelector('#pagination-container').innerHTML = paginationButtons;
 
-                    // Show the section that corresponds to the clicked button
-                    if (this.id === 'prev-button') {
-                        currentPage = currentPage > 1 ? currentPage - 1 : totalPages;
-                    } else if (this.id === 'next-button') {
-                        currentPage = currentPage < totalPages ? currentPage + 1 : 1;
-                    }
+    // Add event listeners to the navigation buttons
+    document.querySelectorAll('.pagination-button').forEach(button => {
+        button.addEventListener('click', function() {
+            // Update the current page
+            if (this.id === 'prev-button') {
+                currentPage = currentPage > 1 ? currentPage - 1 : totalPages;
+            } else if (this.id === 'next-button') {
+                currentPage = currentPage < totalPages ? currentPage + 1 : 1;
+            }
 
-                    document.querySelector(`#set-${currentPage}`).style.display = 'block';
+            // Update the display of the sections
+            updateSectionDisplay();
 
-                    // Update the page info
-                    document.querySelector('#page-info').textContent = `Page ${currentPage} of ${totalPages}`;
-                });
-            });
+            // Update the page info
+            document.querySelector('#page-info').textContent = `Page ${currentPage} of ${totalPages}`;
         });
     });
+
+    // Initially update the display of the sections
+    updateSectionDisplay();
+});
+});
 </script>
 </body>
 </html>

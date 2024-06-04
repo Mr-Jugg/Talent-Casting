@@ -8,6 +8,10 @@
     src: url('/static/fonts/ShantellSans-Regular.ttf') format('truetype');
 }
 
+/* ====================================
+            General styles
+ =====================================*/
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -31,6 +35,16 @@ main {
    text-align: center;
    margin-bottom: 20px;
 }
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 8vw; /* Adjust as needed */
+        margin-top: 20px; /* Adjust as needed */
+        margin-bottom: 5px; /* Adjust as needed */
+    }
+}
+
+
 
 /* ====================================
                 Header
@@ -64,6 +78,16 @@ main {
 .header .logo a {
     color: #FF0000;
     text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .header {
+        height: 20vw; /* Adjust as needed */
+    }
+
+    .logo {
+        font-size: 8vw; /* Adjust as needed */
+    }
 }
 
 
@@ -143,10 +167,11 @@ main {
         transform: translateY(15%);
         min-width:80px;
         top:12px;
+        background-color: #000;
     }
 
     .dropdown-menu li {
-        font-size: 2.25vw; /* Adjust as needed */
+        font-size: 3vw; /* Adjust as needed */
     }
 }
 
@@ -312,6 +337,52 @@ main {
     color: #fff;
 }
 
+.about .description {
+    font-size: 2vw !important; /* Use viewport width units to make the font size responsive */
+    width: 90%; /* Use a percentage to make the width responsive */
+    margin: auto;
+    text-align: center; /* Add this line */
+}
+
+@media (max-width: 600px) {
+
+    .about {
+       padding: 0; /* Adjust as needed */
+    }
+
+    .about main{
+        padding: 0;
+    }
+
+    .about .container {
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margin */
+    }
+
+    .about .row {
+        flex: 0 0 100%; /* Make the row take up the full screen width */
+        margin: 0; /* Remove margin */
+
+    }
+
+    .about .col-md-12 {
+        flex: 0 0 100%; /* Make the column take up the full screen width */
+        max-width: 100%; /* Make the column take up the full screen width */
+        padding: 0; /* Remove padding */
+    }
+
+    .about p {
+         margin: 0;
+    }
+
+    .about .description {
+        font-size: 5vw !important; /* Use viewport width units to make the font size responsive */
+        width: 90%; /* Use a percentage to make the width responsive */
+        margin: auto;
+        text-align: center; /* Add this line */
+    }
+}
+
 /* ====================================
               Team page
  =====================================*/
@@ -333,7 +404,7 @@ main {
     height: auto; /* Maintain the image's aspect ratio */
 }
 
-.name, .role, .description-list, .credits-list, .websites-list, .credits, .copyright{
+.name, .role, .description-list, .credits-list, .websites-list, .credits, .copyright, .description{
     font-family: 'shantell-regular';
 }
 
@@ -345,7 +416,7 @@ main {
     font-size: 3vw;
 }
 
-.description {
+.team-member .description {
     font-size: 2vw;
     width: 90%;
     margin: 0 auto;
@@ -363,21 +434,20 @@ main {
     }
 
     .team-member img {
-        border: 2px solid red;
         width: 50vw !important; /* Use viewport width units to make the width responsive */
         height: auto; /* Maintain the image's aspect ratio */
     }
 
-    .name {
+    .team-member .name {
+        font-size: 6vw !important; /* Use viewport width units to make the font size responsive */
+    }
+
+    .team-member .role {
         font-size: 5vw !important; /* Use viewport width units to make the font size responsive */
     }
 
-    .role {
+    .team-member .description {
         font-size: 4vw !important; /* Use viewport width units to make the font size responsive */
-    }
-
-    .description {
-        font-size: 3vw !important; /* Use viewport width units to make the font size responsive */
         width: 90%; /* Use a percentage to make the width responsive */
         margin: 0 auto;
     }
@@ -418,6 +488,31 @@ main {
     border: 1px solid #FF0000; /* Add a red border */
 }
 
+@media (max-width: 600px) {
+    .contact-us {
+        width: 100%; /* Adjust as needed */
+    }
+
+    .contact-form {
+        width: 100%; /* Adjust as needed */
+    }
+
+    .contact-us .form-group label {
+        font-size: 6vw; /* Adjust as needed */
+    }
+
+    .contact-us .form-group input,
+    .contact-us .form-group textarea {
+        font-size: 6vw; /* Adjust as needed */
+    }
+
+    .contact-us #submit-btn {
+        display: block; /* Make the button a block element */
+        margin: auto; /* Center the button */
+    }
+
+}
+
 /* ====================================
             Our Talent page
  =====================================*/
@@ -425,11 +520,12 @@ main {
     color: white;
     width: 69%;
     margin: auto;
+    display: contents;
 }
 
 .talent-section img {
-    width: 30vw; /* Set the width of the images */
-    height: 20vw; /* Set the height of the images */
+    width: 100%; /* Set the width of the images */
+    height: auto; /* Set the height of the images */
     border: 2px solid white; /* Add a red border around the images */
 
 }
@@ -501,14 +597,25 @@ main {
     object-fit: cover; /* Ensure that the entire image is visible within its container */
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
+
+    .talent-page .title {
+        margin-bottom: 5px;
+    }
+
     .talent-section {
-        padding-top:20px;
+        padding-top:5px;
+        margin: 0;
+        width: 100%; /* Adjust as needed */
+    }
+
+    .talent-section row {
+        width: 100%; /* Adjust as needed */
     }
 
     .talent-section img {
         width: 100%; /* Adjust as needed */
-        height: 100%; /* Maintain the image's aspect ratio */
+        height: auto; /* Maintain the image's aspect ratio */
     }
 
     .talent-section .col-md-6 {
@@ -560,9 +667,10 @@ main {
     margin-bottom: 10px; /* Space between list items */
     color: white; /* Text color */
     text-align: right;
-    font-size: 1vw;
+    font-size: 1.5vw;
     width: 100%; /* Make the description and the button take up the other half of the screen width */
     padding: 0 20px; /* Add some horizontal padding */
+    display: inline-block;
 }
 
 .websites-list li a {
@@ -615,6 +723,15 @@ main {
         margin-bottom: 30px;
     }
 
+    .talent-detail .full-width-row {
+        width: 100vw; /* Make the row take up the full screen width */
+    }
+
+    .talent-detail .full-width {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
     .talent-detail .img-fluid {
         transform: scale(1.4); /* Increase the size of the image by 50% */
         transform-origin: center; /* The transformation will scale from the top left corner of the image */
@@ -629,11 +746,11 @@ main {
          object-fit: cover; /* Ensure that the entire image is visible within its container */
      }
 
-
      .description-list li, .credits-list li, .websites-list li {
-         font-size: 4vw; /* Adjust as needed */
+         font-size: 6vw; /* Adjust as needed */
          text-align: center;
      }
+
  }
 
 /* ====================================
