@@ -769,6 +769,16 @@ main {
      font-size: 1vw;
   }
 
+  @media (max-width: 600px) {
+    .terms h2 {
+        margin-top: 20px;
+    }
+
+    .terms p{
+        font-size: 3.5vw;
+    }
+  }
+
 
 /* ====================================
                 Footer
