@@ -84,7 +84,10 @@ document.addEventListener('DOMContentLoaded', function() {
             return imgName === name;
         });
 
-        document.querySelector('.title').textContent = derivedName;
+        // Remove the initial from the derivedName
+        const titleText = derivedName.replace(/ [a-z]\./i, '');
+
+        document.querySelector('.title').textContent = titleText;
         document.querySelector('.img-fluid').src = talent.altImg;
         document.querySelector('.img-fluid').alt = talent.altText;
 
