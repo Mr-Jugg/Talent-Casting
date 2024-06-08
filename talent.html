@@ -144,6 +144,9 @@
 
             // Update the page info
             document.querySelector('#page-info').textContent = `Page ${currentPage} of ${totalPages}`;
+
+            // Scroll to the top of the page
+            window.scrollTo(0, 0);
         });
     });
 
