@@ -73,10 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('static/data/talent.json')
     .then(response => response.json())
     .then(data => {
-        let derivedName = name.replace(/-/g, ' ');
-        if (derivedName.includes('_')) {
-            derivedName = derivedName.replace(/_/g, ' ');
-        }
+        let derivedName = name.replace(/-/g, ' ').replace(/_/g, ' ');
         document.title = derivedName;
 
         const talent = data.find(item => {
@@ -85,7 +82,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         // Remove the initial from the derivedName
-        const titleText = derivedName.replace(/ [a-z]\./i, '');
+        const lastSpaceIndex = derivedName.lastIndexOf(' ');
+        const afterLastSpace = derivedName.substring(lastSpaceIndex + 1);
+        const titleText = afterLastSpace.length === 1 ? derivedName.substring(0, lastSpaceIndex) : derivedName;
 
         document.querySelector('.title').textContent = titleText;
         document.querySelector('.img-fluid').src = talent.altImg;
