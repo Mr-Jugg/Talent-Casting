@@ -171,7 +171,7 @@ main {
     }
 
     .dropdown-menu li {
-        font-size: 3vw; /* Adjust as needed */
+        font-size: 4vw; /* Adjust as needed */
     }
 }
 
@@ -616,6 +616,10 @@ main {
     .talent-section img {
         width: 100%; /* Adjust as needed */
         height: auto; /* Maintain the image's aspect ratio */
+    }
+
+    .talent-section .name {
+        font-size: 6vw; /* Adjust as needed */
     }
 
     .talent-section .col-md-6 {
