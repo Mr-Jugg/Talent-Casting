@@ -227,8 +227,12 @@ main {
 
 
 @media (max-width: 600px) {
+    .carousel {
+        width: 100%; /* Adjust as needed */
+    }
+
     .carousel-item img {
-        width: 40vw; /* Adjust as needed */
+        width: 92%; /* Adjust as needed */
         height: auto; /* Maintain the image's aspect ratio */
     }
 
@@ -270,6 +274,19 @@ main {
 
 .video-container-detail video{
     width: 100%;
+}
+
+@media (max-width: 600px) {
+    .video-container {
+        width: 100%; /* Adjust as needed */
+        height: 100%; /* Adjust as needed */
+    }
+
+    .video-container video {
+        width: 100%; /* Adjust as needed */
+        height: auto; /* Maintain the video's aspect ratio */
+    }
+
 }
 
 /* ====================================
