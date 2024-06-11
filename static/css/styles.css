@@ -251,12 +251,12 @@ main {
     width: 88.75%; /* 2/3 of the page width */
     margin: 0 auto; /* center the video */
     border: 2px solid white; /* Add a border around the video */
-
+    border-radius: 10px; /* Add rounded corners to the video */
 }
 
 .video-container video {
     width: 100%; /* make the video fill its container */
-    height: 49vw; /* maintain the video's aspect ratio */
+    height: auto; /* maintain the video's aspect ratio */
 }
 
 @media (min-width: 1000px) {
@@ -269,7 +269,6 @@ main {
     width: 100%;
     margin-top: 10px;
     border: 2px solid #fff; /* Add a border around the video */
-    border-radius: 10px; /* Add rounded corners */
 }
 
 .video-container-detail video{
