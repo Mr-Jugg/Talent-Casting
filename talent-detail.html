@@ -68,6 +68,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const urlParams = new URLSearchParams(window.location.search);
     const name = urlParams.get('name');
 
+    // Update the href attribute of the contact button
+    document.querySelector('.contact a').href = `/contact.html?name=${name}`;
+
     fetch('static/data/talent.json')
     .then(response => response.json())
     .then(data => {
@@ -127,10 +130,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.querySelector('.properties').appendChild(propertiesRow);
 
-        const videoElement = document.querySelector('.video-container-detail video');
-        const sourceElement = videoElement.querySelector('source');
-        sourceElement.src = talent.video;
-        videoElement.load();
+    const videoElement = document.querySelector('.video-container-detail video');
+    const sourceElement = videoElement.querySelector('source');
+    sourceElement.src = talent.video;
+    videoElement.load();
     });
 });
 
