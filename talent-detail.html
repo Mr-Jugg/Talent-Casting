@@ -29,6 +29,11 @@
 <div>
     <h1 class="title"></h1>
 </div>
+<div class="properties">
+    <div class="contact">
+        <a href="/contact.html" class="btn btn-outline-light">Contact</a>
+    </div>
+</div>
 
 <div class="talent-detail">
     <div class="row">
@@ -37,11 +42,7 @@
         </div>
     </div>
     <div class="row full-width-row">
-        <div class="col-md-6">
-            <ul class="description-list"></ul>
-            <ul class="credits-list"></ul>
-            <ul class="websites-list"></ul> <!-- Placeholder for websites list -->
-        </div>
+
         <div class = "col-md-6">
             <div class="video-container-detail">
                 <video controls autoplay>
@@ -49,9 +50,7 @@
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <div class="contact">
-                <a href="/contact.html" class="btn btn-outline-light">Contact</a>
-            </div>
+
         </div>
     </div>
 </div>
@@ -90,33 +89,44 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.img-fluid').src = talent.altImg;
         document.querySelector('.img-fluid').alt = talent.altText;
 
-        const descriptionList = document.querySelector('.description-list');
-        descriptionList.innerHTML = ''; // Clear existing list items
-        talent.description.forEach(item => {
-            let li = document.createElement('li');
-            li.textContent = item.trim();
-            descriptionList.appendChild(li);
+    const propertiesRow = document.createElement('div');
+    propertiesRow.classList.add('row', 'properties-row');
+
+    if (talent.description && talent.description.length > 0) {
+        const descriptionDropdown = createDropdown('descriptionDropdown', 'Info');
+        talent.description.forEach(item => populateDropdown(descriptionDropdown, item.trim()));
+        const descriptionCol = document.createElement('div');
+        descriptionCol.classList.add('col');
+        descriptionCol.appendChild(descriptionDropdown);
+        propertiesRow.appendChild(descriptionCol);
+    }
+
+    if (talent.credits && talent.credits.length > 0) {
+        const creditsDropdown = createDropdown('creditsDropdown', 'Credits');
+        talent.credits.forEach(item => populateDropdown(creditsDropdown, item.trim()));
+        const creditsCol = document.createElement('div');
+        creditsCol.classList.add('col');
+        creditsCol.appendChild(creditsDropdown);
+        propertiesRow.appendChild(creditsCol);
+    }
+
+    if (talent.websites && Object.keys(talent.websites).length > 0) {
+        const websitesDropdown = createDropdown('websitesDropdown', 'Websites');
+        Object.entries(talent.websites).forEach(([websiteName, websiteUrl]) => {
+            populateDropdown(websitesDropdown, websiteName, websiteUrl);
         });
+        const websitesCol = document.createElement('div');
+        websitesCol.classList.add('col');
+        websitesCol.appendChild(websitesDropdown);
+        propertiesRow.appendChild(websitesCol);
+    }
 
-        const creditsList = document.querySelector('.credits-list');
-        creditsList.innerHTML = ''; // Clear existing list items
-        if (talent.credits && talent.credits.length > 0) {
-            talent.credits.forEach(item => {
-                let li = document.createElement('li');
-                li.textContent = item.trim();
-                creditsList.appendChild(li);
-            });
-        }
+    const contactCol = document.createElement('div');
+    contactCol.classList.add('col');
+    contactCol.appendChild(document.querySelector('.contact'));
+    propertiesRow.appendChild(contactCol);
 
-        const websitesList = document.querySelector('.websites-list');
-        websitesList.innerHTML = ''; // Clear existing list items
-        if (talent.websites) {
-            talent.websites.forEach(website => {
-                let li = document.createElement('li');
-                li.innerHTML = `<a href="${website}" target="_blank">${website}</a>`;
-                websitesList.appendChild(li);
-            });
-        }
+    document.querySelector('.properties').appendChild(propertiesRow);
 
         const videoElement = document.querySelector('.video-container-detail video');
         const sourceElement = videoElement.querySelector('source');
@@ -124,6 +134,63 @@ document.addEventListener('DOMContentLoaded', function() {
         videoElement.load();
     });
 });
+
+function createDropdown(id, title) {
+    const dropdownDiv = document.createElement('div');
+    dropdownDiv.classList.add('dropdown');
+    dropdownDiv.id = id + '-menu'; // Set the id of the dropdown menu
+
+    const button = document.createElement('button');
+    button.classList.add('btn', 'btn-outline-light', 'talent-dropdown-toggle');
+    button.type = 'button';
+    button.id = id;
+    button.textContent = title;
+
+    const dropdownMenuUl = document.createElement('ul');
+    dropdownMenuUl.classList.add('talent-dropdown-menu');
+
+    dropdownDiv.appendChild(button);
+    dropdownDiv.appendChild(dropdownMenuUl);
+
+    return dropdownDiv;
+}
+
+function populateDropdown(dropdown, text, href = '#') {
+    const dropdownMenu = dropdown.querySelector('.talent-dropdown-menu');
+    const li = document.createElement('li');
+
+    // Check if the dropdown is a websites dropdown
+    if (dropdown.id === 'websitesDropdown-menu') {
+        const a = document.createElement('a');
+        a.textContent = text;
+        a.href = href;
+        li.appendChild(a);
+    } else {
+        li.textContent = text;
+    }
+
+    dropdownMenu.appendChild(li);
+}
+
+    // Add event listener to the document
+    $(document).on('click', function(event) {
+        // Check if the target of the click event is outside any dropdown menu
+        if (!$(event.target).closest('.dropdown').length) {
+            // If it is, close all dropdown menus
+            $('.talent-dropdown-menu').hide();
+        }
+    });
+
+    // Add event listener to the dropdown toggle buttons
+    $(document).on('click', '.talent-dropdown-toggle', function(event) {
+        // Close all other dropdown menus
+        $('.talent-dropdown-menu').not($(this).next()).hide();
+
+        // Toggle the dropdown menu of the clicked button
+        $(this).next('.talent-dropdown-menu').toggle();
+    });
+
 </script>
+
 </body>
 </html>

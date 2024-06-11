@@ -664,41 +664,21 @@ main {
     justify-content: center;
     align-items: center;
     color: white;
-    width: 69%;
+    width: 70%;
     margin: auto;
  }
 
- .talent-detail .row {
-     justify-content: center;
- }
+.talent-detail .row {
+  justify-content: center;
+  display: flex;
+  align-items: stretch; /* Make the children stretch to fill the container */
+}
 
  .talent-detail .img-fluid {
      width: 100%;
      margin: auto;
      border: 2px solid white; /* Add a border around the image */
  }
-
-.description-list, .credits-list, .websites-list {
-    list-style-type: none; /* Remove default list styling */
-    padding: 0; /* Remove default padding */
-    margin-bottom: 20px; /* Add some space below the list */
-}
-
-.description-list li, .credits-list li, .websites-list li {
-    margin-bottom: 10px; /* Space between list items */
-    color: white; /* Text color */
-    text-align: right;
-    font-size: 1.5vw;
-    width: 100%; /* Make the description and the button take up the other half of the screen width */
-    padding: 0 20px; /* Add some horizontal padding */
-    display: inline-block;
-}
-
-.websites-list li a {
-    color: white; /* Text color */
-    text-decoration: none; /* Remove the underline from the link */
-    text-align: right;
-}
 
  .talent-detail .contact {
     display: flex;
@@ -712,23 +692,73 @@ main {
     color: #000;
  }
 
+.talent-detail .properties-row {
+   display: block;
+}
 
-  .talent-detail .row {
-      display: flex;
-      align-items: stretch; /* Make the children stretch to fill the container */
-  }
+.talent-detail .col {
+  padding: 0 10px; /* Adjust as needed */
+}
 
-  .talent-detail .col-md-6 {
-      display: flex;
-      flex-direction: column;
-      justify-content: left; /* Center the content vertically */
-  }
+.talent-detail .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left; /* Center the content vertically */
+}
 
 .talent-detail .col-md-12 {
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center the content vertically */
 }
+
+.properties{
+    display: flex;
+}
+
+.properties-row{
+    margin: 0 auto 20px auto;
+}
+
+.properties .properties-row .col{
+    margin: 0 75px;
+}
+
+.properties .properties-row .col dropdown{
+    display: flex;
+    flex-direction: column;
+}
+
+.talent-detail .dropdown {
+    position: relative; /* Make the dropdown container a positioning context */
+}
+
+.talent-dropdown-menu{
+    display: none;
+    position: absolute; /* Position the dropdown menu absolutely within the dropdown container */
+    top: 183%; /* Position it just below the dropdown container */
+    left: -80px; /* Align it to the left of the dropdown container */
+    z-index: 1; /* Make it appear on top of other elements */
+    width: 500px; /* Make the dropdown menu take up the full width */
+    background-color: rgba(0,0,0,0.7); /* Change the background color */
+    overflow: auto;
+}
+
+.talent-dropdown-menu ul {
+    list-style: none;
+}
+
+.talent-dropdown-menu li {
+    color: #fff;
+    font-size: 1.5vw; /* Adjust as needed */
+    font-family: "shantell-regular";
+    width: 100%; /* Make the list items take up the full width */
+    margin: auto;
+    padding: 10px; /* Adjust as needed */
+    display: flex;
+
+}
+
 
  @media (max-width: 600px) {
 
