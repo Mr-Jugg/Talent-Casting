@@ -180,7 +180,7 @@ main {
  =====================================*/
 
 .carousel {
-    width: 66%;
+    width: 95%;
     align: center;
     margin: auto;
     padding-bottom: 30px;
@@ -198,8 +198,8 @@ main {
 }
 
 .carousel-item img {
-    width: 15vw; /* Set the width of the images */
-    height: 100%; /* Set the height of the images */
+    width: 75%; /* Set the width of the images */
+    height: auto; /* Set the height of the images */
     object-fit: cover; /* Ensure that the images cover their entire container */
     border-radius: 10px; /* Add rounded corners to the images */
     border: 2px solid white; /* Add a border around the images */
@@ -248,7 +248,7 @@ main {
  =====================================*/
 
 .video-container {
-    width: 66%; /* 2/3 of the page width */
+    width: 88.75%; /* 2/3 of the page width */
     margin: 0 auto; /* center the video */
     border: 2px solid white; /* Add a border around the video */
     border-radius: 10px; /* Add rounded corners */
