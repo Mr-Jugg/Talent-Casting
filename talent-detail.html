@@ -42,8 +42,7 @@
         </div>
     </div>
     <div class="row full-width-row">
-
-        <div class = "col-md-6">
+        <div class="video-row">
             <div class="video-container-detail">
                 <video controls autoplay>
                     <source src="" type="video/mp4">
@@ -96,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const descriptionDropdown = createDropdown('descriptionDropdown', 'Info');
         talent.description.forEach(item => populateDropdown(descriptionDropdown, item.trim()));
         const descriptionCol = document.createElement('div');
-        descriptionCol.classList.add('col');
+        descriptionCol.classList.add('col', 'dropdown-col');
         descriptionCol.appendChild(descriptionDropdown);
         propertiesRow.appendChild(descriptionCol);
     }
@@ -105,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const creditsDropdown = createDropdown('creditsDropdown', 'Credits');
         talent.credits.forEach(item => populateDropdown(creditsDropdown, item.trim()));
         const creditsCol = document.createElement('div');
-        creditsCol.classList.add('col');
+        creditsCol.classList.add('col', 'dropdown-col');
         creditsCol.appendChild(creditsDropdown);
         propertiesRow.appendChild(creditsCol);
     }
@@ -116,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
             populateDropdown(websitesDropdown, websiteName, websiteUrl);
         });
         const websitesCol = document.createElement('div');
-        websitesCol.classList.add('col');
+        websitesCol.classList.add('col', 'dropdown-col');
         websitesCol.appendChild(websitesDropdown);
         propertiesRow.appendChild(websitesCol);
     }
