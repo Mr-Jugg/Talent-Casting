@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'edo';
-    src: url('/static/fonts/edo.ttf') format('truetype');
+    src: local('edo'), url('/static/fonts/edo.woff') format('woff');
 }
 
 @font-face {
     font-family: 'shantell-regular';
-    src: url('/static/fonts/ShantellSans-Regular.ttf') format('truetype');
+    src: url('/static/fonts/ShantellSans-Regular.woff') format('truetype');
 }
 
 /* ====================================
@@ -30,7 +30,7 @@ main {
 
 .title {
    font-family: 'edo';
-   font-size: 5vw;
+   font-size: 5.5vw;
    color: #fff;
    text-align: center;
    margin-bottom: 20px;
