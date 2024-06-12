@@ -269,6 +269,7 @@ main {
     width: 100%;
     margin-top: 10px;
     border: 2px solid #fff; /* Add a border around the video */
+    border-radius: 10px; /* Add rounded corners to the video */
 }
 
 .video-container-detail video{
