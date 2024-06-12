@@ -198,7 +198,7 @@ main {
 }
 
 .carousel-item img {
-    width: 85%; /* Set the width of the images */
+    width: 95%; /* Set the width of the images */
     height: auto; /* Set the height of the images */
     object-fit: cover; /* Ensure that the images cover their entire container */
     border-radius: 10px; /* Add rounded corners to the images */
@@ -248,7 +248,7 @@ main {
  =====================================*/
 
 .video-container {
-    width: 88.75%; /* 2/3 of the page width */
+    width: 93%;
     margin: 0 auto; /* center the video */
     border: 2px solid white; /* Add a border around the video */
     border-radius: 10px; /* Add rounded corners to the video */
