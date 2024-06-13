@@ -9,7 +9,7 @@
       "-Raising awareness for 'Fixed Functional Dystonia'",
       "-Tik tok star with 1.8 million followers",
       "-Videos have a combined total of, nearly 33 million views across social media, platforms."],
-    "credits": ["TV Credits: -I Literally Just Told You (CH4, 2023)",
+    "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)",
       "-Money Bags (CH4, 2022)", "-Blankety Blank (BBC 2021)"],
     "websites": {},
     "video": "/static/video/talent/Ella.mp4"
@@ -19,9 +19,9 @@
     "imgSrc": "static/img/talent/main/Ex-the-Barber.JPG",
     "altText": "Ex-the-Barber",
     "altImg": "static/img/talent/alt/Ex-the-Barber.JPG",
-    "description": ["Glasgow's Celebrity Barber, Clients include: DJ Khalid", "Ahmad Diallo", "Rangers FC", "Celtic FC", "MUFC", "Chris Eubank Jr",
-      "Wes Nelson", "Bash The Entertainer", "and many more."],
-    "credits": ["TV Credits: -Jimmy Carr's 'I Literally Just Told You'",
+    "description": ["Glasgow's Celebrity Barber, Clients include:", "-DJ Khalid", "-Ahmad Diallo", "-Rangers FC", "-Celtic FC", "-MUFC", "-Chris Eubank Jr",
+      "-Wes Nelson", "-Bash The Entertainer", "and many more."],
+    "credits": ["TV:", " -Jimmy Carr's 'I Literally Just Told You'",
       "-Strangers on a Plane"],
     "websites": {},
     "video": "/static/video/talent/Ex-the-Barber.mp4"
@@ -48,7 +48,7 @@
     "description": ["-TV debut on Jimmy Carr's 'I Literally Just Told You'",
       "-Tik Tok - almost 5 million views, 712K likes",
       "-Artist"],
-    "credits": ["TV Credits: -I Literally Just Told You (CH4, 2023) "],
+    "credits": ["TV:", " -I Literally Just Told You (CH4, 2023) "],
     "websites": {},
     "video": "/static/video/talent/Emma.mp4"
   },
@@ -60,7 +60,7 @@
     
     "description": ["-Amputee and Disability Advocate",
       "-Tik Tok star with roughly 300K followers/4.2 million likes/71 million views", "-Wheelchair Tennis/Rugby player"],
-    "credits": ["TV Credits: -I Literally Just Told You (CH4, 2023)", "-Money bags (CH4, 2021)", "-Creator Lab  (BBC, 2024)"],
+    "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)", "-Money bags (CH4, 2021)", "-Creator Lab  (BBC, 2024)"],
     "websites": {},
     "video": "/static/video/talent/Jack.mp4"
   },
@@ -101,7 +101,7 @@
     "description": ["-Award winning R&B singer",
       "-Her album 'Hennessy & Rose Petals' was compared to R&B greats Toni Braxton, Whitney Houston, with a new school twist likening to singers Mila J, Ella Mai and Jhené Aiko",
       "-Founder of 'Alerah Cosmetics', an inclusive luxury brand, available at an affordable price! Clients include cast members from 'The Real Housewives' and 'Love & Hip Hop'."],
-    "credits": ["TV Credits: -Strangers On A Plane (CH4, 2022)"],
+    "credits": ["TV:", " -Strangers On A Plane (CH4, 2022)"],
     "websites": {"Spotify": "https://open.spotify.com/artist/4hRmpX5BTFnyJHTon7o7Wa",
                 "Alerah Cosmetics": "http://alerahcosmetics.com"},
     "video": "/static/video/talent/Wyen.mp4"
@@ -117,7 +117,7 @@
       "-Advanced level Skier",
       "-Plays Trumpet at a professional level",
       "-Tik Tok - over 3M views, 161.7K likes"],
-    "credits": ["TV Credits: -Cherry Bay (2024)", "-Oatly Ad (2024) ", "-Rise & Fall (CH4, 2023)"],
+    "credits": ["TV:", " -Cherry Bay (2024)", "-Oatly Ad (2024) ", "-Rise & Fall (CH4, 2023)"],
     "websites": {},
     "video": "/static/video/talent/Marina_P.mp4"
   },
@@ -128,7 +128,7 @@
     "altImg": "static/img/talent/alt/Bhambras.JPG",
     
     "description": ["-Tight knit competitive Sikh brothers", "-Love playing football together", "-Professional Bhangra dancers"],
-    "credits": ["TV Credits: -In With A Shout (ITV, 2024)", "-The Chase (ITV, 2019)"],
+    "credits": ["TV:", " -In With A Shout (ITV, 2024)", "-The Chase (ITV, 2019)"],
     "websites": {},
     "video": "/static/video/compilation.mp4"
   },
@@ -142,7 +142,7 @@
       "-Tik Tok - 1.9M followers, 25.1M likes and roughly 530k on Instagram",
       "-known for Reading cheeky adult books, trying snacks from around the world and pronouncing different words with his Scottish accent.",
       "-Ex Navy "],
-    "credits": ["TV Credits: -I Literally Just Told You (CH4, 2023)"],
+    "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)"],
     "websites": {},
     "video": "/static/video/talent/Ryan.mp4"
   },
@@ -156,7 +156,7 @@
       "-Theatre performances include 'Lady Macbeth' in Macbeth, 'Romeo' in Romeo & Juliet and Comedia  Dell'arte.",
       "-Motivantional Speaker",
       "-English, German & Punjabi speaker"],
-    "credits": ["TV Credits: -Rise & Fall (CH4, 2023)", "-The Green Hour (National Geographic)"],
+    "credits": ["TV:", " -Rise & Fall (CH4, 2023)", "-The Green Hour (National Geographic)"],
     "websites": {},
     "video": "/static/video/talent/Ramona.mp4"
   },
@@ -169,7 +169,7 @@
     "description": ["-Mancunian artist ‘Fanny Gogh’, known for her work with celebrity lingerie!",
       "-Has worked with celebrities Keith Lemon, Simon Cowell, Englebert Humperdinck, Nick Knowles, Rob Schneider, Eammon Holmes, Ruth Langsford, Ranvir Singh, Kunle Barker, Sam Allardyce, William Roach, Ella Toone, Paul Scholes etc.",
       "-Owner of 'The Rum Fanny’"],
-    "credits": ["TV Credits: -Lost & Found In The Lakes (BBC, 2024)",
+    "credits": ["TV:", " -Lost & Found In The Lakes (BBC, 2024)",
       "-I Literally Just Told You (CH4, 2023)",
       "-My Beautiful Green Home (ITV)", "-Home Is Where The Art Is (BBC)"],
     "websites": {"Fanny Gogh": "https://www.fannygogh.co.uk"},
@@ -185,7 +185,7 @@
       "-Nearly 500k followers and 6.5 million likes.",
       "-Raising awareness of ADHD, through witty online content",
       "-Avid gamer"],
-    "credits": ["TV Credits: -Squid Games (Netflix, 2023)", "I Literally Just Told You (CH4, 2023)"],
+    "credits": ["TV:", " -Squid Games (Netflix, 2023)", "I Literally Just Told You (CH4, 2023)"],
     "websites": {},
     "video": "/static/video/compilation.mp4"
   },
@@ -200,7 +200,7 @@
       "-Tik Tok: 4.6M followers, 74.2M likes",
       "-Youtube 1.53M Subscribers",
       "-Instagram: 1M followers"],
-    "credits": ["TV Credits: -Tara Vs Bilal 'Bollywood Film' (2022)"],
+    "credits": ["TV:", " -Tara Vs Bilal 'Bollywood Film' (2022)"],
     "websites": {},
     "video": "/static/video/talent/Vleenam-Twins.mp4"
   },
@@ -239,7 +239,7 @@
       "-4 years/Captained the development team.",
       "-'Malaga City Academy’ -Right back 1 year",
       "-Tik Tok - 1.3M views, 126K likes"],
-    "credits": ["TV Credits: -BT Sport's Ultimate Goal (2020)"],
+    "credits": ["TV:", " -BT Sport's Ultimate Goal (2020)"],
     "websites": {},
     "video": "/static/video/compilation.mp4"
   },
@@ -266,7 +266,7 @@
     "description": ["-Jimmy Carr's 'I Literally Just Told You' was her TV debut, where she left audiences in stitches!",
       "-Mother of Libby-Mae & Lexie",
       "-Tik Tok- nearly 780K followers, 43.9 Million likes"],
-    "credits": ["TV Credits: -I Literally Just Told You (CH4, 2023)"],
+    "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)"],
     "websites": {},
     "video": "/static/video/talent/Linz.mp4"
   },
@@ -278,7 +278,7 @@
     
     "description": ["-3 prankster siblings from Essex", "-Produce music",
       "-Travel/Food Vloggers", "-Attempt extreme food challenges"],
-    "credits": ["TV Credits: -Unforgiveable (Dave, 2023)", "-The Void (ITV, 2021)"],
+    "credits": ["TV:", " -Unforgiveable (Dave, 2023)", "-The Void (ITV, 2021)"],
     "websites": {},
     "video": "/static/video/talent/Smythe-Bros.mp4"
   },
@@ -290,7 +290,7 @@
     
     "description": ["-Miss Sovereign GB (2020)",
       "-Diploma in acting - LIPA (2018)", "-Winner of BBC's Hire Me 'Property Broker'"],
-    "credits": ["TV Credits: -Hire Me (2022)",
+    "credits": ["TV:", " -Hire Me (2022)",
       "-I Literally Just Told You (CH4, 2023)",
       "-Birchall’s Pints (2023) Amazon Prime Comedy series", "-Hollyoaks ",
       "-In Plain Sight -ITV", "-National Trust Advert", "-Unite Students Advert "],
@@ -318,7 +318,7 @@
     
     "description": ["-Winner of his episode on 'Strangers on a Plane'",
       "-Won the girl's heart on 'Five Guys a week'"],
-    "credits": ["TV Credits: -The Motorway Hotel (2024)",
+    "credits": ["TV:", " -The Motorway Hotel (2024)",
       "-Strangers on a Plane (2022)", "-Five Guys a week (2019)"],
     "websites": {},
     "video": "/static/video/talent/Lou.mp4"
@@ -348,7 +348,7 @@
       "-Artist, specialising in drawing/paintings",
       "-Contemporary/Modern Hip Hop dancer",
       "-Grade A in music 'Voices & Instruments'", "-Violin grade 4"],
-    "credits": ["Theatre Credits: -Fame 'Carmen' (2008)"],
+    "credits": ["Theatre:", " -Fame 'Carmen' (2008)"],
     "websites": {},
     "video": "/static/video/talent/Marina_I.mp4"
   },
@@ -362,7 +362,7 @@
       "-Theatre performer",
       "-Can follow basic choreography",
       "-Keen baker 'specialising in cakes' (15 years experience)"],
-    "credits": ["Theatre Credits: -Saturday Night 'Penny' (2011)",
+    "credits": ["Theatre:", " -Saturday Night 'Penny' (2011)",
       "Fame 'Miss Esther Sherman' (2011)",
       "Chicago 'Roxie Hart' (2010)"],
     "websites": {},
@@ -382,7 +382,7 @@
       "-Cruise ship dancer (1990)",
       "-Lead singer of the band 'The Tide' (1991)",
       "-Singer/Dancer UK, Greece, Japan (1989 -1991)"],
-    "credits": ["TV Credits: -Cheap, cheap, cheap with Noel Edmonds (2017)"],
+    "credits": ["TV:", " -Cheap, cheap, cheap with Noel Edmonds (2017)"],
     "websites": {},
     "video": "/static/video/talent/Helen.mp4"
   },
@@ -393,7 +393,7 @@
     "altImg": "static/img/talent/alt/Raymond.JPG",
     
     "description": ["-Former Publican", "-Trained Chef", "-Avid Golfer ", "-Classic car enthusiast "],
-    "credits": ["TV Credits: -Strangers on a Plane (CH4, 2022)", "-Masterpiece (ITV)"],
+    "credits": ["TV:", " -Strangers on a Plane (CH4, 2022)", "-Masterpiece (ITV)"],
     "websites": {},
     "video": "/static/video/compilation.mp4"
   },
@@ -420,7 +420,7 @@
       "-Raising awareness for Tourettes & ADHD",
       "-Known for being a 'cheeky chappy' and for his cheeky videos relating to his conditions",
       "-Avid golfer"],
-    "credits": ["TV Credits: -Strangers on a Plane (CH4, 2022)",
+    "credits": ["TV:", "-Strangers on a Plane (CH4, 2022)",
       "-Money Bags (CH4, 2023)"],
     "websites": {},
     "video": "/static/video/talent/Adam.mp4"
@@ -436,13 +436,13 @@
       "-BA 'Popular Music Performance (2016)",
       "-1 of 3 lead vocalists in the band 'The Soul Rays (2016)",
       "-Actress/script writer"],
-    "credits": ["TV Credits: -Wings (to be released)",
+    "credits": ["TV:", "-Wings (to be released)",
       "-In With A Shout (ITV, 2024)",
       "-Unhinged - short film (2024)",
       "-Tim's Dad - Short film (2023)",
       "-The Void (ITV, 2021)",
       "-Chester: Foodie Capitol of the North West (2021)", 
-    "Theatre Credits: -'Made in Motor City' - 1 of 3 lead vocalists (2022 - present)",
+    "Theatre:", "-'Made in Motor City' (2022 - present)",
       "'Two' (2023)", "'The Pier' (2022)"],
     "websites": {},
     "video": "/static/video/talent/Alex.mp4"
@@ -455,7 +455,7 @@
     
     "description": ["-High energy dancer",
       "styles include 'Break dancing', 'Roboting', and 'Body Popping'."],
-    "credits": ["TV Credits: -Darling what have you done with your hair (CH4 2021)"],
+    "credits": ["TV:", " -Darling what have you done with your hair (CH4 2021)"],
     "websites": {},
     "video": "/static/video/talent/Arnold.mp4"
   },
@@ -466,7 +466,7 @@
     "altImg": "static/img/talent/alt/Jamie.JPG",
     
     "description": ["-British Boxing MC", "-Welsh Tug Of War competitor"],
-    "credits": ["TV Credits: -In With a Shout (ITV, 2024) ", "-Undercooked (2019)", "-Casualty (BBC, 2018)", "-Captain America (2010)"],
+    "credits": ["TV:", " -In With a Shout (ITV, 2024) ", "-Undercooked (2019)", "-Casualty (BBC, 2018)", "-Captain America (2010)"],
     "websites": {},
     "video": "/static/video/compilation.mp4"
   },
@@ -477,7 +477,7 @@
     "altImg": "static/img/talent/alt/Kirsty.JPG",
     
     "description": ["-Dental Surgeon", "-Volunteer Dental Surgeon in Ghana (2014)", "-Cofounder 'Dance Mania' "],
-    "credits": ["TV Credits: -In With a Shout (ITV, 2024)"],
+    "credits": ["TV:", " -In With a Shout (ITV, 2024)"],
     "websites": {},
     "video": "/static/video/compilation.mp4"
   },
@@ -488,7 +488,7 @@
     "altImg": "static/img/talent/alt/Robbie.JPG",
     
     "description": ["-Countdown winner", "-Speaks Russian"],
-    "credits": ["TV Credits: -In With a Shout (2024)", "-Countdown (2022)", "-Captain America (2010)"],
+    "credits": ["TV:", " -In With a Shout (2024)", "-Countdown (2022)", "-Captain America (2010)"],
     "websites": {},
     "video": "/static/video/compilation.mp4"
   },
@@ -502,7 +502,7 @@
       "-Singer 'specialising in slow/contemporary/theatrical songs",
       "-Keen Cook",
       "-Skilled in hair/makeup"],
-    "credits": ["Theatre Credits: -Hairspray 'singing solo' (awaiting date)"],
+    "credits": ["Theatre:", " -Hairspray 'singing solo' (awaiting date)"],
     "websites": {},
     "video": "/static/video/compilation.mp4"
   },
@@ -514,7 +514,7 @@
     
     "description": ["-Mobile hairdresser, known for giving Fat Man Scoop a beard trim ",
       "-Former Street dancer ", "-Can play the flute"],
-    "credits": ["TV Credits: -I Literally Just Told You (CH4, 2023)"],
+    "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)"],
     "websites": {},
     "video": "/static/video/talent/Yasmin.mp4"
   },
@@ -545,7 +545,7 @@
       "-MMA Boxer",
       "-Gym enthusiast",
       "-Former Bricklayer"],
-    "credits": ["TV Credits: -'I Literally Just Told You' (CH4, 2023)"],
+    "credits": ["TV:", " -'I Literally Just Told You' (CH4, 2023)"],
     "websites": {},
     "video": "/static/video/talent/Kristian.mp4"
   },
@@ -575,7 +575,7 @@
       "-Former Hunter, mean shot with a gun!",
       "-Keen Fisherman",
       "-Professional Spray tanner"],
-    "credits": ["TV Credits: -Casualty ‘Drunk Girl’ (BBC,2024)",
+    "credits": ["TV:", " -Casualty ‘Drunk Girl’ (BBC,2024)",
       "-Jimmy Carr’s 'I Literally Just Told You' (CH4, 2023)",
       "-Big Brother Late & Live (2023, ITV)",
       "-Bad Chefs (ITVX, 2022)",

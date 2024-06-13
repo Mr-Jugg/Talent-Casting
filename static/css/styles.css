@@ -30,7 +30,7 @@ main {
 
 .title {
    font-family: 'edo';
-   font-size: 5.5vw;
+   font-size: 6vw;
    color: #fff;
    text-align: center;
    margin-bottom: 20px;
@@ -740,9 +740,9 @@ main {
     display: none;
     position: absolute; /* Position the dropdown menu absolutely within the dropdown container */
     top: 183%; /* Position it just below the dropdown container */
-    left: -80px; /* Align it to the left of the dropdown container */
+    left: -200px; /* Align it to the left of the dropdown container */
     z-index: 1; /* Make it appear on top of other elements */
-    width: 500px; /* Make the dropdown menu take up the full width */
+    width: max-content; /* Make the dropdown menu take up the full width */
     background-color: rgba(0,0,0,0.7); /* Change the background color */
     overflow: auto;
 }
@@ -757,7 +757,7 @@ main {
     font-family: "shantell-regular";
     width: 100%; /* Make the list items take up the full width */
     margin: auto;
-    padding: 10px; /* Adjust as needed */
+    padding: 0 10px; /* Adjust as needed */
     display: flex;
 }
 
