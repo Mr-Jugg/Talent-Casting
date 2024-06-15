@@ -822,7 +822,7 @@ main {
     }
 
     .talent-dropdown-menu{
-        top: 22.5%; /* Position it just below the dropdown container */
+        top: 30%; /* Position it just below the dropdown container */
         padding: 0; /* Remove padding */
         width: 100%; /* Make the dropdown menu take up the full width */
     }
