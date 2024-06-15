@@ -804,7 +804,6 @@ main {
     display: flex;
 }
 
-
  @media (max-width: 600px) {
 
     .properties .properties-row .col{
@@ -826,6 +825,10 @@ main {
         top: 22.5%; /* Position it just below the dropdown container */
         padding: 0; /* Remove padding */
         width: 100%; /* Make the dropdown menu take up the full width */
+    }
+
+    #descriptionDropdown-menu{
+        width: 100%;
     }
 
     .talent-dropdown-menu li {
