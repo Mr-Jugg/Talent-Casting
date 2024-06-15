@@ -505,6 +505,10 @@ main {
     border: 1px solid #FF0000; /* Add a red border */
 }
 
+.contact-us #submit-btn {
+    font-family: 'shantell-regular';
+}
+
 @media (max-width: 600px) {
     .contact-us {
         width: 100%; /* Adjust as needed */
@@ -757,6 +761,7 @@ main {
 
 .properties{
     display: flex;
+    font-family: 'shantell-regular';
 }
 
 .properties-row{
