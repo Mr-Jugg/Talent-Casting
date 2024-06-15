@@ -8,7 +8,7 @@
         document.addEventListener("DOMContentLoaded", function() {
             // Define the valid token
             const validToken = "uniqueToken123";
-
+            console.log("validToken: ", validToken);
             // Function to get query parameters
             function getQueryParams() {
                 const params = {};
@@ -22,6 +22,7 @@
             // Get the token from the URL
             const params = getQueryParams();
             const token = params.token;
+            console.log("token: ", token);
 
             // Validate the token
             if (token === validToken) {
@@ -39,8 +40,9 @@
 </head>
 <body>
 <div id="content">
-    <h1>Welcome to the Special Page</h1>
-    <p>This content is only accessible with a valid token.</p>
+    <p>This is a secret, special page</p>
+    <p>It can only be accessed with a valid token.</p>
+    <p>Congratulations Jacob, you are a genius!</p>
 </div>
 <div id="error">
     <h1>Access Denied</h1>
