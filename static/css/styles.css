@@ -715,56 +715,8 @@ main {
     justify-content: center; /* Center the content vertically */
 }
 
-.properties{
-    display: flex;
-}
-
-.properties-row{
-    margin: 0 auto 20px auto;
-}
-
-.properties .properties-row .col{
-    margin: 0 75px;
-}
-
-.properties .properties-row .col dropdown{
-    display: flex;
-    flex-direction: column;
-}
-
-.talent-detail .dropdown {
-    position: relative; /* Make the dropdown container a positioning context */
-}
-
-.talent-dropdown-menu{
-    display: none;
-    position: absolute; /* Position the dropdown menu absolutely within the dropdown container */
-    top: 183%; /* Position it just below the dropdown container */
-    left: -200px; /* Align it to the left of the dropdown container */
-    z-index: 1; /* Make it appear on top of other elements */
-    width: max-content; /* Make the dropdown menu take up the full width */
-    background-color: rgba(0,0,0,0.7); /* Change the background color */
-    overflow: auto;
-}
-
-.talent-dropdown-menu ul {
-    list-style: none;
-}
-
-.talent-dropdown-menu li {
-    color: #fff;
-    font-size: 1.5vw; /* Adjust as needed */
-    font-family: "shantell-regular";
-    width: 100%; /* Make the list items take up the full width */
-    margin: auto;
-    padding: 0 10px; /* Adjust as needed */
-    display: flex;
-}
-
-
- @media (max-width: 600px) {
-
-    .talent-detail {
+@media (max-width: 600px) {
+.talent-detail {
         width: 100%; /* Adjust as needed */
     }
 
@@ -797,6 +749,61 @@ main {
         border: 2px solid white; /* Add a border around the image */
     }
 
+}
+
+/* ====================================
+         Talent details dropdown
+ =====================================*/
+
+.properties{
+    display: flex;
+}
+
+.properties-row{
+    margin: 0 auto 20px auto;
+}
+
+.properties .properties-row .col{
+    margin: 0 75px;
+}
+
+.properties .properties-row .col dropdown{
+    display: flex;
+    flex-direction: column;
+}
+
+.talent-detail .dropdown {
+    position: relative; /* Make the dropdown container a positioning context */
+}
+
+.talent-dropdown-menu{
+    display: none;
+    position: absolute; /* Position the dropdown menu absolutely within the dropdown container */
+    top: 75%; /* Position it just below the dropdown container */
+    left: 0; /* Initially set to 0 */
+    z-index: 1; /* Make it appear on top of other elements */
+    width: max-content; /* Make the dropdown menu take up the full width */
+    background-color: rgba(0,0,0,0.7); /* Change the background color */
+    overflow: auto;
+}
+
+.talent-dropdown-menu ul {
+    list-style: none;
+}
+
+.talent-dropdown-menu li {
+    color: #fff;
+    font-size: 1.5vw; /* Adjust as needed */
+    font-family: "shantell-regular";
+    width: 100%; /* Make the list items take up the full width */
+    margin: auto;
+    padding: 0 10px; /* Adjust as needed */
+    display: flex;
+}
+
+
+ @media (max-width: 600px) {
+
     .properties .properties-row .col{
         margin: auto;
     }
@@ -813,15 +820,13 @@ main {
     }
 
     .talent-dropdown-menu{
-        top: 120%; /* Position it just below the dropdown container */
-        left: 50%; /* Move the left edge of the dropdown to the center of the parent */
-        transform: translateX(-25%); /* Move the dropdown to the left by 25% of its width */
-        width: 400px;
+        top: 22.5%; /* Position it just below the dropdown container */
+        padding: 0; /* Remove padding */
+        width: 100%; /* Make the dropdown menu take up the full width */
     }
 
     .talent-dropdown-menu li {
-        font-size: 4vw; /* Adjust as needed */
-        width: 85%; /* Make the list items take up the full width */
+        font-size: 3.75vw; /* Adjust as needed */
     }
 
     .talent-detail .video-row{
