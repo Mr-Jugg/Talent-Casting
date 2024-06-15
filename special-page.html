@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Page</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Define the valid token
+            const validToken = "uniqueToken123";
+
+            // Function to get query parameters
+            function getQueryParams() {
+                const params = {};
+                window.location.search.substring(1).split("&").forEach(function(part) {
+                    const [key, value] = part.split("=");
+                    params[key] = decodeURIComponent(value);
+                });
+                return params;
+            }
+
+            // Get the token from the URL
+            const params = getQueryParams();
+            const token = params.token;
+
+            // Validate the token
+            if (token === validToken) {
+                document.getElementById("content").style.display = "block";
+            } else {
+                document.getElementById("error").style.display = "block";
+            }
+        });
+    </script>
+    <style>
+        #content, #error {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <h1>Welcome to the Special Page</h1>
+    <p>This content is only accessible with a valid token.</p>
+</div>
+<div id="error">
+    <h1>Access Denied</h1>
+    <p>You do not have permission to view this page.</p>
+</div>
+</body>
+</html>
