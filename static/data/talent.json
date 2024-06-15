@@ -3,7 +3,7 @@
     "imgSrc": "static/img/talent/main/Ella.JPG",
     "altText": "Ella",
     "altImg": "static/img/talent/alt/Ella.JPG",
-    
+
     "description": [
       "-Disability Advocate",
       "-Raising awareness for 'Fixed Functional Dystonia'",
@@ -31,7 +31,7 @@
     "imgSrc": "static/img/talent/main/Libby-Mae.JPG",
     "altText": "Libby-Mae",
     "altImg": "static/img/talent/alt/Libby-Mae.JPG",
-    
+
     "description": ["-LGBTQ+ Viral Tik Tok star",
       "-2.9 million followers/336.5 Million likes",
       "-234K followers on Instagram"],
@@ -44,7 +44,7 @@
     "imgSrc": "static/img/talent/main/Emma.JPG",
     "altText": "Emma",
     "altImg": "static/img/talent/alt/Emma.JPG",
-    
+
     "description": ["-TV debut on Jimmy Carr's 'I Literally Just Told You'",
       "-Tik Tok - almost 5 million views, 712K likes",
       "-Artist"],
@@ -57,7 +57,7 @@
     "imgSrc": "static/img/talent/main/Jack.JPG",
     "altText": "Jack",
     "altImg": "static/img/talent/alt/Jack.JPG",
-    
+
     "description": ["-Amputee and Disability Advocate",
       "-Tik Tok star with roughly 300K followers/4.2 million likes/71 million views", "-Wheelchair Tennis/Rugby player"],
     "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)", "-Money bags (CH4, 2021)", "-Creator Lab  (BBC, 2024)"],
@@ -69,7 +69,7 @@
     "imgSrc": "static/img/talent/main/Ray.JPG",
     "altText": "Ray",
     "altImg": "static/img/talent/alt/Ray.JPG",
-    
+
     "description": ["-3x British Champion", "-European finalist",
       "-European U23 Finalist", "-BUCS long jump Champion & record holder", "-England senior long jump champion"],
     "credits": [],
@@ -81,7 +81,7 @@
     "imgSrc": "static/img/talent/main/Liam.JPG",
     "altText": "Liam",
     "altImg": "static/img/talent/alt/Liam.JPG",
-    
+
     "description": ["-Everton & England Amputee footballer",
       "-Plays as a striker or forward",
       "-Disability advocate",
@@ -97,13 +97,13 @@
     "imgSrc": "static/img/talent/main/Wyen-Solo.JPG",
     "altText": "Wyen Solo",
     "altImg": "static/img/talent/alt/Wyen-Solo.jpg",
-    
+
     "description": ["-Award winning R&B singer",
       "-Her album 'Hennessy & Rose Petals' was compared to R&B greats Toni Braxton, Whitney Houston, with a new school twist likening to singers Mila J, Ella Mai and Jhené Aiko",
       "-Founder of 'Alerah Cosmetics', an inclusive luxury brand, available at an affordable price! Clients include cast members from 'The Real Housewives' and 'Love & Hip Hop'."],
     "credits": ["TV:", " -Strangers On A Plane (CH4, 2022)"],
     "websites": {"Spotify": "https://open.spotify.com/artist/4hRmpX5BTFnyJHTon7o7Wa",
-                "Alerah Cosmetics": "http://alerahcosmetics.com"},
+      "Alerah Cosmetics": "http://alerahcosmetics.com"},
     "video": "/static/video/talent/Wyen.mp4"
   },
   {
@@ -111,7 +111,7 @@
     "imgSrc": "static/img/talent/main/Marina_P.JPG",
     "altText": "Marina P",
     "altImg": "static/img/talent/alt/Marina_P.JPG",
-    
+
     "description": ["-Currently presenting for 'Cherry Bay' Producing party/luxury travel content ",
       "-Made TV debut on reality TV aged 18, after dropping out of University",
       "-Advanced level Skier",
@@ -126,7 +126,7 @@
     "imgSrc": "static/img/talent/main/Bhambras.JPG",
     "altText": "Bhambras",
     "altImg": "static/img/talent/alt/Bhambras.JPG",
-    
+
     "description": ["-Tight knit competitive Sikh brothers", "-Love playing football together", "-Professional Bhangra dancers"],
     "credits": ["TV:", " -In With A Shout (ITV, 2024)", "-The Chase (ITV, 2019)"],
     "websites": {},
@@ -137,7 +137,7 @@
     "imgSrc": "static/img/talent/main/Ryan.JPG",
     "altText": "Ryan",
     "altImg": "static/img/talent/alt/Ryan.JPG",
-    
+
     "description": ["-Scottish influencer with ",
       "-Tik Tok - 1.9M followers, 25.1M likes and roughly 530k on Instagram",
       "-known for Reading cheeky adult books, trying snacks from around the world and pronouncing different words with his Scottish accent.",
@@ -151,7 +151,7 @@
     "imgSrc": "static/img/talent/main/Ramona.JPG",
     "altText": "Ramona",
     "altImg": "static/img/talent/alt/Ramona.JPG",
-    
+
     "description": ["-CEO in the business world", "-NRTA winner (2023)",
       "-Theatre performances include 'Lady Macbeth' in Macbeth, 'Romeo' in Romeo & Juliet and Comedia  Dell'arte.",
       "-Motivantional Speaker",
@@ -165,7 +165,7 @@
     "imgSrc": "static/img/talent/main/Fanny-Gogh.JPG",
     "altText": "Fanny Gogh",
     "altImg": "static/img/talent/alt/Fanny-Gogh.JPG",
-    
+
     "description": ["-Mancunian artist ‘Fanny Gogh’, known for her work with celebrity lingerie!",
       "-Has worked with celebrities Keith Lemon, Simon Cowell, Englebert Humperdinck, Nick Knowles, Rob Schneider, Eammon Holmes, Ruth Langsford, Ranvir Singh, Kunle Barker, Sam Allardyce, William Roach, Ella Toone, Paul Scholes etc.",
       "-Owner of 'The Rum Fanny’"],
@@ -180,21 +180,21 @@
     "imgSrc": "static/img/talent/main/Mikie.JPG",
     "altText": "Mikie",
     "altImg": "static/img/talent/alt/Mikie.JPG",
-    
+
     "description": ["-Social Media star with videos having a combined total of nearly 8 million views across social media platforms",
       "-Nearly 500k followers and 6.5 million likes.",
       "-Raising awareness of ADHD, through witty online content",
       "-Avid gamer"],
     "credits": ["TV:", " -Squid Games (Netflix, 2023)", "I Literally Just Told You (CH4, 2023)"],
     "websites": {},
-    "video": "/static/video/compilation.mp4"
+    "video": "/static/video/Mikie.mp4"
   },
   {
 
     "imgSrc": "static/img/talent/main/Vleenam-Twins.JPG",
     "altText": "Vleenam Twins",
     "altImg": "static/img/talent/alt/Vleenam-Twins.JPG",
-    
+
     "description": ["-Identical twins",
       "-Bollywood dancers",
       "-Tik Tok: 4.6M followers, 74.2M likes",
@@ -209,7 +209,7 @@
     "imgSrc": "static/img/talent/main/Cassell-Twins.JPG",
     "altText": "Cassell Twins",
     "altImg": "static/img/talent/alt/Cassell-Twins.JPG",
-    
+
     "description": ["-Identical twin sisters",
       "-Travel/food/activity vlogs", "-Photography"],
     "credits": [],
@@ -221,7 +221,7 @@
     "imgSrc": "static/img/talent/main/Drew.JPG",
     "altText": "Drew",
     "altImg": "static/img/talent/alt/Drew.JPG",
-    
+
     "description": ["-Afro Beat Music Producer/Singer",
       "- Album 'A Flavoured Kid' released (2013) worldwide",
       "-Check out his other 6 singles on ITunes "],
@@ -234,7 +234,7 @@
     "imgSrc": "static/img/talent/main/Ellie.JPG",
     "altText": "Ellie",
     "altImg": "static/img/talent/alt/Ellie.JPG",
-    
+
     "description": ["-'Crystal Palace Academy'",
       "-4 years/Captained the development team.",
       "-'Malaga City Academy’ -Right back 1 year",
@@ -248,21 +248,21 @@
     "imgSrc": "static/img/talent/main/Lexie.JPG",
     "altText": "Lexie",
     "altImg": "static/img/talent/alt/Lexie.jpg",
-    
+
     "description": ["-Current Mid Fielder ‘Pontefract Colliers’ - 1 year",
       "-Leeds united for 1 season ",
       "-West End Terriers - 4 years ",
       "-Tik Tok: Almost 85.5K followers, 16M views &1M likes"],
     "credits": [],
     "websites": {},
-    "video": "/static/video/compilation.mp4"
+    "video": "/static/video/Lexie.mp4"
   },
   {
 
     "imgSrc": "static/img/talent/main/Linz.JPG",
     "altText": "Linz",
     "altImg": "static/img/talent/alt/Linz.JPG",
-    
+
     "description": ["-Jimmy Carr's 'I Literally Just Told You' was her TV debut, where she left audiences in stitches!",
       "-Mother of Libby-Mae & Lexie",
       "-Tik Tok- nearly 780K followers, 43.9 Million likes"],
@@ -275,7 +275,7 @@
     "imgSrc": "static/img/talent/main/Smythe-Bros.JPG",
     "altText": "Smythe Bros",
     "altImg": "static/img/talent/alt/Smythe-Bros.jpg",
-    
+
     "description": ["-3 prankster siblings from Essex", "-Produce music",
       "-Travel/Food Vloggers", "-Attempt extreme food challenges"],
     "credits": ["TV:", " -Unforgiveable (Dave, 2023)", "-The Void (ITV, 2021)"],
@@ -287,7 +287,7 @@
     "imgSrc": "static/img/talent/main/Alisha.JPG",
     "altText": "Alisha",
     "altImg": "static/img/talent/alt/Alisha.jpg",
-    
+
     "description": ["-Miss Sovereign GB (2020)",
       "-Diploma in acting - LIPA (2018)", "-Winner of BBC's Hire Me 'Property Broker'"],
     "credits": ["TV:", " -Hire Me (2022)",
@@ -302,7 +302,7 @@
     "imgSrc": "static/img/talent/main/Elle.JPG",
     "altText": "Elle",
     "altImg": "static/img/talent/alt/Elle.JPG",
-    
+
     "description": ["-Disability Advocate",
       "-Raising awareness for 'Hypermobility', Postural Tachycardia Syndrome', and 'Sinus Tachycardia'",
       "-Artist & Creator @ANIMATEME_X", "-Tik Tok -Almost 7M views, 519K likes"],
@@ -315,7 +315,7 @@
     "imgSrc": "static/img/talent/main/Lou.JPG",
     "altText": "Lou",
     "altImg": "static/img/talent/alt/Lou.JPG",
-    
+
     "description": ["-Winner of his episode on 'Strangers on a Plane'",
       "-Won the girl's heart on 'Five Guys a week'"],
     "credits": ["TV:", " -The Motorway Hotel (2024)",
@@ -328,7 +328,7 @@
     "imgSrc": "static/img/talent/main/Ishmael.JPG",
     "altText": "Ishmael",
     "altImg": "static/img/talent/alt/Ishmael.JPG",
-    
+
     "description": ["-Dancing landscape gardener",
       "-Styles include 'freestyle', 'Body Popping', 'handstands' and 'back flips', etc.",
       "-Kickboxer ", "-Tik Tok - 2M views, 150K likes "],
@@ -341,7 +341,7 @@
     "imgSrc": "static/img/talent/main/Marina_I.JPG",
     "altText": "Marina I",
     "altImg": "static/img/talent/alt/Marina_I.JPG",
-    
+
     "description": ["-Alto singer",
       "-Trained in Makeup/Beauty/Hair",
       "-Placed 3rd 'Warpaint Competition' (2014)",
@@ -357,7 +357,7 @@
     "imgSrc": "static/img/talent/main/Erina.JPG",
     "altText": "Erina",
     "altImg": "static/img/talent/alt/Erina.jpg",
-    
+
     "description": ["-Singer 'high range Alto'",
       "-Theatre performer",
       "-Can follow basic choreography",
@@ -366,14 +366,14 @@
       "Fame 'Miss Esther Sherman' (2011)",
       "Chicago 'Roxie Hart' (2010)"],
     "websites": {},
-    "video": "/static/video/compilation.mp4"
+    "video": "/static/video/Erina.mp4"
   },
   {
 
     "imgSrc": "static/img/talent/main/Helen.JPG",
     "altText": "Helen",
     "altImg": "static/img/talent/alt/Helen.JPG",
-    
+
     "description": ["-Upper Alto Singer",
       "-Singer for 'Rock Choir'",
       "-performed at 'Carfest North' (2022), Chris Evans invited us to the main stage",
@@ -391,31 +391,31 @@
     "imgSrc": "static/img/talent/main/Raymond.JPG",
     "altText": "Raymond",
     "altImg": "static/img/talent/alt/Raymond.JPG",
-    
+
     "description": ["-Former Publican", "-Trained Chef", "-Avid Golfer ", "-Classic car enthusiast "],
     "credits": ["TV:", " -Strangers on a Plane (CH4, 2022)", "-Masterpiece (ITV)"],
     "websites": {},
-    "video": "/static/video/compilation.mp4"
+    "video": "/static/video/Raymond.mp4"
   },
   {
     "imgSrc": "static/img/talent/main/Letom.JPG",
     "altText": "Letom",
     "altImg": "static/img/talent/alt/Letom.JPG",
-    
+
     "description": ["-Owner of Labtainment/Labbeautystudios",
       "-Dance styles include 'Break dancing', 'Old School Hip Hop', '90's Krump', 'Body Popping', 'Afro Beats' and 'Salsa'",
       "-Music Producer", "-Voiceover artist "],
     "credits": [],
     "websites": {"Lab Beauty Studios":  "https://labbeautystudios.co.uk",
-                "Labtainment": "https://labtainment.com"},
-    "video": "/static/video/compilation.mp4"
+      "Labtainment": "https://labtainment.com"},
+    "video": "/static/video/Letom.mp4"
   },
   {
 
     "imgSrc": "static/img/talent/main/Adam.JPG",
     "altText": "Adam",
     "altImg": "static/img/talent/alt/Adam.JPG",
-    
+
     "description": ["-Disability Advocate",
       "-Raising awareness for Tourettes & ADHD",
       "-Known for being a 'cheeky chappy' and for his cheeky videos relating to his conditions",
@@ -430,7 +430,7 @@
     "imgSrc": "static/img/talent/main/Alex.JPG",
     "altText": "Alex",
     "altImg": "static/img/talent/alt/Alex.jpg",
-    
+
     "description": ["-Singer 'Mezzo Soprano'",
       "-Lead Vocalist for High Tides on Luxury Cruise Liners (2017-2020)",
       "-BA 'Popular Music Performance (2016)",
@@ -441,8 +441,8 @@
       "-Unhinged - short film (2024)",
       "-Tim's Dad - Short film (2023)",
       "-The Void (ITV, 2021)",
-      "-Chester: Foodie Capitol of the North West (2021)", 
-    "Theatre:", "-'Made in Motor City' (2022 - present)",
+      "-Chester: Foodie Capitol of the North West (2021)",
+      "Theatre:", "-'Made in Motor City' (2022 - present)",
       "'Two' (2023)", "'The Pier' (2022)"],
     "websites": {},
     "video": "/static/video/talent/Alex.mp4"
@@ -452,7 +452,7 @@
     "imgSrc": "static/img/talent/main/Arnold.JPG",
     "altText": "Arnold",
     "altImg": "static/img/talent/alt/Arnold.JPG",
-    
+
     "description": ["-High energy dancer",
       "styles include 'Break dancing', 'Roboting', and 'Body Popping'."],
     "credits": ["TV:", " -Darling what have you done with your hair (CH4 2021)"],
@@ -464,7 +464,7 @@
     "imgSrc": "static/img/talent/main/Jamie.JPG",
     "altText": "Jamie",
     "altImg": "static/img/talent/alt/Jamie.JPG",
-    
+
     "description": ["-British Boxing MC", "-Welsh Tug Of War competitor"],
     "credits": ["TV:", " -In With a Shout (ITV, 2024) ", "-Undercooked (2019)", "-Casualty (BBC, 2018)", "-Captain America (2010)"],
     "websites": {},
@@ -475,7 +475,7 @@
     "imgSrc": "static/img/talent/main/Kirsty.JPG",
     "altText": "Kirsty",
     "altImg": "static/img/talent/alt/Kirsty.JPG",
-    
+
     "description": ["-Dental Surgeon", "-Volunteer Dental Surgeon in Ghana (2014)", "-Cofounder 'Dance Mania' "],
     "credits": ["TV:", " -In With a Shout (ITV, 2024)"],
     "websites": {},
@@ -486,7 +486,7 @@
     "imgSrc": "static/img/talent/main/Robbie.JPG",
     "altText": "Robbie",
     "altImg": "static/img/talent/alt/Robbie.JPG",
-    
+
     "description": ["-Countdown winner", "-Speaks Russian"],
     "credits": ["TV:", " -In With a Shout (2024)", "-Countdown (2022)", "-Captain America (2010)"],
     "websites": {},
@@ -497,7 +497,7 @@
     "imgSrc": "static/img/talent/main/Kaci-May.JPG",
     "altText": "Kaci-May",
     "altImg": "static/img/talent/alt/Kaci-May.jpg",
-    
+
     "description": ["-Known for her strong Bristolian accent/comedic timing",
       "-Singer 'specialising in slow/contemporary/theatrical songs",
       "-Keen Cook",
@@ -511,7 +511,7 @@
     "imgSrc": "static/img/talent/main/Yasmin.JPG",
     "altText": "Yasmin",
     "altImg": "static/img/talent/alt/Yasmin.JPG",
-    
+
     "description": ["-Mobile hairdresser, known for giving Fat Man Scoop a beard trim ",
       "-Former Street dancer ", "-Can play the flute"],
     "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)"],
@@ -523,7 +523,7 @@
     "imgSrc": "static/img/talent/main/Leonardo.JPG",
     "altText": "Leonardo",
     "altImg": "static/img/talent/alt/Leonardo.jpg",
-    
+
     "description": ["-5-year-old Leo aspires to be like Youtuber 'Mr Beast'",
       "-Loves to dance freestyle/breakdance",
       "-Plays football and most recently played for Lindley Moor FC",
@@ -537,7 +537,7 @@
     "imgSrc": "static/img/talent/main/Kristian.JPG",
     "altText": "Kristian",
     "altImg": "static/img/talent/alt/Kristian.JPG",
-    
+
     "description": ["-Mancunian with 'Energiser Bunny' energy",
       "-TV debut on Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)",
       "-Known for crying when getting tattoos",
@@ -554,7 +554,7 @@
     "imgSrc": "static/img/talent/main/Tom.JPG",
     "altText": "Tom",
     "altImg": "static/img/talent/alt/Tom.jpg",
-    
+
     "description": ["-Produces Comic related online content",
       "-Tik Tok - over 22 million views/ 3.2 million likes",
       "-Everyday superhero, with an array of costumes",
