@@ -782,9 +782,12 @@ main {
     top: 75%; /* Position it just below the dropdown container */
     left: 0; /* Initially set to 0 */
     z-index: 1; /* Make it appear on top of other elements */
-    width: max-content; /* Make the dropdown menu take up the full width */
     background-color: rgba(0,0,0,0.7); /* Change the background color */
     overflow: auto;
+}
+
+#descriptionDropdown-menu{
+    width: 66%;
 }
 
 .talent-dropdown-menu ul {
