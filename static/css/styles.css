@@ -509,6 +509,45 @@ main {
     font-family: 'shantell-regular';
 }
 
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: auto;
+}
+
+.icon-container img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+
+.icon-row {
+    margin: 10px auto; /* Adjust as needed */
+}
+
+.overlay-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    color: black;
+    stroke: white;
+    margin-right: 10px;
+    font-size: 3.5vw;
+}
+
+.icon-text {
+    color: black;
+    font-size: 2vw;
+    font-family: 'shantell-regular';
+}
+
 @media (max-width: 600px) {
     .contact-us {
         width: 100%; /* Adjust as needed */
@@ -530,6 +569,20 @@ main {
     .contact-us #submit-btn {
         display: block; /* Make the button a block element */
         margin: auto; /* Center the button */
+    }
+
+    .icon-container img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .icon {
+        font-size: 8vw;
+    }
+
+    .icon-text {
+        font-size: 4.75vw;
     }
 
 }
