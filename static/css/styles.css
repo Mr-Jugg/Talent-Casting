@@ -312,6 +312,36 @@ main {
     color: #000;
 }
 
+.apply-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; /* New property */
+    margin-top: 20px;
+    font-family: 'shantell-regular';
+    font-size: 1.5vw;
+    color: white;
+}
+
+.uniform-img {
+    width: 100%;
+    height: 100%; /* Changed from auto */
+    object-fit: cover;
+    margin: 10px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.apply-container p{
+    display: flex;
+    justify-content: center;
+}
+
+.apply-container a{
+    display: flex;
+    justify-content: center;
+}
+
 
 
 /* ====================================
@@ -422,7 +452,7 @@ main {
     height: auto; /* Maintain the image's aspect ratio */
 }
 
-.name, .role, .description-list, .credits-list, .websites-list, .credits, .copyright, .description{
+.name, .role, .description-list, .credits-list, .websites-list, .credits, .copyright, .description, p{
     font-family: 'shantell-regular';
 }
 
@@ -946,8 +976,6 @@ footer .copyright,
 footer .credits {
     font-size: .8vw;
 }
-
-
 
 @media (max-width: 600px) {
     footer .copyright,

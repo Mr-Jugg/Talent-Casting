@@ -9,7 +9,8 @@
       "-Raising awareness for 'Fixed Functional Dystonia'",
       "-Tik tok star with 1.8 million followers",
       "-Videos have a combined total of, nearly 33 million views across social media, platforms."],
-    "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)",
+    "credits": ["TV:", " -Botox VT - (BBC Live, 2024)",
+      "-I Literally Just Told You (CH4, 2023)",
       "-Money Bags (CH4, 2022)", "-Blankety Blank (BBC 2021)"],
     "websites": {},
     "video": "/static/video/talent/Ella.mp4"
@@ -21,8 +22,8 @@
     "altImg": "static/img/talent/alt/Ex-the-Barber.JPG",
     "description": ["Glasgow's Celebrity Barber, Clients include:", "-DJ Khalid", "-Ahmad Diallo", "-Rangers FC", "-Celtic FC", "-MUFC", "-Chris Eubank Jr",
       "-Wes Nelson", "-Bash The Entertainer", "and many more."],
-    "credits": ["TV:", " -Jimmy Carr's 'I Literally Just Told You'",
-      "-Strangers on a Plane"],
+    "credits": ["TV:", " -Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)",
+      "-Strangers on a Plane (CH4, 2022)"],
     "websites": {},
     "video": "/static/video/talent/Ex-the-Barber.mp4"
   },
@@ -32,7 +33,7 @@
     "altText": "Libby-Mae",
     "altImg": "static/img/talent/alt/Libby-Mae.JPG",
 
-    "description": ["-LGBTQ+ Viral Tik Tok star",
+    "description": ["-LGBTQIA+ Viral Tik Tok star",
       "-2.9 million followers/336.5 Million likes",
       "-234K followers on Instagram"],
     "credits": [],
@@ -234,8 +235,9 @@
     "imgSrc": "static/img/talent/main/Ellie.JPG",
     "altText": "Ellie",
     "altImg": "static/img/talent/alt/Ellie.JPG",
-
-    "description": ["-'Crystal Palace Academy'",
+    "description": ["-Content Creator for Women's Football",
+      "Co-hosts 'Laces Untied' - Women's Football Podcast with Liv Mctigue",
+      "-'Crystal Palace Academy'",
       "-4 years/Captained the development team.",
       "-'Malaga City Academy’ -Right back 1 year",
       "-Tik Tok - 1.3M views, 126K likes"],
@@ -290,10 +292,10 @@
 
     "description": ["-Miss Sovereign GB (2020)",
       "-Diploma in acting - LIPA (2018)", "-Winner of BBC's Hire Me 'Property Broker'"],
-    "credits": ["TV:", " -Hire Me (2022)",
+    "credits": ["TV:", " -Hire Me (BBC, 2022)",
       "-I Literally Just Told You (CH4, 2023)",
-      "-Birchall’s Pints (2023) Amazon Prime Comedy series", "-Hollyoaks ",
-      "-In Plain Sight -ITV", "-National Trust Advert", "-Unite Students Advert "],
+      "-Birchall’s Pints (Amazon Prime, 2023)", "-Hollyoaks",
+      "-In Plain Sight (ITV)", "-National Trust Advert", "-Unite Students Advert"],
     "websites": {},
     "video": "/static/video/talent/Alisha.mp4"
   },
@@ -306,7 +308,7 @@
     "description": ["-Disability Advocate",
       "-Raising awareness for 'Hypermobility', Postural Tachycardia Syndrome', and 'Sinus Tachycardia'",
       "-Artist & Creator @ANIMATEME_X", "-Tik Tok -Almost 7M views, 519K likes"],
-    "credits": [],
+    "credits": ["TV: ", " -Airport access video - lead role (2024)"],
     "websites": {},
     "video": "/static/video/talent/Elle.mp4"
   },
@@ -318,8 +320,8 @@
 
     "description": ["-Winner of his episode on 'Strangers on a Plane'",
       "-Won the girl's heart on 'Five Guys a week'"],
-    "credits": ["TV:", " -The Motorway Hotel (2024)",
-      "-Strangers on a Plane (2022)", "-Five Guys a week (2019)"],
+    "credits": ["TV:", " -The Motorway Hotel (CH5, 2024)",
+      "-Strangers on a Plane (CH4, 2022)", "-Five Guys a week (CH4, 2019)"],
     "websites": {},
     "video": "/static/video/talent/Lou.mp4"
   },
@@ -465,7 +467,11 @@
     "altText": "Jamie",
     "altImg": "static/img/talent/alt/Jamie.JPG",
 
-    "description": ["-British Boxing MC", "-Welsh Tug Of War competitor"],
+    "description": ["-Trained actor, studied performance at the University of South Wales",
+      "-British Boxing MC",
+      "-Qualified lifeguard",
+      "-Welsh Tug Of War competitor",
+      "-Male Mentor - Welsh Women's Aid (2013)"],
     "credits": ["TV:", " -In With a Shout (ITV, 2024) ", "-Undercooked (2019)", "-Casualty (BBC, 2018)", "-Captain America (2010)"],
     "websites": {},
     "video": "/static/video/Jamie.mp4"
@@ -487,7 +493,11 @@
     "altText": "Robbie",
     "altImg": "static/img/talent/alt/Robbie.JPG",
 
-    "description": ["-Countdown winner", "-Speaks Russian"],
+    "description": ["-Countdown winner",
+      "-Speaks French/Russian",
+      "-Marathon runner",
+      "-Avid Cook",
+      "-Animal Advocate"],
     "credits": ["TV:", " -In With a Shout (2024)", "-Countdown (2022)", "-Captain America (2010)"],
     "websites": {},
     "video": "/static/video/Parrys.mp4"
@@ -502,7 +512,7 @@
       "-Singer 'specialising in slow/contemporary/theatrical songs",
       "-Keen Cook",
       "-Skilled in hair/makeup"],
-    "credits": ["Theatre:", " -Hairspray 'singing solo' (awaiting date)"],
+    "credits": ["Theatre:", " -Hairspray 'singing solo' (2016)"],
     "websites": {},
     "video": "/static/video/compilation.mp4"
   },
