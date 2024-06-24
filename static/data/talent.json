@@ -91,7 +91,7 @@
       "-In 2024 became dual signed for Everton and Warta Poznan (Polish league)"],
     "credits": [],
     "websites": {},
-    "video": "/static/video/Liam.mp4"
+    "video": "/static/video/talent/Liam.mp4"
   },
   {
 
@@ -188,7 +188,7 @@
       "-Avid gamer"],
     "credits": ["TV:", " -Squid Games (Netflix, 2023)", "I Literally Just Told You (CH4, 2023)"],
     "websites": {},
-    "video": "/static/video/Mikie.mp4"
+    "video": "/static/video/talent/Mikie.mp4"
   },
   {
 
@@ -243,7 +243,7 @@
       "-Tik Tok - 1.3M views, 126K likes"],
     "credits": ["TV:", " -BT Sport's Ultimate Goal (2020)"],
     "websites": {},
-    "video": "/static/video/Ellie.mp4"
+    "video": "/static/video/talent/Ellie.mp4"
   },
   {
 
@@ -257,13 +257,13 @@
       "-Tik Tok: Almost 85.5K followers, 16M views &1M likes"],
     "credits": [],
     "websites": {},
-    "video": "/static/video/Lexie.mp4"
+    "video": "/static/video/talent/Lexie.mp4"
   },
   {
 
     "imgSrc": "static/img/talent/main/Linz.JPG",
     "altText": "Linz",
-    "altImg": "static/img/talent/alt/Linz.JPG",
+    "altImg": "static/img/talent/alt/Linz.jpg",
 
     "description": ["-Jimmy Carr's 'I Literally Just Told You' was her TV debut, where she left audiences in stitches!",
       "-Mother of Libby-Mae & Lexie",
@@ -368,7 +368,7 @@
       "Fame 'Miss Esther Sherman' (2011)",
       "Chicago 'Roxie Hart' (2010)"],
     "websites": {},
-    "video": "/static/video/Erina.mp4"
+    "video": "/static/video/talent/Erina.mp4"
   },
   {
 
@@ -397,7 +397,7 @@
     "description": ["-Former Publican", "-Trained Chef", "-Avid Golfer ", "-Classic car enthusiast "],
     "credits": ["TV:", " -Strangers on a Plane (CH4, 2022)", "-Masterpiece (ITV)"],
     "websites": {},
-    "video": "/static/video/Raymond.mp4"
+    "video": "/static/video/talent/Raymond.mp4"
   },
   {
     "imgSrc": "static/img/talent/main/Letom.JPG",
@@ -410,7 +410,7 @@
     "credits": [],
     "websites": {"Lab Beauty Studios":  "https://labbeautystudios.co.uk",
       "Labtainment": "https://labtainment.com"},
-    "video": "/static/video/Letom.mp4"
+    "video": "/static/video/talent/Letom.mp4"
   },
   {
 
@@ -485,7 +485,7 @@
     "description": ["-Dental Surgeon", "-Volunteer Dental Surgeon in Ghana (2014)", "-Cofounder 'Dance Mania' "],
     "credits": ["TV:", " -In With a Shout (ITV, 2024)"],
     "websites": {},
-    "video": "/static/video/Parrys.mp4"
+    "video": "/static/video/talent/Parrys.mp4"
   },
   {
 
@@ -500,7 +500,7 @@
       "-Animal Advocate"],
     "credits": ["TV:", " -In With a Shout (2024)", "-Countdown (2022)", "-Captain America (2010)"],
     "websites": {},
-    "video": "/static/video/Parrys.mp4"
+    "video": "/static/video/talent/Parrys.mp4"
   },
   {
 
@@ -514,7 +514,7 @@
       "-Skilled in hair/makeup"],
     "credits": ["Theatre:", " -Hairspray 'singing solo' (2016)"],
     "websites": {},
-    "video": "/static/video/compilation.mp4"
+    "video": "/static/video/talent/Kaci-May.mp4"
   },
   {
 
