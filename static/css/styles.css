@@ -342,6 +342,38 @@ main {
     justify-content: center;
 }
 
+@media (max-width: 600px) {
+    .apply{
+        padding: 0;
+    }
+
+    .join-us {
+        padding: 20px 0; /* Adjust as needed */
+    }
+
+    .join-us a {
+        font-size: 8vw; /* Adjust as needed */
+    }
+
+    .apply-container {
+        flex-direction: column; /* Stack the images vertically */
+        margin: 0; /* Remove margin */
+    }
+
+    .uniform-img {
+        width: 100%; /* Adjust as needed */
+        height: auto; /* Maintain the image's aspect ratio */
+    }
+
+    .apply-container p{
+        font-size: 4vw;
+    }
+
+    .apply-container a{
+        font-size: 4vw;
+    }
+}
+
 
 
 /* ====================================
