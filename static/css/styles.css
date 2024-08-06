@@ -976,11 +976,15 @@ main {
     margin: auto;
  }
 
-  .terms p{
+  .terms p, li, #inner-strong{
      color: white;
      width: 100%;
      margin: auto;
-     font-size: 1vw;
+     font-size: 1.25vw;
+  }
+
+  .terms strong{
+      font-size: 1.75vw;
   }
 
   @media (max-width: 600px) {
@@ -988,9 +992,13 @@ main {
         margin-top: 20px;
     }
 
-    .terms p{
+    .terms p, li, #inner-strong{
         font-size: 3.5vw;
     }
+
+     .terms strong{
+          font-size: 4.9vw;
+      }
   }
 
 
