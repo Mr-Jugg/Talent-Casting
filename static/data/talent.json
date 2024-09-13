@@ -433,11 +433,10 @@
     "altText": "Alex",
     "altImg": "static/img/talent/alt/Alex.jpg",
 
-    "description": ["-Singer 'Mezzo Soprano'",
-      "-Lead Vocalist for High Tides on Luxury Cruise Liners (2017-2020)",
-      "-BA 'Popular Music Performance (2016)",
-      "-1 of 3 lead vocalists in the band 'The Soul Rays (2016)",
-      "-Actress/script writer"],
+    "description": ["-Actress",
+      "-Script Writer",
+      "-Singer 'Mezzo Soprano'"
+    ],
     "credits": ["TV:", "-Wings (to be released)",
       "-In With A Shout (ITV, 2024)",
       "-Unhinged - short film (2024)",
@@ -445,7 +444,9 @@
       "-The Void (ITV, 2021)",
       "-Chester: Foodie Capitol of the North West (2021)",
       "Theatre:", "-'Made in Motor City' (2022 - present)",
-      "'Two' (2023)", "'The Pier' (2022)"],
+      "'Two' (2023)", "'The Pier' (2022)",
+      "Music:", "-Lead Vocalist for High Tides on Luxury Cruise Liners (2017 - 2020)",
+      "-1 of 3 lead vocalists in the band 'The Soul Rays' (2016)"],
     "websites": {},
     "video": "/static/video/talent/Alex.mp4"
   },
