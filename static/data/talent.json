@@ -54,6 +54,20 @@
     "video": "/static/video/talent/Emma.mp4"
   },
   {
+    "imgSrc": "static/img/talent/main/Danny.JPG",
+    "altText": "Danny",
+    "altImg": "static/img/talent/alt/Danny.JPG",
+
+    "description": ["-Model",
+      "-PT",
+      "-Athlete sponsored by 'Chosen Few'"],
+    "credits": ["TV:", " -Made in Chelsea (2024)",
+    "-Celebs Go Dating (2024)"],
+
+    "websites": {},
+    "video": "/static/video/compilation.mp4"
+  },
+  {
 
     "imgSrc": "static/img/talent/main/Jack.JPG",
     "altText": "Jack",
@@ -124,17 +138,6 @@
   },
   {
 
-    "imgSrc": "static/img/talent/main/Bhambras.JPG",
-    "altText": "Bhambras",
-    "altImg": "static/img/talent/alt/Bhambras.JPG",
-
-    "description": ["-Tight knit competitive Sikh brothers", "-Love playing football together", "-Professional Bhangra dancers"],
-    "credits": ["TV:", " -In With A Shout (ITV, 2024)", "-The Chase (ITV, 2019)"],
-    "websites": {},
-    "video": "/static/video/talent/Bhambras.mp4"
-  },
-  {
-
     "imgSrc": "static/img/talent/main/Ryan.JPG",
     "altText": "Ryan",
     "altImg": "static/img/talent/alt/Ryan.JPG",
@@ -146,6 +149,31 @@
     "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)"],
     "websites": {},
     "video": "/static/video/talent/Ryan.mp4"
+  },
+  {
+
+    "imgSrc": "static/img/talent/main/Mikie.JPG",
+    "altText": "Mikie",
+    "altImg": "static/img/talent/alt/Mikie.JPG",
+
+    "description": ["-Social Media star with videos having a combined total of nearly 8 million views across social media platforms",
+      "-Nearly 500k followers and 6.5 million likes.",
+      "-Raising awareness of ADHD, through witty online content",
+      "-Avid gamer"],
+    "credits": ["TV:", " -Squid Games (Netflix, 2023)", "I Literally Just Told You (CH4, 2023)"],
+    "websites": {},
+    "video": "/static/video/talent/Mikie.mp4"
+  },
+  {
+
+    "imgSrc": "static/img/talent/main/Bhambras.JPG",
+    "altText": "Bhambras",
+    "altImg": "static/img/talent/alt/Bhambras.JPG",
+
+    "description": ["-Tight knit competitive Sikh brothers", "-Love playing football together", "-Professional Bhangra dancers"],
+    "credits": ["TV:", " -In With A Shout (ITV, 2024)", "-The Chase (ITV, 2019)"],
+    "websites": {},
+    "video": "/static/video/talent/Bhambras.mp4"
   },
   {
 
