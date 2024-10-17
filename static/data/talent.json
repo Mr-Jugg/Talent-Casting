@@ -206,20 +206,6 @@
   },
   {
 
-    "imgSrc": "static/img/talent/main/Mikie.JPG",
-    "altText": "Mikie",
-    "altImg": "static/img/talent/alt/Mikie.JPG",
-
-    "description": ["-Social Media star with videos having a combined total of nearly 8 million views across social media platforms",
-      "-Nearly 500k followers and 6.5 million likes.",
-      "-Raising awareness of ADHD, through witty online content",
-      "-Avid gamer"],
-    "credits": ["TV:", " -Squid Games (Netflix, 2023)", "I Literally Just Told You (CH4, 2023)"],
-    "websites": {},
-    "video": "/static/video/talent/Mikie.mp4"
-  },
-  {
-
     "imgSrc": "static/img/talent/main/Vleenam-Twins.JPG",
     "altText": "Vleenam Twins",
     "altImg": "static/img/talent/alt/Vleenam-Twins.JPG",
