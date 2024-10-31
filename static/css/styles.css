@@ -501,21 +501,59 @@ main {
     width: 90%;
     margin: 0 auto;
 }
+
+/* Specific styles for the new team layout */
+.new-team-layout {
+    display: flex;
+    justify-content: space-between; /* This spaces the team members evenly */
+    width: 50%; /* Adjust this to control how far they spread apart horizontally */
+    margin: 0 auto; /* Center the entire section horizontally */
+}
+
+.new-team-layout .team-member {
+    display: flex;
+    flex-direction: column; /* Ensures text stays below the images */
+    align-items: center; /* Center-aligns text and images together */
+    text-align: center; /* Center text below each image */
+}
+
+.new-team-layout .team-member img {
+    /* Keep the original image size, no need to resize */
+    display: block;
+}
+
+/* Add a small gap between the images */
+.new-team-layout .team-member {
+    margin: 0 20px; /* Adjust this value to control spacing between the images */
+}
+
+.experience-text {
+    text-align: center;
+    margin-top: 20px; /* Add some space between the images and text */
+    /* Assuming you have styles for font and size, let's apply them */
+
+    font-size: 1.5vw; /* Replace with your size */
+    color: #fff; /* Example color */
+}
+
 /* Media query for screens smaller than 600px */
 @media (max-width: 600px) {
     .team-section {
         flex-direction: column !important; /* Stack the team members vertically */
+        align-items: center; /* Center the team members */
     }
 
     .team-member {
         text-align: center;
         width: 100% !important; /* On small screens, make each team member take up the full width */
         margin-top: 20px; /* Add some space between the team members */
+
     }
 
     .team-member img {
         width: 50vw !important; /* Use viewport width units to make the width responsive */
         height: auto; /* Maintain the image's aspect ratio */
+        margin: 0 auto; /* Center the team members */
     }
 
     .team-member .name {
@@ -530,6 +568,13 @@ main {
         font-size: 4vw !important; /* Use viewport width units to make the font size responsive */
         width: 90%; /* Use a percentage to make the width responsive */
         margin: 0 auto;
+    }
+
+    .experience-text {
+        text-align: center;
+        margin-top: 20px; /* Add some space between the images and text */
+        font-size: 4vw !important;
+        color: #fff;
     }
 }
 
