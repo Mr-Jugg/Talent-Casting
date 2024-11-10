@@ -9,7 +9,7 @@
       "-Raising awareness for 'Fixed Functional Dystonia'",
       "-Tik tok star with 1.8 million followers",
       "-Videos have a combined total of, nearly 33 million views across social media, platforms."],
-    "credits": ["TV:", " -Botox VT - (BBC Live, 2024)",
+    "credits": ["TV:", "- GB News, Presenter (2024)", "Paralympics Presenter (2024)", " -Botox VT - (BBC Live, 2024)",
       "-I Literally Just Told You (CH4, 2023)",
       "-Money Bags (CH4, 2022)", "-Blankety Blank (BBC 2021)"],
     "websites": {},
@@ -75,7 +75,8 @@
 
     "description": ["-Amputee and Disability Advocate",
       "-Tik Tok star with roughly 300K followers/4.2 million likes/71 million views", "-Wheelchair Tennis/Rugby player"],
-    "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)", "-Money bags (CH4, 2021)", "-Creator Lab  (BBC, 2024)"],
+    "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)", "-Money bags (CH4, 2021)", "-Creator Lab  (BBC, 2024)",
+    "Modelling:", "-Jaka Azman modelling (2024)"],
     "websites": {},
     "video": "/static/video/talent/Jack.mp4"
   },
@@ -164,16 +165,26 @@
     "websites": {},
     "video": "/static/video/talent/Mikie.mp4"
   },
+
+
+
+
   {
+    "imgSrc": "static/img/talent/main/Gus.JPG",
+    "altText": "Gus",
+    "altImg": "static/img/talent/alt/Gus.JPG",
+    "description": ["-Trainee Vicar",
+      "-Presenter",
+      "-Actor",
+      "-Motivational Speaker"],
+    "credits": ["TV:", " -The Devil's Wild (2024)", "-Everybody Else Burns (2024)",
+      "-I Can See Your Voice (BBC, 2024)", "-Britain's Best Takeaway (BBC, 2021)",
+      "-Wonders of the Celtic Deep (2020)", "-Lazarus (2006)",
+    "Adverts:", "-Nartive (2024)", "-Chillblast (2024)", "-Greene King Euros (2024)", "-Durham University (2024)",
+      "-Manchester United/Merriot (2024)", "-6 Nations Greene King (2024)"],
+    "websites": {"Personal": "https://augustineihm.co.uk/contact-me/"},
+    "video": "/static/video/talent/Gus.mp4"
 
-    "imgSrc": "static/img/talent/main/Bhambras.JPG",
-    "altText": "Bhambras",
-    "altImg": "static/img/talent/alt/Bhambras.JPG",
-
-    "description": ["-Tight knit competitive Sikh brothers", "-Love playing football together", "-Professional Bhangra dancers"],
-    "credits": ["TV:", " -In With A Shout (ITV, 2024)", "-The Chase (ITV, 2019)"],
-    "websites": {},
-    "video": "/static/video/talent/Bhambras.mp4"
   },
   {
 
@@ -339,6 +350,22 @@
     "websites": {},
     "video": "/static/video/talent/Lou.mp4"
   },
+
+
+
+
+
+  {
+
+    "imgSrc": "static/img/talent/main/Bhambras.JPG",
+    "altText": "Bhambras",
+    "altImg": "static/img/talent/alt/Bhambras.JPG",
+
+    "description": ["-Tight knit competitive Sikh brothers", "-Love playing football together", "-Professional Bhangra dancers"],
+    "credits": ["TV:", " -In With A Shout (ITV, 2024)", "-The Chase (ITV, 2019)"],
+    "websites": {},
+    "video": "/static/video/talent/Bhambras.mp4"
+  },
   {
 
     "imgSrc": "static/img/talent/main/Ishmael.JPG",
@@ -403,17 +430,6 @@
     "video": "/static/video/talent/Helen.mp4"
   },
   {
-
-    "imgSrc": "static/img/talent/main/Raymond.JPG",
-    "altText": "Raymond",
-    "altImg": "static/img/talent/alt/Raymond.JPG",
-
-    "description": ["-Former Publican", "-Trained Chef", "-Avid Golfer ", "-Classic car enthusiast "],
-    "credits": ["TV:", " -Strangers on a Plane (CH4, 2022)", "-Masterpiece (ITV)"],
-    "websites": {},
-    "video": "/static/video/talent/Raymond.mp4"
-  },
-  {
     "imgSrc": "static/img/talent/main/Letom.JPG",
     "altText": "Letom",
     "altImg": "static/img/talent/alt/Letom.JPG",
@@ -451,7 +467,7 @@
       "-Script Writer",
       "-Singer 'Mezzo Soprano'"
     ],
-    "credits": ["TV:", "-Wings (to be released)",
+    "credits": ["TV/Film:", "-Wings (to be released)",
       "-In With A Shout (ITV, 2024)",
       "-Unhinged - short film (2024)",
       "-Tim's Dad - Short film (2023)",
@@ -607,5 +623,16 @@
       "-Alan Carr’s Epic Game Show (ITV, 2020)"],
     "websites": {},
     "video": "/static/video/talent/Charlotte.mp4"
+  },
+  {
+
+    "imgSrc": "static/img/talent/main/Raymond.JPG",
+    "altText": "Raymond",
+    "altImg": "static/img/talent/alt/Raymond.JPG",
+
+    "description": ["-Former Publican", "-Trained Chef", "-Avid Golfer ", "-Classic car enthusiast "],
+    "credits": ["TV:", " -Strangers on a Plane (CH4, 2022)", "-Masterpiece (ITV)"],
+    "websites": {},
+    "video": "/static/video/talent/Raymond.mp4"
   }
 ]
