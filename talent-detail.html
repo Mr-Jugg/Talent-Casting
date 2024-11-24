@@ -164,7 +164,6 @@
                 "instagram": "bi bi-instagram",
                 "tiktok": "bi bi-tiktok",
                 "youtube": "bi bi-youtube",
-                "whatsapp": "bi bi-whatsapp"
             };
 
             Object.entries(talent.socials).forEach(([socialName, socialUrl]) => {
@@ -173,7 +172,7 @@
                     a.href = socialUrl;
                     a.classList.add(socialName.toLowerCase());
                     const i = document.createElement('i');
-                    i.classList.add(socialMediaIcons[socialName.toLowerCase()]);
+                    socialMediaIcons[socialName.toLowerCase()].split(' ').forEach(cls => i.classList.add(cls));
                     a.appendChild(i);
                     socialLinksContainer.appendChild(a);
                 }
