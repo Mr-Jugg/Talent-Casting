@@ -85,170 +85,171 @@
 <script src="static/js/main.js"></script>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const name = urlParams.get('name');
+    document.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const name = urlParams.get('name');
 
-    // Update the href attribute of the contact button
-    document.querySelector('.contact a').href = `/contact.html?name=${name}`;
+        // Update the href attribute of the contact button
+        document.querySelector('.contact a').href = `/contact.html?name=${name}`;
 
-    fetch('static/data/talent.json')
-    .then(response => response.json())
-    .then(data => {
-        let derivedName = name.replace(/-/g, ' ').replace(/_/g, ' ');
-        document.title = derivedName;
+        fetch('static/data/talent.json')
+        .then(response => response.json())
+        .then(data => {
+            let derivedName = name.replace(/-/g, ' ').replace(/_/g, ' ');
+            document.title = derivedName;
 
-        const talent = data.find(item => {
-            const imgName = item.imgSrc.split('/').pop().split('.')[0];
-            return imgName === name;
+            const talent = data.find(item => {
+                const imgName = item.imgSrc.split('/').pop().split('.')[0];
+                return imgName === name;
+            });
+
+            // Remove the initial from the derivedName
+            const lastSpaceIndex = derivedName.lastIndexOf(' ');
+            const afterLastSpace = derivedName.substring(lastSpaceIndex + 1);
+            const titleText = afterLastSpace.length === 1 ? derivedName.substring(0, lastSpaceIndex) : derivedName;
+
+            document.querySelector('.title').textContent = titleText;
+            document.querySelector('.img-fluid').src = talent.altImg;
+            document.querySelector('.img-fluid').alt = talent.altText;
+
+            const propertiesRow = document.createElement('div');
+            propertiesRow.classList.add('row', 'properties-row');
+
+            if (talent.description && talent.description.length > 0) {
+                const descriptionButton = createDropdownButton('descriptionDropdown', 'Info');
+                talent.description.forEach(item => populateDropdown('descriptionDropdown-menu', item.trim()));
+                const descriptionCol = document.createElement('div');
+                descriptionCol.classList.add('col', 'dropdown-col');
+                descriptionCol.appendChild(descriptionButton);
+                propertiesRow.appendChild(descriptionCol);
+            }
+
+            if (talent.credits && talent.credits.length > 0) {
+                const creditsButton = createDropdownButton('creditsDropdown', 'Credits');
+                talent.credits.forEach(item => populateDropdown('creditsDropdown-menu', item.trim()));
+                const creditsCol = document.createElement('div');
+                creditsCol.classList.add('col', 'dropdown-col');
+                creditsCol.appendChild(creditsButton);
+                propertiesRow.appendChild(creditsCol);
+            }
+
+            if (talent.websites && Object.keys(talent.websites).length > 0) {
+                const websitesButton = createDropdownButton('websitesDropdown', 'Websites');
+                Object.entries(talent.websites).forEach(([websiteName, websiteUrl]) => {
+                    populateDropdown('websitesDropdown-menu', websiteName, websiteUrl);
+                });
+                const websitesCol = document.createElement('div');
+                websitesCol.classList.add('col', 'dropdown-col');
+                websitesCol.appendChild(websitesButton);
+                propertiesRow.appendChild(websitesCol);
+            }
+
+            const contactCol = document.createElement('div');
+            contactCol.classList.add('col');
+            contactCol.appendChild(document.querySelector('.contact'));
+            propertiesRow.appendChild(contactCol);
+
+            document.querySelector('.properties').appendChild(propertiesRow);
+
+            const videoElement = document.querySelector('.video-container-detail video');
+            const sourceElement = videoElement.querySelector('source');
+            sourceElement.src = talent.video;
+            videoElement.load();
+
+            // Populate social media links
+            const socialLinksContainer = document.getElementById('social-links');
+            const socialMediaIcons = {
+                "twitter": "bi bi-twitter",
+                "facebook": "bi bi-facebook",
+                "instagram": "bi bi-instagram",
+                "tiktok": "bi bi-tiktok",
+                "youtube": "bi bi-youtube",
+                "whatsapp": "bi bi-whatsapp"
+            };
+
+            Object.entries(talent.socials).forEach(([socialName, socialUrl]) => {
+                if (socialMediaIcons[socialName.toLowerCase()]) {
+                    const a = document.createElement('a');
+                    a.href = socialUrl;
+                    a.classList.add(socialName.toLowerCase());
+                    const i = document.createElement('i');
+                    i.classList.add(socialMediaIcons[socialName.toLowerCase()]);
+                    a.appendChild(i);
+                    socialLinksContainer.appendChild(a);
+                }
+            });
         });
 
-        // Remove the initial from the derivedName
-        const lastSpaceIndex = derivedName.lastIndexOf(' ');
-        const afterLastSpace = derivedName.substring(lastSpaceIndex + 1);
-        const titleText = afterLastSpace.length === 1 ? derivedName.substring(0, lastSpaceIndex) : derivedName;
+        function createDropdownButton(id, title) {
+            const button = document.createElement('button');
+            button.classList.add('btn', 'btn-outline-light', 'talent-dropdown-toggle');
+            button.type = 'button';
+            button.id = id;
+            button.textContent = title;
 
-        document.querySelector('.title').textContent = titleText;
-        document.querySelector('.img-fluid').src = talent.altImg;
-        document.querySelector('.img-fluid').alt = talent.altText;
-
-        const propertiesRow = document.createElement('div');
-        propertiesRow.classList.add('row', 'properties-row');
-
-        if (talent.description && talent.description.length > 0) {
-            const descriptionButton = createDropdownButton('descriptionDropdown', 'Info');
-            talent.description.forEach(item => populateDropdown('descriptionDropdown-menu', item.trim()));
-            const descriptionCol = document.createElement('div');
-            descriptionCol.classList.add('col', 'dropdown-col');
-            descriptionCol.appendChild(descriptionButton);
-            propertiesRow.appendChild(descriptionCol);
+            return button;
         }
 
-        if (talent.credits && talent.credits.length > 0) {
-            const creditsButton = createDropdownButton('creditsDropdown', 'Credits');
-            talent.credits.forEach(item => populateDropdown('creditsDropdown-menu', item.trim()));
-            const creditsCol = document.createElement('div');
-            creditsCol.classList.add('col', 'dropdown-col');
-            creditsCol.appendChild(creditsButton);
-            propertiesRow.appendChild(creditsCol);
-        }
+        function populateDropdown(id, text, href = '#') {
+            const dropdownMenu = document.querySelector(`#${id}`);
+            const li = document.createElement('li');
 
-        if (talent.websites && Object.keys(talent.websites).length > 0) {
-            const websitesButton = createDropdownButton('websitesDropdown', 'Websites');
-            Object.entries(talent.websites).forEach(([websiteName, websiteUrl]) => {
-                populateDropdown('websitesDropdown-menu', websiteName, websiteUrl);
-            });
-            const websitesCol = document.createElement('div');
-            websitesCol.classList.add('col', 'dropdown-col');
-            websitesCol.appendChild(websitesButton);
-            propertiesRow.appendChild(websitesCol);
-        }
-
-        const contactCol = document.createElement('div');
-        contactCol.classList.add('col');
-        contactCol.appendChild(document.querySelector('.contact'));
-        propertiesRow.appendChild(contactCol);
-
-        document.querySelector('.properties').appendChild(propertiesRow);
-
-        const videoElement = document.querySelector('.video-container-detail video');
-        const sourceElement = videoElement.querySelector('source');
-        sourceElement.src = talent.video;
-        videoElement.load();
-
-         // Populate social media links
-        const socialLinksContainer = document.getElementById('social-links');
-        const socialMediaIcons = {
-            "twitter": "bi bi-twitter-x",
-            "facebook": "bi bi-facebook",
-            "instagram": "bi bi-instagram",
-            "tiktok": "bi bi-tiktok",
-            "youtube": "bi bi-youtube",
-            "whatsapp": "bi bi-whatsapp"
-        };
-
-        Object.entries(talent.websites).forEach(([websiteName, websiteUrl]) => {
-            if (socialMediaIcons[websiteName.toLowerCase()]) {
+            // Check if the dropdown is a websites dropdown
+            if (id === 'websitesDropdown-menu') {
                 const a = document.createElement('a');
-                a.href = websiteUrl;
-                a.classList.add(websiteName.toLowerCase());
-                const i = document.createElement('i');
-                i.classList.add(socialMediaIcons[websiteName.toLowerCase()]);
-                a.appendChild(i);
-                socialLinksContainer.appendChild(a);
+                a.textContent = text;
+                a.href = href;
+                li.appendChild(a);
+            } else {
+                li.textContent = text;
+            }
+
+            dropdownMenu.appendChild(li);
+        }
+
+        // Add event listener to the document
+        $(document).on('click', function(event) {
+            // Check if the target of the click event is outside any dropdown menu
+            if (!$(event.target).closest('.dropdown').length) {
+                // If it is, close all dropdown menus
+                $('.talent-dropdown-menu').hide();
+            }
+        });
+
+        // Add event listener to the dropdown toggle buttons
+        $(document).on('click', '.talent-dropdown-toggle', function(event) {
+            // Stop propagation of the click event to prevent it from triggering the document's click event
+            event.stopPropagation();
+
+            // Get the id of the dropdown menu from the button's id
+            var dropdownMenuId = this.id + '-menu';
+            var dropdownMenu = $('#' + dropdownMenuId);
+            console.log('Dropdown menu:', dropdownMenu); // Log the dropdown menu
+
+            if(dropdownMenu.is(':visible')) {
+                // If the dropdown menu is visible, hide it
+                dropdownMenu.hide();
+                return;
+            }
+
+            // Hide all dropdown menus and move them back to their original parents
+            $('.talent-dropdown-menu').hide();
+
+            // Show the dropdown menu related to the clicked button
+            dropdownMenu.css('display', 'flex');
+            dropdownMenu.css('flex-direction', 'column');
+
+            // Adjust its left property
+            var windowWidth = $(window).width();
+            if(windowWidth > 600){
+                var dropdownWidth = dropdownMenu.outerWidth();
+                var buttonOffset = $(this).offset().left;
+                var buttonWidth = $(this).outerWidth();
+                var leftPosition = (windowWidth - dropdownWidth) / 2;
+                dropdownMenu.css('left', Math.max(0, leftPosition) + 'px'); // Ensure the dropdown menu does not go off the left edge of the screen
             }
         });
     });
-
-    function createDropdownButton(id, title) {
-        const button = document.createElement('button');
-        button.classList.add('btn', 'btn-outline-light', 'talent-dropdown-toggle');
-        button.type = 'button';
-        button.id = id;
-        button.textContent = title;
-
-        return button;
-    }
-
-    function populateDropdown(id, text, href = '#') {
-        const dropdownMenu = document.querySelector(`#${id}`);
-        const li = document.createElement('li');
-
-        // Check if the dropdown is a websites dropdown
-        if (id === 'websitesDropdown-menu') {
-            const a = document.createElement('a');
-            a.textContent = text;
-            a.href = href;
-            li.appendChild(a);
-        } else {
-            li.textContent = text;
-        }
-
-        dropdownMenu.appendChild(li);
-    }
-
-    // Add event listener to the document
-    $(document).on('click', function(event) {
-        // Check if the target of the click event is outside any dropdown menu
-        if (!$(event.target).closest('.dropdown').length) {
-            // If it is, close all dropdown menus
-            $('.talent-dropdown-menu').hide();
-        }
-    });
-
-    // Add event listener to the dropdown toggle buttons
-$(document).on('click', '.talent-dropdown-toggle', function(event) {
-    // Stop propagation of the click event to prevent it from triggering the document's click event
-    event.stopPropagation();
-
-    // Get the id of the dropdown menu from the button's id
-    var dropdownMenuId = this.id + '-menu';
-    var dropdownMenu = $('#' + dropdownMenuId);
-    console.log('Dropdown menu:', dropdownMenu); // Log the dropdown menu
-
-    if(dropdownMenu.is(':visible')) {
-        // If the dropdown menu is visible, hide it
-        dropdownMenu.hide();
-        return;
-    }
-
-    // Hide all dropdown menus and move them back to their original parents
-    $('.talent-dropdown-menu').hide();
-
-    // Show the dropdown menu related to the clicked button
-    dropdownMenu.css('display', 'flex');
-    dropdownMenu.css('flex-direction', 'column');
-
-    // Adjust its left property
-    var windowWidth = $(window).width();
-    if(windowWidth > 600){
-        var dropdownWidth = dropdownMenu.outerWidth();
-        var buttonOffset = $(this).offset().left;
-        var buttonWidth = $(this).outerWidth();
-        var leftPosition = (windowWidth - dropdownWidth) / 2;
-        dropdownMenu.css('left', Math.max(0, leftPosition) + 'px'); // Ensure the dropdown menu does not go off the left edge of the screen
-    }
-});
 </script>
 
 </body>
