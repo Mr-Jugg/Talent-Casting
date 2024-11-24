@@ -515,6 +515,7 @@ main {
     flex-direction: column; /* Ensures text stays below the images */
     align-items: center; /* Center-aligns text and images together */
     text-align: center; /* Center text below each image */
+    margin: 0 20px;
 }
 
 .new-team-layout .team-member img {
@@ -522,18 +523,12 @@ main {
     display: block;
 }
 
-/* Add a small gap between the images */
-.new-team-layout .team-member {
-    margin: 0 20px; /* Adjust this value to control spacing between the images */
-}
 
 .experience-text {
     text-align: center;
     margin-top: 20px; /* Add some space between the images and text */
-    /* Assuming you have styles for font and size, let's apply them */
-
-    font-size: 1.5vw; /* Replace with your size */
-    color: #fff; /* Example color */
+    font-size: 1.5vw;
+    color: #fff;
 }
 
 /* Media query for screens smaller than 600px */

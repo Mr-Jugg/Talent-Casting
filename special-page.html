@@ -10,55 +10,77 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-
     <link rel="stylesheet" href="static/css/styles.css">
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            // Define the valid token
-            const validToken = "we-are-fhm";
-            console.log("validToken: ", validToken);
-            // Function to get query parameters
-            function getQueryParams() {
-                const params = {};
-                window.location.search.substring(1).split("&").forEach(function(part) {
-                    const [key, value] = part.split("=");
-                    params[key] = decodeURIComponent(value);
-                });
-                return params;
-            }
-
-            // Get the token from the URL
-            const params = getQueryParams();
-            const token = params.token;
-            console.log("token: ", token);
-
-            // Validate the token
-            if (token === validToken) {
-                document.getElementById("content").style.display = "block";
-            } else {
-                document.getElementById("error").style.display = "block";
-            }
-        });
-    </script>
     <style>
-        #content, #error {
-            display: none;
+        .fade {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        .fade.show {
+            opacity: 1;
+        }
+        /* Centering sections */
+        .full-height-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-align: center; /* Center text within the sections */
+        }
+        .center-logo img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        .centered-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Stack the elements vertically */
+            padding: 20px 0;
+            margin: 0 auto;
+            height: 100vh;
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #join-us {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Stack the elements vertically */
+            padding: 20px 0;
+            margin: 0 auto;
+            width: 100%;
+            text-align: center;
+        }
+
+        #join-us a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            height: auto;
+            font-size: 24px;
+            margin-top: 20px; /* Add some space between the text and the button */
         }
     </style>
 </head>
 <body>
-<header class="header">
-    <nav>
-        <div class="logo">
-            <a href="#">
-                <img src="static/img/logo.png" alt="FHM Productions Logo">
-            </a>
-        </div>
-    </nav>
-</header>
 <main>
-    <section class="team-section new-team-layout">
+    <div class="center-logo fade full-height-section" id="logo">
+        <img src="static/img/logo.png" alt="FHM Productions Logo">
+    </div>
+    <section class="team-section new-team-layout fade " id="team-section">
         <div class="team-member">
             <img src="/static/img/team1.jpg" alt="Team Member 1">
             <h2 class="name">Frankie</h2>
@@ -68,11 +90,11 @@
             <h2 class="name">Cheryl</h2>
         </div>
     </section>
-    <p class="experience-text">
+    <p class="experience-text fade" id="experience-text">
         We have over 30 years combined experience in the TV industry and have worked on shows like:
     </p>
-    <!-- New row of images -->
-    <section class="row">
+    <!-- Image rows -->
+    <section class="row fade full-height-section" id="image-rows">
         <div class="col-md-3">
             <img src="/static/img/shows/bgt.jpg" class="img-fluid" alt="Image 1">
         </div>
@@ -86,7 +108,7 @@
             <img src="/static/img/shows/x-factor.jpg" class="img-fluid" alt="Image 3">
         </div>
     </section>
-    <div class="container">
+    <div class="container fade centered-section" id="join-us">
         <p class="experience-text">
             Click the link below to be put forward for television opportunities:
         </p>
@@ -97,12 +119,62 @@
 </main>
 
 <!-- ======= Footer ======= -->
-<footer id="footer">
+<footer id="footer" style="margin-top: 80px;">
 </footer><!-- End Footer -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="static/js/main.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const elements = [
+            document.getElementById('logo'),
+            document.getElementById('team-section'),
+            document.getElementById('experience-text'),
+            document.getElementById('image-rows'),
+            document.getElementById('join-us')
+        ];
+
+        let currentIndex = 0;
+
+        function showNextElement() {
+            elements.forEach((el, index) => {
+                el.classList.remove('show');
+                if (index === currentIndex) {
+                    el.classList.add('show');
+                }
+            });
+
+            if (currentIndex === 1) {
+                setTimeout(() => {
+                    document.getElementById('experience-text').classList.add('show');
+                }, 2000); // Show text 2 seconds after team section
+            } else {
+                document.getElementById('experience-text').classList.remove('show');
+            }
+
+            if (currentIndex === 2) {
+                setTimeout(() => {
+                    document.getElementById('team-section').classList.remove('show');
+                    document.getElementById('experience-text').classList.remove('show');
+                    document.getElementById('image-rows').classList.add('show');
+                }, 100); // Show image rows immediately after fading out team section and text
+            }
+
+            if (currentIndex === 3) {
+                setTimeout(() => {
+                    document.getElementById('image-rows').classList.remove('show');
+                    document.getElementById('join-us').classList.add('show');
+                }, 2000); // Hide image rows after 2 seconds and show join us section
+            }
+
+            currentIndex = (currentIndex + 1) % elements.length;
+        }
+
+        setInterval(showNextElement, 5000); // Change element every 5 seconds
+        showNextElement(); // Initial call to show the first element
+    });
+</script>
 </body>
 </html>
