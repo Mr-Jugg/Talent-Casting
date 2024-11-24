@@ -13,7 +13,14 @@
       "-I Literally Just Told You (CH4, 2023)",
       "-Money Bags (CH4, 2022)", "-Blankety Blank (BBC 2021)"],
     "websites": {},
-    "video": "/static/video/talent/Ella.mp4"
+    "video": "/static/video/talent/Ella.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -25,7 +32,14 @@
     "credits": ["TV:", " -Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)",
       "-Strangers on a Plane (CH4, 2022)"],
     "websites": {},
-    "video": "/static/video/talent/Ex-the-Barber.mp4"
+    "video": "/static/video/talent/Ex-the-Barber.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -38,7 +52,14 @@
       "-234K followers on Instagram"],
     "credits": [],
     "websites": {},
-    "video": "/static/video/talent/Libby-Mae.mp4"
+    "video": "/static/video/talent/Libby-Mae.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -51,7 +72,14 @@
       "-Artist"],
     "credits": ["TV:", " -I Literally Just Told You (CH4, 2023) "],
     "websites": {},
-    "video": "/static/video/talent/Emma.mp4"
+    "video": "/static/video/talent/Emma.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
     "imgSrc": "static/img/talent/main/Danny.JPG",
@@ -65,7 +93,14 @@
     "-Celebs Go Dating (2024)"],
 
     "websites": {},
-    "video": "/static/video/talent/Danny.mp4"
+    "video": "/static/video/talent/Danny.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -78,7 +113,14 @@
     "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)", "-Money bags (CH4, 2021)", "-Creator Lab  (BBC, 2024)",
     "Modelling:", "-Jaka Azman modelling (2024)"],
     "websites": {},
-    "video": "/static/video/talent/Jack.mp4"
+    "video": "/static/video/talent/Jack.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -90,7 +132,14 @@
       "-European U23 Finalist", "-BUCS long jump Champion & record holder", "-England senior long jump champion"],
     "credits": [],
     "websites": {},
-    "video": "/static/video/talent/Ray.mp4"
+    "video": "/static/video/talent/Ray.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -106,7 +155,14 @@
       "-In 2024 became dual signed for Everton and Warta Poznan (Polish league)"],
     "credits": [],
     "websites": {},
-    "video": "/static/video/talent/Liam.mp4"
+    "video": "/static/video/talent/Liam.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -120,7 +176,14 @@
     "credits": ["TV:", " -Strangers On A Plane (CH4, 2022)"],
     "websites": {"Spotify": "https://open.spotify.com/artist/4hRmpX5BTFnyJHTon7o7Wa",
       "Alerah Cosmetics": "http://alerahcosmetics.com"},
-    "video": "/static/video/talent/Wyen.mp4"
+    "video": "/static/video/talent/Wyen.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -135,7 +198,14 @@
       "-Tik Tok - over 3M views, 161.7K likes"],
     "credits": ["TV:", " -Cherry Bay (2024)", "-Oatly Ad (2024) ", "-Rise & Fall (CH4, 2023)"],
     "websites": {},
-    "video": "/static/video/talent/Marina_P.mp4"
+    "video": "/static/video/talent/Marina_P.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -149,7 +219,14 @@
       "-Ex Navy "],
     "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)"],
     "websites": {},
-    "video": "/static/video/talent/Ryan.mp4"
+    "video": "/static/video/talent/Ryan.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -163,7 +240,14 @@
       "-Avid gamer"],
     "credits": ["TV:", " -Squid Games (Netflix, 2023)", "I Literally Just Told You (CH4, 2023)"],
     "websites": {},
-    "video": "/static/video/talent/Mikie.mp4"
+    "video": "/static/video/talent/Mikie.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
 
 
@@ -183,7 +267,14 @@
     "Adverts:", "-Nartive (2024)", "-Chillblast (2024)", "-Greene King Euros (2024)", "-Durham University (2024)",
       "-Manchester United/Merriot (2024)", "-6 Nations Greene King (2024)"],
     "websites": {"Personal": "https://augustineihm.co.uk/contact-me/"},
-    "video": "/static/video/talent/Gus.mp4"
+    "video": "/static/video/talent/Gus.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
 
   },
   {
@@ -198,7 +289,14 @@
       "-English, German & Punjabi speaker"],
     "credits": ["TV:", " -Rise & Fall (CH4, 2023)", "-The Green Hour (National Geographic)"],
     "websites": {},
-    "video": "/static/video/talent/Ramona.mp4"
+    "video": "/static/video/talent/Ramona.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -213,7 +311,14 @@
       "-I Literally Just Told You (CH4, 2023)",
       "-My Beautiful Green Home (ITV)", "-Home Is Where The Art Is (BBC)"],
     "websites": {"Fanny Gogh": "https://www.fannygogh.co.uk"},
-    "video": "/static/video/talent/Fanny.mp4"
+    "video": "/static/video/talent/Fanny.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -228,7 +333,14 @@
       "-Instagram: 1M followers"],
     "credits": ["TV:", " -Tara Vs Bilal 'Bollywood Film' (2022)"],
     "websites": {},
-    "video": "/static/video/talent/Vleenam-Twins.mp4"
+    "video": "/static/video/talent/Vleenam-Twins.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -240,7 +352,14 @@
       "-Travel/food/activity vlogs", "-Photography"],
     "credits": [],
     "websites": {},
-    "video": "/static/video/talent/Cassell-Twins.mp4"
+    "video": "/static/video/talent/Cassell-Twins.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -253,7 +372,14 @@
       "-Check out his other 6 singles on ITunes "],
     "credits": [],
     "websites": {},
-    "video": "/static/video/talent/Drew.mp4"
+    "video": "/static/video/talent/Drew.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -268,7 +394,14 @@
       "-Tik Tok - 1.3M views, 126K likes"],
     "credits": ["TV:", " -BT Sport's Ultimate Goal (2020)"],
     "websites": {},
-    "video": "/static/video/talent/Ellie.mp4"
+    "video": "/static/video/talent/Ellie.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -282,7 +415,14 @@
       "-Tik Tok: Almost 85.5K followers, 16M views &1M likes"],
     "credits": [],
     "websites": {},
-    "video": "/static/video/talent/Lexie.mp4"
+    "video": "/static/video/talent/Lexie.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -295,7 +435,14 @@
       "-Tik Tok- nearly 780K followers, 43.9 Million likes"],
     "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)"],
     "websites": {},
-    "video": "/static/video/talent/Linz.mp4"
+    "video": "/static/video/talent/Linz.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -307,7 +454,14 @@
       "-Travel/Food Vloggers", "-Attempt extreme food challenges"],
     "credits": ["TV:", " -Unforgiveable (Dave, 2023)", "-The Void (ITV, 2021)"],
     "websites": {},
-    "video": "/static/video/talent/Smythe-Bros.mp4"
+    "video": "/static/video/talent/Smythe-Bros.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -322,7 +476,14 @@
       "-Birchall’s Pints (Amazon Prime, 2023)", "-Hollyoaks",
       "-In Plain Sight (ITV)", "-National Trust Advert", "-Unite Students Advert"],
     "websites": {},
-    "video": "/static/video/talent/Alisha.mp4"
+    "video": "/static/video/talent/Alisha.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -335,7 +496,14 @@
       "-Artist & Creator @ANIMATEME_X", "-Tik Tok -Almost 7M views, 519K likes"],
     "credits": ["TV: ", " -Airport access video - lead role (2024)"],
     "websites": {},
-    "video": "/static/video/talent/Elle.mp4"
+    "video": "/static/video/talent/Elle.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -348,7 +516,14 @@
     "credits": ["TV:", " -The Motorway Hotel (CH5, 2024)",
       "-Strangers on a Plane (CH4, 2022)", "-Five Guys a week (CH4, 2019)"],
     "websites": {},
-    "video": "/static/video/talent/Lou.mp4"
+    "video": "/static/video/talent/Lou.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
 
 
@@ -364,7 +539,14 @@
     "description": ["-Tight knit competitive Sikh brothers", "-Love playing football together", "-Professional Bhangra dancers"],
     "credits": ["TV:", " -In With A Shout (ITV, 2024)", "-The Chase (ITV, 2019)"],
     "websites": {},
-    "video": "/static/video/talent/Bhambras.mp4"
+    "video": "/static/video/talent/Bhambras.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -377,7 +559,14 @@
       "-Kickboxer ", "-Tik Tok - 2M views, 150K likes "],
     "credits": [],
     "websites": {},
-    "video": "/static/video/talent/Ishmael.mp4"
+    "video": "/static/video/talent/Ishmael.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -393,7 +582,14 @@
       "-Grade A in music 'Voices & Instruments'", "-Violin grade 4"],
     "credits": ["Theatre:", " -Fame 'Carmen' (2008)"],
     "websites": {},
-    "video": "/static/video/talent/Marina_I.mp4"
+    "video": "/static/video/talent/Marina_I.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -409,7 +605,14 @@
       "Fame 'Miss Esther Sherman' (2011)",
       "Chicago 'Roxie Hart' (2010)"],
     "websites": {},
-    "video": "/static/video/talent/Erina.mp4"
+    "video": "/static/video/talent/Erina.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -427,7 +630,14 @@
       "-Singer/Dancer UK, Greece, Japan (1989 -1991)"],
     "credits": ["TV:", " -Cheap, cheap, cheap with Noel Edmonds (2017)"],
     "websites": {},
-    "video": "/static/video/talent/Helen.mp4"
+    "video": "/static/video/talent/Helen.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
     "imgSrc": "static/img/talent/main/Letom.JPG",
@@ -440,7 +650,14 @@
     "credits": [],
     "websites": {"Lab Beauty Studios":  "https://labbeautystudios.co.uk",
       "Labtainment": "https://labtainment.com"},
-    "video": "/static/video/talent/Letom.mp4"
+    "video": "/static/video/talent/Letom.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -455,7 +672,14 @@
     "credits": ["TV:", "-Strangers on a Plane (CH4, 2022)",
       "-Money Bags (CH4, 2023)"],
     "websites": {},
-    "video": "/static/video/talent/Adam.mp4"
+    "video": "/static/video/talent/Adam.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -478,7 +702,14 @@
       "Music:", "-Lead Vocalist for High Tides on Luxury Cruise Liners (2017 - 2020)",
       "-1 of 3 lead vocalists in the band 'The Soul Rays' (2016)"],
     "websites": {},
-    "video": "/static/video/talent/Alex.mp4"
+    "video": "/static/video/talent/Alex.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -490,7 +721,14 @@
       "styles include 'Break dancing', 'Roboting', and 'Body Popping'."],
     "credits": ["TV:", " -Darling what have you done with your hair (CH4 2021)"],
     "websites": {},
-    "video": "/static/video/talent/Arnold.mp4"
+    "video": "/static/video/talent/Arnold.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -505,7 +743,14 @@
       "-Male Mentor - Welsh Women's Aid (2013)"],
     "credits": ["TV:", " -In With a Shout (ITV, 2024) ", "-Undercooked (2019)", "-Casualty (BBC, 2018)", "-Captain America (2010)"],
     "websites": {},
-    "video": "/static/video/talent/Jamie.mp4"
+    "video": "/static/video/talent/Jamie.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -516,7 +761,14 @@
     "description": ["-Dental Surgeon", "-Volunteer Dental Surgeon in Ghana (2014)", "-Cofounder 'Dance Mania' "],
     "credits": ["TV:", " -In With a Shout (ITV, 2024)"],
     "websites": {},
-    "video": "/static/video/talent/Parrys.mp4"
+    "video": "/static/video/talent/Parrys.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -531,7 +783,14 @@
       "-Animal Advocate"],
     "credits": ["TV:", " -In With a Shout (2024)", "-Countdown (2022)", "-Captain America (2010)"],
     "websites": {},
-    "video": "/static/video/talent/Parrys.mp4"
+    "video": "/static/video/talent/Parrys.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -545,7 +804,14 @@
       "-Skilled in hair/makeup"],
     "credits": ["Theatre:", " -Hairspray 'singing solo' (2016)"],
     "websites": {},
-    "video": "/static/video/talent/Kaci-May.mp4"
+    "video": "/static/video/talent/Kaci-May.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -557,7 +823,14 @@
       "-Former Street dancer ", "-Can play the flute"],
     "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)"],
     "websites": {},
-    "video": "/static/video/talent/Yasmin.mp4"
+    "video": "/static/video/talent/Yasmin.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -571,7 +844,14 @@
       "-Child model"],
     "credits": [],
     "websites": {},
-    "video": "/static/video/talent/Leo.mp4"
+    "video": "/static/video/talent/Leo.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -588,7 +868,14 @@
       "-Former Bricklayer"],
     "credits": ["TV:", " -'I Literally Just Told You' (CH4, 2023)"],
     "websites": {},
-    "video": "/static/video/talent/Kristian.mp4"
+    "video": "/static/video/talent/Kristian.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -602,7 +889,14 @@
       "-Can walk on his hands", "-Impressions"],
     "credits": [],
     "websites": {},
-    "video": "/static/video/talent/Tom.mp4"
+    "video": "/static/video/talent/Tom.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -622,7 +916,14 @@
       "-Bad Chefs (ITVX, 2022)",
       "-Alan Carr’s Epic Game Show (ITV, 2020)"],
     "websites": {},
-    "video": "/static/video/talent/Charlotte.mp4"
+    "video": "/static/video/talent/Charlotte.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   },
   {
 
@@ -633,6 +934,13 @@
     "description": ["-Former Publican", "-Trained Chef", "-Avid Golfer ", "-Classic car enthusiast "],
     "credits": ["TV:", " -Strangers on a Plane (CH4, 2022)", "-Masterpiece (ITV)"],
     "websites": {},
-    "video": "/static/video/talent/Raymond.mp4"
+    "video": "/static/video/talent/Raymond.mp4",
+    "socials": {
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "tiktok": "https://www.tiktok.com/",
+      "youtube": "https://www.youtube.com/"
+    }
   }
 ]

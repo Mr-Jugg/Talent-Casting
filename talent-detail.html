@@ -65,6 +65,16 @@
     </div>
 </div>
 
+<!-- ======= Follow us ======= -->
+<div class="container">
+    <div class="follow-us">
+        <p>SOCIALS:</p>
+        <div class="social-links" id="social-links">
+            <!-- Social media links will be dynamically inserted here -->
+        </div>
+    </div>
+</div><!-- End Follow us -->
+
 <!-- ======= Footer ======= -->
 <footer id="footer">
 </footer><!-- End Footer -->
@@ -145,6 +155,28 @@ document.addEventListener('DOMContentLoaded', function() {
         const sourceElement = videoElement.querySelector('source');
         sourceElement.src = talent.video;
         videoElement.load();
+
+         // Populate social media links
+        const socialLinksContainer = document.getElementById('social-links');
+        const socialMediaIcons = {
+            "twitter": "bi bi-twitter-x",
+            "facebook": "bi bi-facebook",
+            "instagram": "bi bi-instagram",
+            "tiktok": "bi bi-tiktok",
+            "youtube": "bi bi-youtube",
+            "whatsapp": "bi bi-whatsapp"
+        };
+
+        Object.entries(talent.websites).forEach(([websiteName, websiteUrl]) => {
+            if (socialMediaIcons[websiteName.toLowerCase()]) {
+                const a = document.createElement('a');
+                a.href = websiteUrl;
+                a.classList.add(websiteName.toLowerCase());
+                const i = document.createElement('i');
+                i.classList.add(socialMediaIcons[websiteName.toLowerCase()]);
+                a.appendChild(i);
+                socialLinksContainer.appendChild(a);
+            }
         });
     });
 
