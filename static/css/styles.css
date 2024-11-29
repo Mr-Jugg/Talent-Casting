@@ -82,7 +82,7 @@ main {
 
 @media (max-width: 600px) {
     .header {
-        height: 20vw; /* Adjust as needed */
+        height: 30vw; /* Adjust as needed */
     }
 
     .logo {
