@@ -701,10 +701,16 @@ main {
 }
 
 .talent-section img {
-    width: 100%; /* Set the width of the images */
-    height: auto; /* Set the height of the images */
+    width: auto; /* Set the width of the images */
+    height: 100%; /* Set the height of the images */
+    overflow: hidden;
     border: 2px solid white; /* Add a red border around the images */
     border-radius: 10px; /* Add rounded corners to the images */
+}
+
+.talent-section a {
+    width: auto; /* Set the width of the images */
+    height: 100%; /* Set the height of the images */
 }
 
 .talent-section .name {
@@ -731,6 +737,11 @@ main {
     flex-direction: column;
     align-items: center;
     text-decoration: none !important; /* Remove the underline from the link */
+}
+
+.talent-main-img-container {
+    object-fit: cover;
+    object-position: center;
 }
 
 #pagination-container {
