@@ -220,7 +220,7 @@
     "imgSrc": "static/img/talent/main/Gus.JPG",
     "altText": "Gus",
     "altImg": "static/img/talent/alt/Gus.JPG",
-    "description": ["-Trainee Vicar",
+    "description": ["-Reverend",
       "-Presenter",
       "-Actor",
       "-Motivational Speaker"],
@@ -799,6 +799,214 @@
     "socials": {
       "instagram": "https://www.instagram.com/raygoodwin66?igsh=Nzlrd2lsZmg2M3dm",
       "tiktok": "https://www.tiktok.com/@user8666728861244?_t=8rgor1SlRLs&_r=1"
+    }
+  },
+
+
+
+
+  {
+    "layout": "Landscape",
+    "imgSrc": "static/img/talent/main/Segun.JPG",
+    "altText": "Segun",
+    "altImg": "static/img/talent/alt/Segun.JPG",
+    "description": [
+      "Charity Videographer",
+      "Host for events like Cancer Research UK",
+      "Model"
+    ],
+    "credits": [
+      "Big Brother - semi finalist (CH5, 2024)",
+      "Model - Speedflex 'Fortis Champion Launch' (2022)"
+    ],
+    "websites": {},
+    "video": "",
+    "socials": {
+      "instagram": "https://www.instagram.com/segunshodipo/",
+      "tiktok": "https://www.tiktok.com/@segun.shodipo",
+      "youtube": "https://www.youtube.com/channel/UC6nZ4s1syGEGH-pJi5_QvOg"
+    }
+  },
+  {
+    "layout": "Landscape",
+    "imgSrc": "static/img/talent/main/Ashley.JPG",
+    "altText": "Ashley",
+    "altImg": "static/img/talent/alt/Ashley.JPG",
+    "description": [
+      "Podcast Host of Let's Chat Ducks",
+      "Host for private and corporate events"
+    ],
+    "credits": [
+      "Contestant on ITV1's 99 to Beat (2025)"
+    ],
+    "websites": {},
+    "video": "",
+    "socials": {
+      "instagram": "https://www.instagram.com/merroevents",
+      "tiktok": "https://www.tiktok.com/@ash.merro"
+    }
+  },
+  {
+    "layout": "Portrait",
+    "imgSrc": "static/img/talent/main/Lubomba.JPG",
+    "altText": "Lubomba",
+    "altImg": "static/img/talent/alt/Lubomba.JPG",
+    "description": [
+      "Content Creator",
+      "Brand Ambassador",
+      "Entrepreneur/Architect graduate",
+      "Clothing brand owner 'Stay Dedicated'",
+      "Skater/BMX rider",
+      "Model"
+    ],
+    "credits": [
+      "Strangers on a Plane (CH4, 2022)",
+      "Brand Ambassador 'Gym Shark' (2019 - 2023)",
+      "'My protein' (2018 - 2023)"
+    ],
+    "websites": {
+      "main": "https://ccreation.store/?srsltid=AfmBOor0_t3AwpWcdlvO-k7-jbKSCT1xABPNfxeVyKCiqTsQqMQ972WJ"
+    },
+    "video": "",
+    "socials": {
+      "instagram": "https://www.instagram.com/lubomba/?hl=en",
+      "tiktok": "https://www.tiktok.com/@_lubomba?lang=en",
+      "youtube": "https://www.youtube.com/@Lubomba",
+      "facebook": "https://www.facebook.com/Lubombmunkuli/"
+    }
+  },
+  {
+    "layout": "Landscape",
+    "imgSrc": "static/img/talent/main/Kelly Ann.JPG",
+    "altText": "Kelly Ann",
+    "altImg": "static/img/talent/alt/Kelly Ann.JPG",
+    "description": [
+      "Model",
+      "Former Playboy Bunny"
+    ],
+    "credits": [
+      "Ricardo Marin/Cuando music video - actress (2021)",
+      "Breakfast TV - Model for Freedom Campaign",
+      "Diesel campaign",
+      "Spanish Tourist Board Commercial",
+      "Heathrow Airport Christmas Commercial",
+      "Film Extra"
+    ],
+    "websites": {},
+    "video": "",
+    "socials": {
+      "instagram": "https://www.instagram.com/kellyann.ann/?hl=en-gb"
+    }
+  },
+  {
+    "layout": "Portrait",
+    "imgSrc": "",
+    "altText": "Lou & Sarah",
+    "altImg": "",
+    "description": [
+      "A cheeky Northern couple, known for pranks",
+      "Lou was winner of his episode on 'Strangers on a Plane'"
+    ],
+    "credits": [
+      "Lou: The Motorway Hotel (CH5, 2024)",
+      "Lou: Strangers on a Plane (CH4, 2022)",
+      "Lou: Five Guys a week (CH4, 2019)"
+    ],
+    "websites": {},
+    "video": "",
+    "socials": {
+      "instagram": "https://www.instagram.com/louhumphreys2/",
+      "tiktok": "https://www.tiktok.com/@yorkshire.lou"
+    }
+  },
+  {
+    "layout": "Landscape",
+    "imgSrc": "static/img/talent/main/Malakai.JPG",
+    "altText": "Malakai",
+    "altImg": "static/img/talent/alt/Malakai.JPG",
+    "description": [
+      "Brazilian landscaper known for being kidnapped twice"
+    ],
+    "credits": [
+      "Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)"
+    ],
+    "websites": {},
+    "video": "",
+    "socials": {
+      "instagram": "https://www.instagram.com/kai_broomer/",
+      "tiktok": "https://www.tiktok.com/@malakaibroomer",
+      "facebook": "https://www.facebook.com/malakaibroomer/?_rdr"
+    }
+  },
+  {
+    "layout": "Portrait",
+    "imgSrc": "static/img/talent/main/Andreas.JPG",
+    "altText": "Andreas",
+    "altImg": "static/img/talent/alt/Andreas.JPG",
+    "description": [
+      "Content Creator with over 172K followers, 10M views and 1.7M likes",
+      "Passion for debates",
+      "Standup to racism activist",
+      "Can be found singing Disney Villain songs"
+    ],
+    "credits": [
+    ],
+    "websites": {},
+    "video": "",
+    "socials": {
+      "instagram": "https://www.instagram.com/clan_of_corvinus/",
+      "tiktok": "https://www.tiktok.com/@themoralreason",
+      "twitter": "https://x.com/AndreasCorvinus"
+    }
+  },
+  {
+    "layout": "Portrait",
+    "imgSrc": "static/img/talent/main/Lewout.JPG",
+    "altText": "Lewout",
+    "altImg": "static/img/talent/alt/Lewout.JPG",
+    "description": [
+      "Singer/songwriter",
+      "Viral Content Creator with almost 155K followers, 8.7M likes",
+      "Account was hacked at 630K and he impressively rebuilt his account from scratch"
+    ],
+    "credits": [
+      "Savior (2024) / Starry Night (2024)",
+      "Ice in the Sky (2022) / Idk (2022)",
+      "Smoothies Jacuzzis (2021) / Roll It Up (2021) / Karma 'freestyle' (2020)"
+    ],
+    "websites": {
+      "spotify": "https://open.spotify.com/album/21gWQGC8xkZlcSdkYbXEDw?go=1&nd=1&dlsi=493c7766e9754dce"
+    },
+    "video": "",
+    "socials": {
+      "instagram": "https://www.instagram.com/lewoutxl/",
+      "tiktok": "https://www.tiktok.com/@mrlewout",
+      "twitter": "https://x.com/i/flow/login?redirect_after_login=%2Flewoutt"
+    }
+  },
+  {
+    "layout": "Landscape",
+    "imgSrc": "static/img/talent/main/Michelle.JPG",
+    "altText": "Michelle",
+    "altImg": "static/img/talent/alt/Michelle.JPG",
+    "description": [
+      "Content Creator from Barnsley",
+      "Owner of Knitaway",
+      "Supporting Artist on Emmerdale",
+      "Model on This Morning",
+      "Tropic Skincare Ambassador"
+    ],
+    "credits": [
+      "Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)"
+    ],
+    "websites": {
+      "etsy": "https://www.etsy.com/uk/shop/Knitaway1"
+    },
+    "video": "",
+    "socials": {
+      "instagram": "https://www.instagram.com/motivatingmichelle/",
+      "tiktok": "https://www.tiktok.com/discover/motivating-michelle",
+      "youtube": "https://www.youtube.com/channel/UCad4nGNEXj1wj6AkfSYbYIw/videos"
     }
   }
 ]
