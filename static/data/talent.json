@@ -900,9 +900,9 @@
   },
   {
     "layout": "Portrait",
-    "imgSrc": "",
+    "imgSrc": "static/img/talent/main/Lou-Sarah.JPG",
     "altText": "Lou & Sarah",
-    "altImg": "",
+    "altImg": "static/img/talent/alt/Lou-Sarah.JPG",
     "description": [
       "A cheeky Northern couple, known for pranks",
       "Lou was winner of his episode on 'Strangers on a Plane'"
