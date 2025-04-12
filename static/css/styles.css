@@ -708,10 +708,10 @@ main {
     border-radius: 10px; /* Add rounded corners to the images */
 }
 
-.talent-section a {
-    width: auto; /* Set the width of the images */
-    height: 100%; /* Set the height of the images */
-}
+/* .talent-section a {
+    width: auto; 
+    height: 100%; 
+} */
 
 .talent-section .name {
     display: flex;
