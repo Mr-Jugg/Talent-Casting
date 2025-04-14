@@ -44,6 +44,18 @@ main {
     }
 }
 
+.image-scaling-container {
+    overflow: hidden;    /* Hide the parts of the image that don't fit */
+    position: relative;  /* In case you want to use more positioning later */
+}
+
+.image-scaling-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* This is the key property that crops the image appropriately */
+    object-position: center;
+    display: block;      /* Remove potential unwanted spacing around images */
+}
 
 
 /* ====================================
@@ -480,8 +492,12 @@ main {
 
 .team-member img {
     border: 2px solid white;
-    width: 20vw; /* Make the image fill 80% of the screen width */
-    height: auto; /* Maintain the image's aspect ratio */
+}
+
+.team-member .image-scaling-container {
+    display: inline-block;
+    width: 20vw;
+    height: 32vw;
 }
 
 .name, .role, .description-list, .credits-list, .websites-list, .credits, .copyright, .description, p{
@@ -542,13 +558,13 @@ main {
         text-align: center;
         width: 100% !important; /* On small screens, make each team member take up the full width */
         margin-top: 20px; /* Add some space between the team members */
-
     }
 
-    .team-member img {
-        width: 50vw !important; /* Use viewport width units to make the width responsive */
-        height: auto; /* Maintain the image's aspect ratio */
-        margin: 0 auto; /* Center the team members */
+    /* Larger images container on mobile */
+    .team-member .image-scaling-container {
+        display: inline-block;
+        width: 50vw;
+        height: 80vw;
     }
 
     .team-member .name {
