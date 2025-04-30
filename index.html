@@ -97,7 +97,9 @@
                 return `
                     <div class="carousel-item col-md-3 ${index === 0 ? 'active' : ''}">
                         <a href="talent-detail.html?name=${hyphenatedName}">
-                            <img class="img-fluid mx-auto d-block" src="${item.imgSrc}" alt="${item.altText}">
+                            <div class="image-scaling-container">
+                                <img class="img-fluid" src="${item.imgSrc}" alt="${item.altText}">
+                            </div>
                         </a>
                     </div>
                 `;
