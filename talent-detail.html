@@ -59,8 +59,9 @@
             <div class="video-container-detail">
                 <video controls autoplay>
                     <source src="" type="video/mp4">
-                    Your browser does not support the video tag.
+                    <img src="static/img/logo.png" title="Either your browser does not support the video tag or the video could not be displayed.">
                 </video>
+                <img id="fallbackImage" src="static/img/logo.png" title="Either your browser does not support the video tag or the video could not be displayed." style="display: none;">
             </div>
 
         </div>
@@ -156,6 +157,13 @@
             const sourceElement = videoElement.querySelector('source');
             sourceElement.src = talent.video;
             videoElement.load();
+
+            // show fallback image if no video loads
+            sourceElement.addEventListener("error", function() {
+                console.warn("Video failed to load, displaying fallback image.");
+                videoElement.style.display = "none";
+                document.getElementById("fallbackImage").style.display = "block";
+            });
 
             // Populate social media links
             const socialLinksContainer = document.getElementById('social-links');

@@ -209,10 +209,13 @@ main {
     display: block !important; /* Ensure the image is displayed */
 }
 
+.carousel-item .image-scaling-container {
+    display: inline-block;
+    width: 22vw;
+    height: 32vw;
+}
+
 .carousel-item img {
-    width: 95%; /* Set the width of the images */
-    height: auto; /* Set the height of the images */
-    object-fit: cover; /* Ensure that the images cover their entire container */
     border-radius: 10px; /* Add rounded corners to the images */
     border: 2px solid white; /* Add a border around the images */
 }
@@ -243,9 +246,10 @@ main {
         width: 100%; /* Adjust as needed */
     }
 
-    .carousel-item img {
-        width: 92%; /* Adjust as needed */
-        height: auto; /* Maintain the image's aspect ratio */
+    .carousel-item .image-scaling-container {
+        display: inline-block;
+        width: 70vw;
+        height: 105vw;
     }
 
     .carousel-control-prev,
@@ -282,9 +286,16 @@ main {
     margin-top: 10px;
 }
 
-.video-container-detail video{
+.video-container-detail video {
     height: 70vh;
     width: 100%;
+    border: 2px solid #fff; 
+    border-radius: 10px;
+}
+
+.video-container-detail img {
+    width: 100%;
+    aspect-ratio: 1/1;
     border: 2px solid #fff; 
     border-radius: 10px;
 }
