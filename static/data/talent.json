@@ -990,6 +990,21 @@
       "tiktok": "https://www.tiktok.com/@malakaibroomer",
       "facebook": "https://www.facebook.com/malakaibroomer/?_rdr"
     }
+  },
+  {
+    "imgSrc": "static/img/talent/main/Lianne.JPG",
+    "altText": "Lianne",
+    "altImg": "static/img/talent/alt/Lianne.JPG",
+    "description": [
+      "- Voiceover artist"
+    ],
+    "credits": [
+      ""
+    ],
+    "websites": {},
+    "video": "static/video/talent/Lianne.mp4",
+    "socials": {
+    }
   }
   
 ]
