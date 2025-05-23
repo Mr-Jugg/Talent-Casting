@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'edo';
-    src: local('edo'), url('static/fonts/edo.woff') format('woff');
+    src: local('edo'), url('/static/fonts/edo.woff') format('woff');
 }
 
 @font-face {
     font-family: 'shantell-regular';
-    src: url('static/fonts/ShantellSans-Regular.woff') format('truetype');
+    src: url('/static/fonts/ShantellSans-Regular.woff') format('truetype');
 }
 
 /* ====================================
