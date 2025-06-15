@@ -729,32 +729,6 @@
   },
   {
 
-    "imgSrc": "static/img/talent/main/Alex.JPG",
-    "altText": "Alex",
-    "altImg": "static/img/talent/alt/Alex.JPG",
-
-    "description": ["-Actress",
-      "-Script Writer",
-      "-Singer 'Mezzo Soprano'"
-    ],
-    "credits": ["TV/Film:", "-Wings (to be released)",
-      "-In With A Shout (ITV, 2024)",
-      "-Unhinged - short film (2024)",
-      "-Tim's Dad - Short film (2023)",
-      "-The Void (ITV, 2021)",
-      "-Chester: Foodie Capitol of the North West (2021)",
-      "Theatre:", "-'Made in Motor City' (2022 - present)",
-      "'Two' (2023)", "'The Pier' (2022)",
-      "Music:", "-Lead Vocalist for High Tides on Luxury Cruise Liners (2017 - 2020)",
-      "-1 of 3 lead vocalists in the band 'The Soul Rays' (2016)"],
-    "websites": {},
-    "video": "static/video/talent/Alex.mp4",
-    "socials": {
-      "instagram": "https://www.instagram.com/alexschofieldx?igsh=NGF6czZzcmQyMTds"
-    }
-  },
-  {
-
     "imgSrc": "static/img/talent/main/Jamie.JPG",
     "altText": "Jamie",
     "altImg": "static/img/talent/alt/Jamie.JPG",
