@@ -19,34 +19,7 @@
       "tiktok": "https://www.tiktok.com/@itsellamidd?_t=8rgkVcD5j3A&_r=1"
     }
   },
-  {
-    "imgSrc": "static/img/talent/main/Lubomba.JPG",
-    "altText": "Lubomba",
-    "altImg": "static/img/talent/alt/Lubomba.JPG",
-    "description": [
-      "Content Creator",
-      "Brand Ambassador",
-      "Entrepreneur/Architect graduate",
-      "Clothing brand owner 'Stay Dedicated'",
-      "Skater/BMX rider",
-      "Model"
-    ],
-    "credits": [
-      "Strangers on a Plane (CH4, 2022)",
-      "Brand Ambassador 'Gym Shark' (2019 - 2023)",
-      "'My protein' (2018 - 2023)"
-    ],
-    "websites": {
-      "main": "https://ccreation.store/?srsltid=AfmBOor0_t3AwpWcdlvO-k7-jbKSCT1xABPNfxeVyKCiqTsQqMQ972WJ"
-    },
-    "video": "static/video/talent/Lubomba.mp4",
-    "socials": {
-      "instagram": "https://www.instagram.com/lubomba/?hl=en",
-      "tiktok": "https://www.tiktok.com/@_lubomba?lang=en",
-      "youtube": "https://www.youtube.com/@Lubomba",
-      "facebook": "https://www.facebook.com/Lubombmunkuli/"
-    }
-  },
+  // TODO SONNY
   {
 
     "imgSrc": "static/img/talent/main/Libby-Mae.JPG",
@@ -105,21 +78,49 @@
     }
   },
   {
-    "imgSrc": "static/img/talent/main/Danny.JPG",
-    "altText": "Danny",
-    "altImg": "static/img/talent/alt/Danny.JPG",
-
-    "description": ["-Model",
-      "-PT",
-      "-Athlete sponsored by 'Chosen Few'"],
-    "credits": ["TV:", " -Made in Chelsea (2024)",
-    "-Celebs Go Dating (2024)"],
-
-    "websites": {},
-    "video": "static/video/talent/Danny.mp4",
+    "imgSrc": "static/img/talent/main/Lubomba.JPG",
+    "altText": "Lubomba",
+    "altImg": "static/img/talent/alt/Lubomba.JPG",
+    "description": [
+      "Content Creator",
+      "Brand Ambassador",
+      "Entrepreneur/Architect graduate",
+      "Clothing brand owner 'Stay Dedicated'",
+      "Skater/BMX rider",
+      "Model"
+    ],
+    "credits": [
+      "Strangers on a Plane (CH4, 2022)",
+      "Brand Ambassador 'Gym Shark' (2019 - 2023)",
+      "'My protein' (2018 - 2023)"
+    ],
+    "websites": {
+      "main": "https://ccreation.store/?srsltid=AfmBOor0_t3AwpWcdlvO-k7-jbKSCT1xABPNfxeVyKCiqTsQqMQ972WJ"
+    },
+    "video": "static/video/talent/Lubomba.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/officialdannyknight?igsh=YnJyNnpqdDJ5aGZp",
-      "tiktok": "https://www.tiktok.com/@officialdannyknight?_t=8rglPJbph1V&_r=1"
+      "instagram": "https://www.instagram.com/lubomba/?hl=en",
+      "tiktok": "https://www.tiktok.com/@_lubomba?lang=en",
+      "youtube": "https://www.youtube.com/@Lubomba",
+      "facebook": "https://www.facebook.com/Lubombmunkuli/"
+    }
+  },
+  {
+
+    "imgSrc": "static/img/talent/main/Ramona.JPG",
+    "altText": "Ramona",
+    "altImg": "static/img/talent/alt/Ramona.JPG",
+
+    "description": ["-CEO in the business world", "-NRTA winner (2023)",
+      "-Theatre performances include 'Lady Macbeth' in Macbeth, 'Romeo' in Romeo & Juliet and Comedia  Dell'arte.",
+      "-Motivantional Speaker",
+      "-English, German & Punjabi speaker"],
+    "credits": ["TV:", " -Rise & Fall (CH4, 2023)", "-The Green Hour (National Geographic)"],
+    "websites": {},
+    "video": "static/video/talent/Ramona.mp4",
+    "socials": {
+      "instagram": "https://www.instagram.com/ramona.undecided?igsh=MWs5MWxldzQ4b2RmcQ==",
+      "tiktok": "https://www.tiktok.com/@ramona.undecided?_t=8rgmPvBJKVM&_r=1"
     }
   },
   {
@@ -140,20 +141,20 @@
   },
   {
 
-    "imgSrc": "static/img/talent/main/Ramona.JPG",
-    "altText": "Ramona",
-    "altImg": "static/img/talent/alt/Ramona.JPG",
+    "imgSrc": "static/img/talent/main/Wyen-Solo.JPG",
+    "altText": "Wyen Solo",
+    "altImg": "static/img/talent/alt/Wyen-Solo.JPG",
 
-    "description": ["-CEO in the business world", "-NRTA winner (2023)",
-      "-Theatre performances include 'Lady Macbeth' in Macbeth, 'Romeo' in Romeo & Juliet and Comedia  Dell'arte.",
-      "-Motivantional Speaker",
-      "-English, German & Punjabi speaker"],
-    "credits": ["TV:", " -Rise & Fall (CH4, 2023)", "-The Green Hour (National Geographic)"],
-    "websites": {},
-    "video": "static/video/talent/Ramona.mp4",
+    "description": ["-Award winning R&B singer",
+      "-Her album 'Hennessy & Rose Petals' was compared to R&B greats Toni Braxton, Whitney Houston, with a new school twist likening to singers Mila J, Ella Mai and Jhené Aiko",
+      "-Founder of 'Alerah Cosmetics', an inclusive luxury brand, available at an affordable price! Clients include cast members from 'The Real Housewives' and 'Love & Hip Hop'."],
+    "credits": ["TV:", " -Strangers On A Plane (CH4, 2022)"],
+    "websites": {"Spotify": "https://open.spotify.com/artist/4hRmpX5BTFnyJHTon7o7Wa",
+      "Alerah Cosmetics": "http://alerahcosmetics.com"},
+    "video": "static/video/talent/Wyen.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/ramona.undecided?igsh=MWs5MWxldzQ4b2RmcQ==",
-      "tiktok": "https://www.tiktok.com/@ramona.undecided?_t=8rgmPvBJKVM&_r=1"
+      "instagram": "https://www.instagram.com/wyensolo?igsh=MThza2QzaTM5OXlvbw==",
+      "tiktok": "https://www.tiktok.com/@alerah_cosmetics?_t=8rgljjmiUOO&_r=1"
     }
   },
   {
@@ -197,39 +198,20 @@
     }
   },
   {
-    "imgSrc": "static/img/talent/main/Ashley.JPG",
-    "altText": "Ashley",
-    "altImg": "static/img/talent/alt/Ashley.JPG",
-    "description": [
-      "Podcast Host of Let's Chat Ducks",
-      "Host for private and corporate events"
-    ],
-    "credits": [
-      "Contestant on ITV1's 99 to Beat (2025)"
-    ],
-    "websites": {},
-    "video": "static/video/talent/Ashley.mp4",
-    "socials": {
-      "instagram": "https://www.instagram.com/merroevents",
-      "tiktok": "https://www.tiktok.com/@ash.merro"
-    }
-  },
-  {
+    "imgSrc": "static/img/talent/main/Letom.JPG",
+    "altText": "Letom",
+    "altImg": "static/img/talent/alt/Letom.JPG",
 
-    "imgSrc": "static/img/talent/main/Wyen-Solo.JPG",
-    "altText": "Wyen Solo",
-    "altImg": "static/img/talent/alt/Wyen-Solo.JPG",
-
-    "description": ["-Award winning R&B singer",
-      "-Her album 'Hennessy & Rose Petals' was compared to R&B greats Toni Braxton, Whitney Houston, with a new school twist likening to singers Mila J, Ella Mai and Jhené Aiko",
-      "-Founder of 'Alerah Cosmetics', an inclusive luxury brand, available at an affordable price! Clients include cast members from 'The Real Housewives' and 'Love & Hip Hop'."],
-    "credits": ["TV:", " -Strangers On A Plane (CH4, 2022)"],
-    "websites": {"Spotify": "https://open.spotify.com/artist/4hRmpX5BTFnyJHTon7o7Wa",
-      "Alerah Cosmetics": "http://alerahcosmetics.com"},
-    "video": "static/video/talent/Wyen.mp4",
+    "description": ["-Owner of Labtainment/Labbeautystudios",
+      "-Dance styles include 'Break dancing', 'Old School Hip Hop', '90's Krump', 'Body Popping', 'Afro Beats' and 'Salsa'",
+      "-Music Producer", "-Voiceover artist "],
+    "credits": [],
+    "websites": {"Lab Beauty Studios":  "https://labbeautystudios.co.uk",
+      "Labtainment": "https://labtainment.com"},
+    "video": "static/video/talent/Letom.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/wyensolo?igsh=MThza2QzaTM5OXlvbw==",
-      "tiktok": "https://www.tiktok.com/@alerah_cosmetics?_t=8rgljjmiUOO&_r=1"
+      "instagram": "https://www.instagram.com/labtainment?igsh=MXh6anJvZzdrdjdydA==",
+      "tiktok": "https://www.tiktok.com/@letomlab?_t=8rgnsUfSXdx&_r=1"
     }
   },
   {
@@ -597,23 +579,6 @@
     }
   },
   {
-    "imgSrc": "static/img/talent/main/Letom.JPG",
-    "altText": "Letom",
-    "altImg": "static/img/talent/alt/Letom.JPG",
-
-    "description": ["-Owner of Labtainment/Labbeautystudios",
-      "-Dance styles include 'Break dancing', 'Old School Hip Hop', '90's Krump', 'Body Popping', 'Afro Beats' and 'Salsa'",
-      "-Music Producer", "-Voiceover artist "],
-    "credits": [],
-    "websites": {"Lab Beauty Studios":  "https://labbeautystudios.co.uk",
-      "Labtainment": "https://labtainment.com"},
-    "video": "static/video/talent/Letom.mp4",
-    "socials": {
-      "instagram": "https://www.instagram.com/labtainment?igsh=MXh6anJvZzdrdjdydA==",
-      "tiktok": "https://www.tiktok.com/@letomlab?_t=8rgnsUfSXdx&_r=1"
-    }
-  },
-  {
 
     "imgSrc": "static/img/talent/main/Marina_I.JPG",
     "altText": "Marina I",
@@ -945,24 +910,6 @@
     "socials": {
       "instagram": "https://www.instagram.com/raygoodwin66?igsh=Nzlrd2lsZmg2M3dm",
       "tiktok": "https://www.tiktok.com/@user8666728861244?_t=8rgor1SlRLs&_r=1"
-    }
-  },
-  {
-    "imgSrc": "static/img/talent/main/Malakai.JPG",
-    "altText": "Malakai",
-    "altImg": "static/img/talent/alt/Malakai.JPG",
-    "description": [
-      "Brazilian landscaper known for being kidnapped twice"
-    ],
-    "credits": [
-      "Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)"
-    ],
-    "websites": {},
-    "video": "static/video/talent/Malakai.mp4",
-    "socials": {
-      "instagram": "https://www.instagram.com/kai_broomer/",
-      "tiktok": "https://www.tiktok.com/@malakaibroomer",
-      "facebook": "https://www.facebook.com/malakaibroomer/?_rdr"
     }
   },
   {
