@@ -19,7 +19,24 @@
       "tiktok": "https://www.tiktok.com/@itsellamidd?_t=8rgkVcD5j3A&_r=1"
     }
   },
-  // TODO SONNY
+  {
+    "imgSrc": "static/img/talent/main/Sonny.JPG",
+    "altText": "Sonny",
+    "altImg": "static/img/talent/alt/Sonny.JPG",
+    "description": [
+      "Actor",
+      "Writer",
+      "Voice Artist",
+      "Presenter"
+    ],
+    "credits": [
+  
+    ],
+    "websites": {},
+    "video": "static/video/talent/Sonny.mp4",
+    "socials": {
+    }
+  },
   {
 
     "imgSrc": "static/img/talent/main/Libby-Mae.JPG",
