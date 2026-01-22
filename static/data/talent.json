@@ -95,31 +95,19 @@
     }
   },
   {
-    "imgSrc": "static/img/talent/main/Lubomba.JPG",
-    "altText": "Lubomba",
-    "altImg": "static/img/talent/alt/Lubomba.JPG",
-    "description": [
-      "Content Creator",
-      "Brand Ambassador",
-      "Entrepreneur/Architect graduate",
-      "Clothing brand owner 'Stay Dedicated'",
-      "Skater/BMX rider",
-      "Model"
-    ],
-    "credits": [
-      "Strangers on a Plane (CH4, 2022)",
-      "Brand Ambassador 'Gym Shark' (2019 - 2023)",
-      "'My protein' (2018 - 2023)"
-    ],
-    "websites": {
-      "main": "https://ccreation.store/?srsltid=AfmBOor0_t3AwpWcdlvO-k7-jbKSCT1xABPNfxeVyKCiqTsQqMQ972WJ"
-    },
-    "video": "static/video/talent/Lubomba.mp4",
+
+    "imgSrc": "static/img/talent/main/Ex-the-Barber.JPG",
+    "altText": "Ex-the-Barber",
+    "altImg": "static/img/talent/alt/Ex-the-Barber.JPG",
+    "description": ["Glasgow's Celebrity Barber, Clients include:", "-DJ Khalid", "-Ahmad Diallo", "-Rangers FC", "-Celtic FC", "-MUFC", "-Chris Eubank Jr",
+      "-Wes Nelson", "-Bash The Entertainer", "and many more."],
+    "credits": ["TV:", " -Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)",
+      "-Strangers on a Plane (CH4, 2022)"],
+    "websites": {},
+    "video": "static/video/talent/Ex-the-Barber.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/lubomba/?hl=en",
-      "tiktok": "https://www.tiktok.com/@_lubomba?lang=en",
-      "youtube": "https://www.youtube.com/@Lubomba",
-      "facebook": "https://www.facebook.com/Lubombmunkuli/"
+      "instagram": "https://www.instagram.com/exthebarber?igsh=MXFsamZrbzh3aTdlYg==",
+      "tiktok": "https://www.tiktok.com/@exthebarber?_t=8rgl1FIaQim&_r=1"
     }
   },
   {
@@ -215,6 +203,34 @@
     }
   },
   {
+    "imgSrc": "static/img/talent/main/Lubomba.JPG",
+    "altText": "Lubomba",
+    "altImg": "static/img/talent/alt/Lubomba.JPG",
+    "description": [
+      "Content Creator",
+      "Brand Ambassador",
+      "Entrepreneur/Architect graduate",
+      "Clothing brand owner 'Stay Dedicated'",
+      "Skater/BMX rider",
+      "Model"
+    ],
+    "credits": [
+      "Strangers on a Plane (CH4, 2022)",
+      "Brand Ambassador 'Gym Shark' (2019 - 2023)",
+      "'My protein' (2018 - 2023)"
+    ],
+    "websites": {
+      "main": "https://ccreation.store/?srsltid=AfmBOor0_t3AwpWcdlvO-k7-jbKSCT1xABPNfxeVyKCiqTsQqMQ972WJ"
+    },
+    "video": "static/video/talent/Lubomba.mp4",
+    "socials": {
+      "instagram": "https://www.instagram.com/lubomba/?hl=en",
+      "tiktok": "https://www.tiktok.com/@_lubomba?lang=en",
+      "youtube": "https://www.youtube.com/@Lubomba",
+      "facebook": "https://www.facebook.com/Lubombmunkuli/"
+    }
+  },
+  {
     "imgSrc": "static/img/talent/main/Letom.JPG",
     "altText": "Letom",
     "altImg": "static/img/talent/alt/Letom.JPG",
@@ -229,22 +245,6 @@
     "socials": {
       "instagram": "https://www.instagram.com/labtainment?igsh=MXh6anJvZzdrdjdydA==",
       "tiktok": "https://www.tiktok.com/@letomlab?_t=8rgnsUfSXdx&_r=1"
-    }
-  },
-  {
-
-    "imgSrc": "static/img/talent/main/Ex-the-Barber.JPG",
-    "altText": "Ex-the-Barber",
-    "altImg": "static/img/talent/alt/Ex-the-Barber.JPG",
-    "description": ["Glasgow's Celebrity Barber, Clients include:", "-DJ Khalid", "-Ahmad Diallo", "-Rangers FC", "-Celtic FC", "-MUFC", "-Chris Eubank Jr",
-      "-Wes Nelson", "-Bash The Entertainer", "and many more."],
-    "credits": ["TV:", " -Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)",
-      "-Strangers on a Plane (CH4, 2022)"],
-    "websites": {},
-    "video": "static/video/talent/Ex-the-Barber.mp4",
-    "socials": {
-      "instagram": "https://www.instagram.com/exthebarber?igsh=MXFsamZrbzh3aTdlYg==",
-      "tiktok": "https://www.tiktok.com/@exthebarber?_t=8rgl1FIaQim&_r=1"
     }
   },
   {
