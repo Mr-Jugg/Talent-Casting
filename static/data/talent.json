@@ -24,17 +24,22 @@
     "altText": "Sonny",
     "altImg": "static/img/talent/alt/Sonny.JPG",
     "description": [
-      "Actor",
-      "Writer",
-      "Voice Artist",
-      "Presenter"
+      "-Actor | Writer | Voice Artist | Presenter",
+      "-Spoken word series ‘What England Means to Me’, has gone viral, reaching over 7 million views in autumn 2025 and cementing Sonny as a cultural voice with national resonance.",
     ],
     "credits": [
-  
+      "-Cash in Hand (not released yet)",
+      "-Campaigns for Sky SPorts, Halfords, etc",
+      "-I Literally Just Told You (2023)",
+      "-BBC River City (2014)",
+      "-Robot Overlords (2014)",
+      "-Still (2014)",
     ],
     "websites": {},
     "video": "static/video/talent/Sonny.mp4",
     "socials": {
+      "instagram": "https://www.instagram.com/sonnygreenuk?igsh=dmp6Y3AwN25qOGIx",
+      "tiktok": "https://www.tiktok.com/@sonnygreenuk?_r=1&_t=ZS-93N40PMBd2K",
     }
   },
   {
@@ -316,25 +321,6 @@
       "instagram": "https://www.instagram.com/meetthesmythes?igsh=MmxjNDhtbG9ueG94",
       "tiktok": "https://www.tiktok.com/@smythe_bros?_t=8rgn9XHOvx3&_r=1",
       "youtube": "https://youtube.com/@meetthesmythes?feature=shared"
-    }
-  },
-  {
-
-    "imgSrc": "static/img/talent/main/Vleenam-Twins.JPG",
-    "altText": "Vleenam Twins",
-    "altImg": "static/img/talent/alt/Vleenam-Twins.JPG",
-
-    "description": ["-Identical twins",
-      "-Bollywood dancers",
-      "-Tik Tok: 4.6M followers, 74.2M likes",
-      "-Youtube 1.53M Subscribers",
-      "-Instagram: 1M followers"],
-    "credits": ["TV:", " -Tara Vs Bilal 'Bollywood Film' (2022)"],
-    "websites": {},
-    "video": "static/video/talent/Vleenam-Twins.mp4",
-    "socials": {
-      "instagram": "https://www.instagram.com/teamvleenam?igsh=NzIyNnNhemVmY3Vq",
-      "tiktok": "https://www.tiktok.com/@teamvleenam?_t=8rgmVm9Ra4X&_r=1"
     }
   },
   {
