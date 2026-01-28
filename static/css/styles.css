@@ -282,6 +282,10 @@ main {
 }
 
 .video-container-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 100%;
     margin-top: 10px;
 }
@@ -863,84 +867,121 @@ main {
 /* ====================================
             Talent details
  =====================================*/
- .talent-detail{
+
+.media-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Default stacking */
+    max-width: 100%; /* Ensure full width */
+    overflow: hidden; /* Prevent unnecessary overflow */
+}
+
+.vertical {
+    flex-direction: row; /* Side by side when both are vertical */
+}
+
+/* Image and Video Containers */
+.image-container,
+.video-container-detail {
+    flex: 1; /* Allow equal distribution of space */
+    height: auto; /* Automatically adjust height */
+    display: flex; /* Ensures correct flex item alignment */
+    padding-top: 40px;
+    margin-top: 10px;
+}
+
+video {
+    width: 100%; /* Match container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Fit content */
+}
+
+#talentImage {
+    width: 100%; /* Full width for image */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure correct fit */
+}
+
+@media (max-width: 768px) {
+    .media-container {
+        flex-direction: column; /* Stack on smaller screens */
+    }
+
+    .image-container, 
+    .video-container-detail {
+        max-width: 100%; /* Full width on smaller screens */
+    }
+    video {
+        height: 100%;
+    }
+}
+
+/* Talent detail styling */
+.talent-detail {
+    display: flex;
+    flex-direction: column; /* Stack elements */
     justify-content: center;
     align-items: center;
     color: white;
     width: 70%;
     margin: auto;
- }
-
-.talent-detail .row {
-  justify-content: center;
-  display: flex;
-  align-items: stretch; /* Make the children stretch to fill the container */
-  width: 100%; /* Make the row take up the full screen width */
-  height: auto; /* Make the row take up the full screen height */
+    padding-bottom: 20px; /* Add padding to ensure room for scrolling */
 }
 
- .talent-detail .img-fluid {
-     width: 100%;
-     margin: auto;
-     border: 2px solid white; /* Add a border around the image */
-     border-radius: 10px; /* Add rounded corners to the image */
- }
+.talent-detail .row {
+    justify-content: center;
+    display: flex;
+    align-items: stretch; /* Make children stretch to fill container */
+    width: 100%; /* Full screen width */
+}
 
- .talent-detail .contact {
+.talent-detail .img-fluid {
+    width: 100%; /* Full width for image */
+    margin: auto; /* Center the image */
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.talent-detail .contact {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
- }
+}
 
- .talent-detail a:hover {
+.talent-detail a:hover {
     background-color: #fff;
     color: #000;
- }
+}
 
 .talent-detail .properties-row {
-   display: block;
+    display: block; /* Adjust as needed */
 }
 
 .talent-detail .col {
-  padding: 0 10px; /* Adjust as needed */
+    padding: 0 10px; /* Adjust as needed */
 }
 
-.talent-detail .col-md-6 {
-  display: flex;
-  flex-direction: column;
-  justify-content: left; /* Center the content vertically */
-}
-
+.talent-detail .col-md-6,
 .talent-detail .col-md-12 {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center the content vertically */
+    justify-content: center; /* Center the content */
 }
 
 @media (max-width: 600px) {
-.talent-detail {
-        width: 100%; /* Adjust as needed */
+    .talent-detail {
+        width: 100%; /* Full width on small screens */
     }
 
     .talent-detail .title {
-     margin-bottom: 20px;
+        margin-bottom: 20px;
     }
 
     .talent-detail .col-md-12 {
-        /* Adjust the container size to match the scaled image */
         width: 77%;
         height: auto;
         margin-top: 20px;
         margin-bottom: 50px;
-    }
-
-    .talent-detail .full-width-row {
-        width: 100%; /* Make the row take up the full screen width */
-        margin: 0; /* Remove margin */
-
     }
 
     .talent-detail .full-width {
@@ -949,12 +990,13 @@ main {
     }
 
     .talent-detail .img-fluid {
-        transform: scale(1.4); /* Increase the size of the image by 50% */
-        transform-origin: center; /* The transformation will scale from the top left corner of the image */
-        border: 2px solid white; /* Add a border around the image */
+        transform: scale(1.4); /* Increase image size by 40% */
+        transform-origin: center; /* Center scaling */
+        border: 2px solid white;
     }
-
 }
+
+
 
 /* ====================================
          Talent details dropdown

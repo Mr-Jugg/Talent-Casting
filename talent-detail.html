@@ -47,22 +47,23 @@
 <div id="websitesDropdown-menu" class="talent-dropdown-menu">
 </div>
 
-
 <div class="talent-detail">
     <div class="row">
         <div class="col-md-12">
-            <img src="" class="img-fluid" alt="Talent image">
-        </div>
-    </div>
-    <div class="row full-width-row">
-        <div class="video-row">
-            <div class="video-container-detail">
-                <video controls autoplay>
-                    <source src="" type="video/mp4">
-                    <img src="static/img/logo.png" title="Either your browser does not support the video tag or the video could not be displayed.">
-                </video>
-                <img id="fallbackImage" src="static/img/logo.png" title="Either your browser does not support the video tag or the video could not be displayed." style="display: none;">
+
+           <div class="media-container">
+                <div class="image-container">
+                    <img id="talentImage" src="path/to/your/image.jpg" class="img-fluid" alt="Talent image">
+                </div>
+                <div class="video-container-detail">
+                    <video id="talentVideo" controls autoplay>
+                        <source src="path/to/your/video.mp4" type="video/mp4">
+                        <img src="static/img/logo.png" title="Either your browser does not support the video tag or the video could not be displayed.">
+                    </video>
+                </div>
             </div>
+
+
 
         </div>
     </div>
@@ -104,6 +105,7 @@
                 const imgName = item.imgSrc.split('/').pop().split('.')[0];
                 return imgName === name;
             });
+
 
             // Remove the initial from the derivedName
             const lastSpaceIndex = derivedName.lastIndexOf(' ');
@@ -157,6 +159,26 @@
             const sourceElement = videoElement.querySelector('source');
             sourceElement.src = talent.video;
             videoElement.load();
+
+            //Put image and video side-by side if both are portrait
+            const talentImage = document.querySelector('.img-fluid');
+            const talentVideo = videoElement;
+            const mediaContainer = document.querySelector('.media-container');
+            function adjustLayout() {
+                const imageAspectRatio = talentImage.naturalWidth / talentImage.naturalHeight;
+                const videoAspectRatio = talentVideo.videoWidth / talentVideo.videoHeight;
+
+                const imageIsVertical = imageAspectRatio < 1;
+                const videoIsVertical = videoAspectRatio < 1;
+
+                if (imageIsVertical && videoIsVertical) {
+                    mediaContainer.classList.add('vertical');
+                    talentVideo.style.height = '100%';
+                }
+            }
+            talentImage.onload = adjustLayout;
+            talentVideo.onloadedmetadata = adjustLayout;
+
 
             // show fallback image if no video loads
             sourceElement.addEventListener("error", function() {
