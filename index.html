@@ -35,14 +35,11 @@
 </header>
 <main>
     <div>
-    <h1 class="title">Talent Management</h1>
+        <h1 class="title">Talent Management</h1>
     </div>
     <section class="talent-management">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
-            <div class="carousel-inner row w-100 mx-auto" role="listbox">
-
-            </div>
-
+            <div class="carousel-inner row w-100 mx-auto" role="listbox"></div>
         </div>
         <div class="video-container">
             <video controls autoplay>
@@ -105,56 +102,56 @@
                 `;
             }).join('');
 
-                // Insert the carousel items into the carousel
-                document.querySelector('.carousel-inner').innerHTML = carouselItems;
+            // Insert the carousel items into the carousel
+            document.querySelector('.carousel-inner').innerHTML = carouselItems;
 
-                // Initialize the slick carousel
-                var carousel = $('.carousel-inner');
+            // Initialize the slick carousel
+            var carousel = $('.carousel-inner');
 
-                carousel.slick({
-                    infinite: true,
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 2000,
-                    speed: 800,
-                    arrows: false,
-                    swipeToSlide: false,
-                    responsive: [
-                        {
-                            breakpoint: 1024,
-                            settings: {
-                                slidesToShow: 3,
-                                slidesToScroll: 1,
-                                infinite: true,
-                            }
-                        },
-                        {
-                            breakpoint: 600,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 1
-                            }
-                        },
-                        {
-                            breakpoint: 480,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1
-                            }
+            carousel.slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                speed: 800,
+                arrows: false,
+                swipeToSlide: false,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
                         }
-                    ]
-                });
-
-                // Manually add and handle click events for custom arrows
-                carousel.parent().find('.carousel-control-prev').click(function(){
-                    carousel.slick('slickNext'); // Trigger slickPrev when left arrow is clicked
-                });
-
-                carousel.parent().find('.carousel-control-next').click(function(){
-                    carousel.slick('slickPrev'); // Trigger slickNext when right arrow is clicked
-                });
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
             });
+
+            // Manually add and handle click events for custom arrows
+            carousel.parent().find('.carousel-control-prev').click(function(){
+                carousel.slick('slickNext'); // Trigger slickPrev when left arrow is clicked
+            });
+
+            carousel.parent().find('.carousel-control-next').click(function(){
+                carousel.slick('slickPrev'); // Trigger slickNext when right arrow is clicked
+            });
+        });
     });
 </script>
 </body>

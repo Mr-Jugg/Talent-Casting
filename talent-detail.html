@@ -63,8 +63,6 @@
                 </div>
             </div>
 
-
-
         </div>
     </div>
 </div>
@@ -92,6 +90,8 @@
         const urlParams = new URLSearchParams(window.location.search);
         const name = urlParams.get('name');
 
+        altImgIndex = 0;
+
         // Update the href attribute of the contact button
         document.querySelector('.contact a').href = `/contact.html?name=${name}`;
 
@@ -113,8 +113,11 @@
             const titleText = afterLastSpace.length === 1 ? derivedName.substring(0, lastSpaceIndex) : derivedName;
 
             document.querySelector('.title').textContent = titleText;
-            document.querySelector('.img-fluid').src = talent.altImg;
+
+            // get alt images
+            document.querySelector('.img-fluid').src = talent.altImg[altImgIndex];
             document.querySelector('.img-fluid').alt = talent.altText;
+
 
             const propertiesRow = document.createElement('div');
             propertiesRow.classList.add('row', 'properties-row');
@@ -208,6 +211,16 @@
                     socialLinksContainer.appendChild(a);
                 }
             });
+
+
+            // rotate through images on click
+            $(document).on('click', '#talentImage', function(event) {
+                event.stopPropagation();
+
+                altImgIndex = (altImgIndex + 1) % talent.altImg.length;  // Loop back to 0 when reaching the end
+                $('#talentImage').attr('src', talent.altImg[altImgIndex]);
+            });
+
         });
 
         function createDropdownButton(id, title) {
@@ -254,7 +267,6 @@
             // Get the id of the dropdown menu from the button's id
             var dropdownMenuId = this.id + '-menu';
             var dropdownMenu = $('#' + dropdownMenuId);
-            console.log('Dropdown menu:', dropdownMenu); // Log the dropdown menu
 
             if(dropdownMenu.is(':visible')) {
                 // If the dropdown menu is visible, hide it

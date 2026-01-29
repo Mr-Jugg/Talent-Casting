@@ -2,8 +2,10 @@
   {
     "imgSrc": "static/img/talent/main/Ella.JPG",
     "altText": "Ella",
-    "altImg": "static/img/talent/alt/Ella.JPG",
-
+    "altImg": 
+      [
+        "static/img/talent/alt/Ella.JPG"
+      ],
     "description": [
       "-Disability Advocate",
       "-Raising awareness for 'Fixed Functional Dystonia'",
@@ -22,7 +24,14 @@
   {
     "imgSrc": "static/img/talent/main/Sonny.JPG",
     "altText": "Sonny",
-    "altImg": "static/img/talent/alt/Sonny.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Sonny.JPG",
+        "static/img/talent/alt/Sonny2.JPG",
+        "static/img/talent/alt/Sonny3.JPG",
+        "static/img/talent/alt/Sonny4.JPG",
+        "static/img/talent/alt/Sonny5.JPG"
+      ],
     "description": [
       "-Actor | Writer | Voice Artist | Presenter",
       "-Spoken word series ‘What England Means to Me’, has gone viral, reaching over 7 million views in autumn 2025 and cementing Sonny as a cultural voice with national resonance."
@@ -46,7 +55,10 @@
 
     "imgSrc": "static/img/talent/main/Libby-Mae.JPG",
     "altText": "Libby-Mae",
-    "altImg": "static/img/talent/alt/Libby-Mae.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Libby-Mae.JPG"
+      ],
 
     "description": ["-LGBTQIA+ Viral Tik Tok star",
       "-2.9 million followers/336.5 Million likes",
@@ -62,7 +74,10 @@
   {
     "imgSrc": "static/img/talent/main/Segun.JPG",
     "altText": "Segun",
-    "altImg": "static/img/talent/alt/Segun.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Segun.JPG"
+      ],
     "description": [
       "Charity Videographer",
       "Host for events like Cancer Research UK",
@@ -84,8 +99,10 @@
 
     "imgSrc": "static/img/talent/main/Marina_P.JPG",
     "altText": "Marina P",
-    "altImg": "static/img/talent/alt/Marina_P.JPG",
-
+    "altImg": 
+      [
+        "static/img/talent/alt/Marina_P.JPG"
+      ],
     "description": ["-Currently presenting for 'Cherry Bay' Producing party/luxury travel content ",
       "-Made TV debut on reality TV aged 18, after dropping out of University",
       "-Advanced level Skier",
@@ -103,7 +120,10 @@
 
     "imgSrc": "static/img/talent/main/Ex-the-Barber.JPG",
     "altText": "Ex-the-Barber",
-    "altImg": "static/img/talent/alt/Ex-the-Barber.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Ex-the-Barber.JPG"
+      ],
     "description": ["Glasgow's Celebrity Barber, Clients include:", "-DJ Khalid", "-Ahmad Diallo", "-Rangers FC", "-Celtic FC", "-MUFC", "-Chris Eubank Jr",
       "-Wes Nelson", "-Bash The Entertainer", "and many more."],
     "credits": ["TV:", " -Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)",
@@ -119,7 +139,10 @@
 
     "imgSrc": "static/img/talent/main/Ramona.JPG",
     "altText": "Ramona",
-    "altImg": "static/img/talent/alt/Ramona.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Ramona.JPG"
+      ],
 
     "description": ["-CEO in the business world", "-NRTA winner (2023)",
       "-Theatre performances include 'Lady Macbeth' in Macbeth, 'Romeo' in Romeo & Juliet and Comedia  Dell'arte.",
@@ -136,7 +159,10 @@
   {
     "imgSrc": "static/img/talent/main/Jack.JPG",
     "altText": "Jack",
-    "altImg": "static/img/talent/alt/Jack.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Jack.JPG"
+      ],
 
     "description": ["-Amputee and Disability Advocate",
       "-Tik Tok star with roughly 300K followers/4.2 million likes/71 million views", "-Wheelchair Tennis/Rugby player"],
@@ -153,7 +179,10 @@
 
     "imgSrc": "static/img/talent/main/Wyen-Solo.JPG",
     "altText": "Wyen Solo",
-    "altImg": "static/img/talent/alt/Wyen-Solo.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Wyen-Solo.JPG"
+      ],
 
     "description": ["-Award winning R&B singer",
       "-Her album 'Hennessy & Rose Petals' was compared to R&B greats Toni Braxton, Whitney Houston, with a new school twist likening to singers Mila J, Ella Mai and Jhené Aiko",
@@ -171,7 +200,10 @@
 
     "imgSrc": "static/img/talent/main/Ryan.JPG",
     "altText": "Ryan",
-    "altImg": "static/img/talent/alt/Ryan.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Ryan.JPG"
+      ],
 
     "description": ["-Scottish influencer with ",
       "-Tik Tok - 1.9M followers, 25.1M likes and roughly 530k on Instagram",
@@ -188,7 +220,10 @@
   {
     "imgSrc": "static/img/talent/main/Kelly Ann.JPG",
     "altText": "Kelly Ann",
-    "altImg": "static/img/talent/alt/Kelly Ann.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Kelly Ann.JPG"
+      ],
     "description": [
       "Model",
       "Former Playboy Bunny"
@@ -210,7 +245,10 @@
   {
     "imgSrc": "static/img/talent/main/Lubomba.JPG",
     "altText": "Lubomba",
-    "altImg": "static/img/talent/alt/Lubomba.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Lubomba.JPG"
+      ],
     "description": [
       "Content Creator",
       "Brand Ambassador",
@@ -238,7 +276,10 @@
   {
     "imgSrc": "static/img/talent/main/Letom.JPG",
     "altText": "Letom",
-    "altImg": "static/img/talent/alt/Letom.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Letom.JPG"
+      ],
 
     "description": ["-Owner of Labtainment/Labbeautystudios",
       "-Dance styles include 'Break dancing', 'Old School Hip Hop', '90's Krump', 'Body Popping', 'Afro Beats' and 'Salsa'",
@@ -256,7 +297,10 @@
 
     "imgSrc": "static/img/talent/main/Elle.JPG",
     "altText": "Elle",
-    "altImg": "static/img/talent/alt/Elle.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Elle.JPG"
+      ],
 
     "description": ["-Disability Advocate",
       "-Raising awareness for 'Hypermobility', Postural Tachycardia Syndrome', and 'Sinus Tachycardia'",
@@ -273,7 +317,10 @@
 
     "imgSrc": "static/img/talent/main/Mikie.JPG",
     "altText": "Mikie",
-    "altImg": "static/img/talent/alt/Mikie.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Mikie.JPG"
+      ],
 
     "description": ["-Social Media star with videos having a combined total of nearly 8 million views across social media platforms",
       "-Nearly 500k followers and 6.5 million likes.",
@@ -291,7 +338,10 @@
 
     "imgSrc": "static/img/talent/main/Fanny-Gogh.JPG",
     "altText": "Fanny Gogh",
-    "altImg": "static/img/talent/alt/Fanny-Gogh.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Fanny-Gogh.JPG"
+      ],
 
     "description": ["-Mancunian artist ‘Fanny Gogh’, known for her work with celebrity lingerie!",
       "-Has worked with celebrities Keith Lemon, Simon Cowell, Englebert Humperdinck, Nick Knowles, Rob Schneider, Eammon Holmes, Ruth Langsford, Ranvir Singh, Kunle Barker, Sam Allardyce, William Roach, Ella Toone, Paul Scholes etc.",
@@ -310,7 +360,10 @@
 
     "imgSrc": "static/img/talent/main/Smythe-Bros.JPG",
     "altText": "Smythe Bros",
-    "altImg": "static/img/talent/alt/Smythe-Bros.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Smythe-Bros.JPG"
+      ],
 
     "description": ["-3 prankster siblings from Essex", "-Produce music",
       "-Travel/Food Vloggers", "-Attempt extreme food challenges"],
@@ -326,7 +379,10 @@
   {
     "imgSrc": "static/img/talent/main/Bhambras.JPG",
     "altText": "Bhambras",
-    "altImg": "static/img/talent/alt/Bhambras.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Bhambras.JPG"
+      ],
 
     "description": ["-Tight knit competitive Sikh brothers", "-Love playing football together", "-Professional Bhangra dancers"],
     "credits": ["TV:", " -In With A Shout (ITV, 2024)", "-The Chase (ITV, 2019)"],
@@ -339,7 +395,10 @@
 
     "imgSrc": "static/img/talent/main/Cassell-Twins.JPG",
     "altText": "Cassell Twins",
-    "altImg": "static/img/talent/alt/Cassell-Twins.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Cassell-Twins.JPG"
+      ],
 
     "description": ["-Identical twin sisters",
       "-Travel/food/activity vlogs", "-Photography"],
@@ -355,7 +414,10 @@
 
     "imgSrc": "static/img/talent/main/Linz.JPG",
     "altText": "Linz",
-    "altImg": "static/img/talent/alt/Linz.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Linz.JPG"
+      ],
 
     "description": ["-Jimmy Carr's 'I Literally Just Told You' was her TV debut, where she left audiences in stitches!",
       "-Mother of Libby-Mae & Lexie",
@@ -371,7 +433,10 @@
   {
     "imgSrc": "static/img/talent/main/Gus.JPG",
     "altText": "Gus",
-    "altImg": "static/img/talent/alt/Gus.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Gus.JPG"
+      ],
     "description": ["-Reverend",
       "-Presenter",
       "-Actor",
@@ -392,7 +457,10 @@
 
     "imgSrc": "static/img/talent/main/Lexie.JPG",
     "altText": "Lexie",
-    "altImg": "static/img/talent/alt/Lexie.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Lexie.JPG"
+      ],
 
     "description": ["-Current Mid Fielder ‘Pontefract Colliers’ - 1 year",
       "-Leeds united for 1 season ",
@@ -410,7 +478,10 @@
 
     "imgSrc": "static/img/talent/main/Liam.JPG",
     "altText": "Liam",
-    "altImg": "static/img/talent/alt/Liam.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Liam.JPG"
+      ],
 
     "description": ["-Everton & England Amputee footballer",
       "-Plays as a striker or forward",
@@ -430,7 +501,10 @@
 
     "imgSrc": "static/img/talent/main/Yasmin.JPG",
     "altText": "Yasmin",
-    "altImg": "static/img/talent/alt/Yasmin.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Yasmin.JPG"
+      ],
 
     "description": ["-Mobile hairdresser, known for giving Fat Man Scoop a beard trim ",
       "-Former Street dancer ", "-Can play the flute"],
@@ -446,7 +520,10 @@
 
     "imgSrc": "static/img/talent/main/Leonardo.JPG",
     "altText": "Leonardo",
-    "altImg": "static/img/talent/alt/Leonardo.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Leonardo.JPG"
+      ],
 
     "description": ["-5-year-old Leo aspires to be like Youtuber 'Mr Beast'",
       "-Loves to dance freestyle/breakdance",
@@ -463,7 +540,10 @@
 
     "imgSrc": "static/img/talent/main/Ellie.JPG",
     "altText": "Ellie",
-    "altImg": "static/img/talent/alt/Ellie.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Ellie.JPG"
+      ],
     "description": ["-Content Creator for Women's Football",
       "Co-hosts 'Laces Untied' - Women's Football Podcast with Liv Mctigue",
       "-'Crystal Palace Academy'",
@@ -483,7 +563,10 @@
 
     "imgSrc": "static/img/talent/main/Drew.JPG",
     "altText": "Drew",
-    "altImg": "static/img/talent/alt/Drew.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Drew.JPG"
+      ],
 
     "description": ["-Afro Beat Music Producer/Singer",
       "- Album 'A Flavoured Kid' released (2013) worldwide",
@@ -503,7 +586,10 @@
 
     "imgSrc": "static/img/talent/main/Emma.JPG",
     "altText": "Emma",
-    "altImg": "static/img/talent/alt/Emma.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Emma.JPG"
+      ],
 
     "description": ["-TV debut on Jimmy Carr's 'I Literally Just Told You'",
       "-Tik Tok - almost 5 million views, 712K likes",
@@ -519,7 +605,10 @@
   {
     "imgSrc": "static/img/talent/main/Lewout.JPG",
     "altText": "Lewout",
-    "altImg": "static/img/talent/alt/Lewout.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Lewout.JPG"
+      ],
     "description": [
       "Singer/songwriter",
       "Viral Content Creator with almost 155K followers, 8.7M likes",
@@ -544,7 +633,10 @@
 
     "imgSrc": "static/img/talent/main/Charlotte.JPG",
     "altText": "Charlotte",
-    "altImg": "static/img/talent/alt/Charlotte.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Charlotte.JPG"
+      ],
 
     "description": ["-Bubbly 'Welshie' from the Valleys",
       "-Qualified makeup artist/Theatrical makeup",
@@ -568,7 +660,10 @@
 
     "imgSrc": "static/img/talent/main/Ishmael.JPG",
     "altText": "Ishmael",
-    "altImg": "static/img/talent/alt/Ishmael.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Ishmael.JPG"
+      ],
 
     "description": ["-Dancing landscape gardener",
       "-Styles include 'freestyle', 'Body Popping', 'handstands' and 'back flips', etc.",
@@ -584,7 +679,10 @@
 
     "imgSrc": "static/img/talent/main/Marina_I.JPG",
     "altText": "Marina I",
-    "altImg": "static/img/talent/alt/Marina_I.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Marina_I.JPG"
+      ],
 
     "description": ["-Alto singer",
       "-Trained in Makeup/Beauty/Hair",
@@ -603,7 +701,10 @@
   {
       "imgSrc": "static/img/talent/main/Lou-Sarah.JPG",
     "altText": "Lou and Sarah",
-    "altImg": "static/img/talent/alt/Lou-Sarah.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Lou-Sarah.JPG"
+      ],
     "description": [
       "A cheeky Northern couple, known for pranks",
       "Lou was winner of his episode on 'Strangers on a Plane'"
@@ -624,7 +725,10 @@
 
     "imgSrc": "static/img/talent/main/Erina.JPG",
     "altText": "Erina",
-    "altImg": "static/img/talent/alt/Erina.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Erina.JPG"
+      ],
 
     "description": ["-Singer 'high range Alto'",
       "-Theatre performer",
@@ -644,7 +748,10 @@
 
     "imgSrc": "static/img/talent/main/Arnold.JPG",
     "altText": "Arnold",
-    "altImg": "static/img/talent/alt/Arnold.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Arnold.JPG"
+      ],
 
     "description": ["-High energy dancer",
       "styles include 'Break dancing', 'Roboting', and 'Body Popping'."],
@@ -660,7 +767,10 @@
 
     "imgSrc": "static/img/talent/main/Helen.JPG",
     "altText": "Helen",
-    "altImg": "static/img/talent/alt/Helen.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Helen.JPG"
+      ],
 
     "description": ["-Upper Alto Singer",
       "-Singer for 'Rock Choir'",
@@ -682,7 +792,10 @@
 
     "imgSrc": "static/img/talent/main/Ray.JPG",
     "altText": "Ray",
-    "altImg": "static/img/talent/alt/Ray.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Ray.JPG"
+      ],
 
     "description": ["-3x British Champion", "-European finalist",
       "-European U23 Finalist", "-BUCS long jump Champion & record holder", "-England senior long jump champion"],
@@ -698,7 +811,10 @@
 
     "imgSrc": "static/img/talent/main/Jamie.JPG",
     "altText": "Jamie",
-    "altImg": "static/img/talent/alt/Jamie.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Jamie.JPG"
+      ],
 
     "description": ["-Trained actor, studied performance at the University of South Wales",
       "-British Boxing MC",
@@ -717,7 +833,10 @@
 
     "imgSrc": "static/img/talent/main/Kirsty.JPG",
     "altText": "Kirsty",
-    "altImg": "static/img/talent/alt/Kirsty.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Kirsty.JPG"
+      ],
 
     "description": ["-Dental Surgeon", "-Volunteer Dental Surgeon in Ghana (2014)", "-Cofounder 'Dance Mania' "],
     "credits": ["TV:", " -In With a Shout (ITV, 2024)"],
@@ -731,7 +850,10 @@
 
     "imgSrc": "static/img/talent/main/Robbie.JPG",
     "altText": "Robbie",
-    "altImg": "static/img/talent/alt/Robbie.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Robbie.JPG"
+      ],
 
     "description": ["-Countdown winner",
       "-Speaks French/Russian",
@@ -749,7 +871,10 @@
 
     "imgSrc": "static/img/talent/main/Alisha.JPG",
     "altText": "Alisha",
-    "altImg": "static/img/talent/alt/Alisha.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Alisha.JPG"
+      ],
 
     "description": ["-Miss Sovereign GB (2020)",
       "-Diploma in acting - LIPA (2018)", "-Winner of BBC's Hire Me 'Property Broker'"],
@@ -766,7 +891,10 @@
 
     "imgSrc": "static/img/talent/main/Kaci-May.JPG",
     "altText": "Kaci-May",
-    "altImg": "static/img/talent/alt/Kaci-May.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Kaci-May.JPG"
+      ],
 
     "description": ["-Known for her strong Bristolian accent/comedic timing",
       "-Singer 'specialising in slow/contemporary/theatrical songs",
@@ -784,7 +912,10 @@
 
     "imgSrc": "static/img/talent/main/Adam.JPG",
     "altText": "Adam",
-    "altImg": "static/img/talent/alt/Adam.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Adam.JPG"
+      ],
 
     "description": ["-Disability Advocate",
       "-Raising awareness for Tourettes & ADHD",
@@ -803,7 +934,10 @@
 
     "imgSrc": "static/img/talent/main/Lou.JPG",
     "altText": "Lou",
-    "altImg": "static/img/talent/alt/Lou.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Lou.JPG"
+      ],
 
     "description": ["-Winner of his episode on 'Strangers on a Plane'",
       "-Won the girl's heart on 'Five Guys a week'"],
@@ -820,7 +954,10 @@
 
     "imgSrc": "static/img/talent/main/Kristian.JPG",
     "altText": "Kristian",
-    "altImg": "static/img/talent/alt/Kristian.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Kristian.JPG"
+      ],
 
     "description": ["-Mancunian with 'Energiser Bunny' energy",
       "-TV debut on Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)",
@@ -841,7 +978,10 @@
 
     "imgSrc": "static/img/talent/main/Tom.JPG",
     "altText": "Tom",
-    "altImg": "static/img/talent/alt/Tom.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Tom.JPG"
+      ],
 
     "description": ["-Produces Comic related online content",
       "-Tik Tok - over 22 million views/ 3.2 million likes",
@@ -858,7 +998,10 @@
   {
     "imgSrc": "static/img/talent/main/Michelle.JPG",
     "altText": "Michelle",
-    "altImg": "static/img/talent/alt/Michelle.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Michelle.JPG"
+      ],
     "description": [
       "Content Creator from Barnsley",
       "Owner of Knitaway",
@@ -882,7 +1025,10 @@
   {
     "imgSrc": "static/img/talent/main/Andreas.JPG",
     "altText": "Andreas",
-    "altImg": "static/img/talent/alt/Andreas.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Andreas.JPG"
+      ],
     "description": [
       "Content Creator with over 172K followers, 10M views and 1.7M likes",
       "Passion for debates",
@@ -903,7 +1049,10 @@
 
     "imgSrc": "static/img/talent/main/Raymond.JPG",
     "altText": "Raymond",
-    "altImg": "static/img/talent/alt/Raymond.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Raymond.JPG"
+      ],
 
     "description": ["-Former Publican", "-Trained Chef", "-Avid Golfer ", "-Classic car enthusiast "],
     "credits": ["TV:", " -Strangers on a Plane (CH4, 2022)", "-Masterpiece (ITV)"],
@@ -917,7 +1066,10 @@
   {
     "imgSrc": "static/img/talent/main/Lianne.JPG",
     "altText": "Lianne",
-    "altImg": "static/img/talent/alt/Lianne.JPG",
+    "altImg": 
+      [
+        "static/img/talent/alt/Lianne.JPG"
+      ],
     "description": [
       "- Voiceover artist"
     ],
