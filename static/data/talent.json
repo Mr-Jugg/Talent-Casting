@@ -631,33 +631,6 @@
   },
   {
 
-    "imgSrc": "static/img/talent/main/Charlotte.JPG",
-    "altText": "Charlotte",
-    "altImg": 
-      [
-        "static/img/talent/alt/Charlotte.JPG"
-      ],
-
-    "description": ["-Bubbly 'Welshie' from the Valleys",
-      "-Qualified makeup artist/Theatrical makeup",
-      "-Performing Arts Qualification",
-      "-Former Hunter, mean shot with a gun!",
-      "-Keen Fisherman",
-      "-Professional Spray tanner"],
-    "credits": ["TV:", " -Casualty ‘Drunk Girl’ (BBC,2024)",
-      "-Jimmy Carr’s 'I Literally Just Told You' (CH4, 2023)",
-      "-Big Brother Late & Live (2023, ITV)",
-      "-Bad Chefs (ITVX, 2022)",
-      "-Alan Carr’s Epic Game Show (ITV, 2020)"],
-    "websites": {},
-    "video": "static/video/talent/Charlotte.mp4",
-    "socials": {
-      "instagram": "https://www.instagram.com/charlottenicolewilliams?igsh=MWU0anI5M2hib3Bxeg==",
-      "tiktok": "https://www.tiktok.com/@chaz.williams?_t=8rgojc9Ena5&_r=1"
-    }
-  },
-  {
-
     "imgSrc": "static/img/talent/main/Ishmael.JPG",
     "altText": "Ishmael",
     "altImg": 
