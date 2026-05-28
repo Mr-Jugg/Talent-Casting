@@ -1,27 +1,5 @@
 [
   {
-    "imgSrc": "static/img/talent/main/Ella.JPG",
-    "altText": "Ella",
-    "altImg": 
-      [
-        "static/img/talent/alt/Ella.JPG"
-      ],
-    "description": [
-      "-Disability Advocate",
-      "-Raising awareness for 'Fixed Functional Dystonia'",
-      "-Tik tok star with 1.8 million followers",
-      "-Videos have a combined total of, nearly 33 million views across social media, platforms."],
-    "credits": ["TV:", "- GB News, Presenter (2024)", "Paralympics Presenter (2024)", " -Botox VT - (BBC Live, 2024)",
-      "-I Literally Just Told You (CH4, 2023)",
-      "-Money Bags (CH4, 2022)", "-Blankety Blank (BBC 2021)"],
-    "websites": {},
-    "video": "static/video/talent/Ella.mp4",
-    "socials": {
-      "instagram": "https://www.instagram.com/itsellamidd?igsh=ZnQ4eDRsaWl1dG8w",
-      "tiktok": "https://www.tiktok.com/@itsellamidd?_t=8rgkVcD5j3A&_r=1"
-    }
-  },
-  {
     "imgSrc": "static/img/talent/main/Sonny.JPG",
     "altText": "Sonny",
     "altImg": 
@@ -52,23 +30,25 @@
     }
   },
   {
-
-    "imgSrc": "static/img/talent/main/Libby-Mae.JPG",
-    "altText": "Libby-Mae",
+    "imgSrc": "static/img/talent/main/Ella.JPG",
+    "altText": "Ella",
     "altImg": 
       [
-        "static/img/talent/alt/Libby-Mae.JPG"
+        "static/img/talent/alt/Ella.JPG"
       ],
-
-    "description": ["-LGBTQIA+ Viral Tik Tok star",
-      "-2.9 million followers/336.5 Million likes",
-      "-234K followers on Instagram"],
-    "credits": [],
+    "description": [
+      "-Disability Advocate",
+      "-Raising awareness for 'Fixed Functional Dystonia'",
+      "-Tik tok star with 1.8 million followers",
+      "-Videos have a combined total of, nearly 33 million views across social media, platforms."],
+    "credits": ["TV:", "- GB News, Presenter (2024)", "Paralympics Presenter (2024)", " -Botox VT - (BBC Live, 2024)",
+      "-I Literally Just Told You (CH4, 2023)",
+      "-Money Bags (CH4, 2022)", "-Blankety Blank (BBC 2021)"],
     "websites": {},
-    "video": "static/video/talent/Libby-Mae.mp4",
+    "video": "static/video/talent/Ella.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/libbymae24?igsh=MWR2cHoweGFwcGtxNg==",
-      "tiktok": "https://www.tiktok.com/@libbymae24?_t=8rglAizc5C4&_r=1"
+      "instagram": "https://www.instagram.com/itsellamidd?igsh=ZnQ4eDRsaWl1dG8w",
+      "tiktok": "https://www.tiktok.com/@itsellamidd?_t=8rgkVcD5j3A&_r=1"
     }
   },
   {
@@ -97,23 +77,22 @@
   },
   {
 
-    "imgSrc": "static/img/talent/main/Marina_P.JPG",
-    "altText": "Marina P",
+    "imgSrc": "static/img/talent/main/Libby-Mae.JPG",
+    "altText": "Libby-Mae",
     "altImg": 
       [
-        "static/img/talent/alt/Marina_P.JPG"
+        "static/img/talent/alt/Libby-Mae.JPG"
       ],
-    "description": ["-Currently presenting for 'Cherry Bay' Producing party/luxury travel content ",
-      "-Made TV debut on reality TV aged 18, after dropping out of University",
-      "-Advanced level Skier",
-      "-Plays Trumpet at a professional level",
-      "-Tik Tok - over 3M views, 161.7K likes"],
-    "credits": ["TV:", " -Cherry Bay (2024)", "-Oatly Ad (2024) ", "-Rise & Fall (CH4, 2023)"],
+
+    "description": ["-LGBTQIA+ Viral Tik Tok star",
+      "-2.9 million followers/336.5 Million likes",
+      "-234K followers on Instagram"],
+    "credits": [],
     "websites": {},
-    "video": "static/video/talent/Marina_P.mp4",
+    "video": "static/video/talent/Libby-Mae.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/marinapownall?igsh=anA0c3JzZHV5cTdq",
-      "tiktok": "https://www.tiktok.com/@marinapownall?_t=8rglpzTtqIy&_r=1"
+      "instagram": "https://www.instagram.com/libbymae24?igsh=MWR2cHoweGFwcGtxNg==",
+      "tiktok": "https://www.tiktok.com/@libbymae24?_t=8rglAizc5C4&_r=1"
     }
   },
   {
@@ -137,23 +116,23 @@
   },
   {
 
-    "imgSrc": "static/img/talent/main/Ramona.JPG",
-    "altText": "Ramona",
+    "imgSrc": "static/img/talent/main/Marina_P.JPG",
+    "altText": "Marina P",
     "altImg": 
       [
-        "static/img/talent/alt/Ramona.JPG"
+        "static/img/talent/alt/Marina_P.JPG"
       ],
-
-    "description": ["-CEO in the business world", "-NRTA winner (2023)",
-      "-Theatre performances include 'Lady Macbeth' in Macbeth, 'Romeo' in Romeo & Juliet and Comedia  Dell'arte.",
-      "-Motivantional Speaker",
-      "-English, German & Punjabi speaker"],
-    "credits": ["TV:", " -Rise & Fall (CH4, 2023)", "-The Green Hour (National Geographic)"],
+    "description": ["-Currently presenting for 'Cherry Bay' Producing party/luxury travel content ",
+      "-Made TV debut on reality TV aged 18, after dropping out of University",
+      "-Advanced level Skier",
+      "-Plays Trumpet at a professional level",
+      "-Tik Tok - over 3M views, 161.7K likes"],
+    "credits": ["TV:", " -Cherry Bay (2024)", "-Oatly Ad (2024) ", "-Rise & Fall (CH4, 2023)"],
     "websites": {},
-    "video": "static/video/talent/Ramona.mp4",
+    "video": "static/video/talent/Marina_P.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/ramona.undecided?igsh=MWs5MWxldzQ4b2RmcQ==",
-      "tiktok": "https://www.tiktok.com/@ramona.undecided?_t=8rgmPvBJKVM&_r=1"
+      "instagram": "https://www.instagram.com/marinapownall?igsh=anA0c3JzZHV5cTdq",
+      "tiktok": "https://www.tiktok.com/@marinapownall?_t=8rglpzTtqIy&_r=1"
     }
   },
   {
@@ -176,24 +155,23 @@
     }
   },
   {
-
-    "imgSrc": "static/img/talent/main/Wyen-Solo.JPG",
-    "altText": "Wyen Solo",
+    "imgSrc": "static/img/talent/main/Ramona.JPG",
+    "altText": "Ramona",
     "altImg": 
       [
-        "static/img/talent/alt/Wyen-Solo.JPG"
+        "static/img/talent/alt/Ramona.JPG"
       ],
 
-    "description": ["-Award winning R&B singer",
-      "-Her album 'Hennessy & Rose Petals' was compared to R&B greats Toni Braxton, Whitney Houston, with a new school twist likening to singers Mila J, Ella Mai and Jhené Aiko",
-      "-Founder of 'Alerah Cosmetics', an inclusive luxury brand, available at an affordable price! Clients include cast members from 'The Real Housewives' and 'Love & Hip Hop'."],
-    "credits": ["TV:", " -Strangers On A Plane (CH4, 2022)"],
-    "websites": {"Spotify": "https://open.spotify.com/artist/4hRmpX5BTFnyJHTon7o7Wa",
-      "Alerah Cosmetics": "http://alerahcosmetics.com"},
-    "video": "static/video/talent/Wyen.mp4",
+    "description": ["-CEO in the business world", "-NRTA winner (2023)",
+      "-Theatre performances include 'Lady Macbeth' in Macbeth, 'Romeo' in Romeo & Juliet and Comedia  Dell'arte.",
+      "-Motivantional Speaker",
+      "-English, German & Punjabi speaker"],
+    "credits": ["TV:", " -Rise & Fall (CH4, 2023)", "-The Green Hour (National Geographic)"],
+    "websites": {},
+    "video": "static/video/talent/Ramona.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/wyensolo?igsh=MThza2QzaTM5OXlvbw==",
-      "tiktok": "https://www.tiktok.com/@alerah_cosmetics?_t=8rgljjmiUOO&_r=1"
+      "instagram": "https://www.instagram.com/ramona.undecided?igsh=MWs5MWxldzQ4b2RmcQ==",
+      "tiktok": "https://www.tiktok.com/@ramona.undecided?_t=8rgmPvBJKVM&_r=1"
     }
   },
   {
@@ -218,28 +196,24 @@
     }
   },
   {
-    "imgSrc": "static/img/talent/main/Kelly Ann.JPG",
-    "altText": "Kelly Ann",
+
+    "imgSrc": "static/img/talent/main/Wyen-Solo.JPG",
+    "altText": "Wyen Solo",
     "altImg": 
       [
-        "static/img/talent/alt/Kelly Ann.JPG"
+        "static/img/talent/alt/Wyen-Solo.JPG"
       ],
-    "description": [
-      "Model",
-      "Former Playboy Bunny"
-    ],
-    "credits": [
-      "Ricardo Marin/Cuando music video - actress (2021)",
-      "Breakfast TV - Model for Freedom Campaign",
-      "Diesel campaign",
-      "Spanish Tourist Board Commercial",
-      "Heathrow Airport Christmas Commercial",
-      "Film Extra"
-    ],
-    "websites": {},
-    "video": "static/video/talent/Kelly Ann.mp4",
+
+    "description": ["-Award winning R&B singer",
+      "-Her album 'Hennessy & Rose Petals' was compared to R&B greats Toni Braxton, Whitney Houston, with a new school twist likening to singers Mila J, Ella Mai and Jhené Aiko",
+      "-Founder of 'Alerah Cosmetics', an inclusive luxury brand, available at an affordable price! Clients include cast members from 'The Real Housewives' and 'Love & Hip Hop'."],
+    "credits": ["TV:", " -Strangers On A Plane (CH4, 2022)"],
+    "websites": {"Spotify": "https://open.spotify.com/artist/4hRmpX5BTFnyJHTon7o7Wa",
+      "Alerah Cosmetics": "http://alerahcosmetics.com"},
+    "video": "static/video/talent/Wyen.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/kellyann.ann/?hl=en-gb"
+      "instagram": "https://www.instagram.com/wyensolo?igsh=MThza2QzaTM5OXlvbw==",
+      "tiktok": "https://www.tiktok.com/@alerah_cosmetics?_t=8rgljjmiUOO&_r=1"
     }
   },
   {
@@ -271,6 +245,31 @@
       "tiktok": "https://www.tiktok.com/@_lubomba?lang=en",
       "youtube": "https://www.youtube.com/@Lubomba",
       "facebook": "https://www.facebook.com/Lubombmunkuli/"
+    }
+  },
+  {
+    "imgSrc": "static/img/talent/main/Kelly Ann.JPG",
+    "altText": "Kelly Ann",
+    "altImg": 
+      [
+        "static/img/talent/alt/Kelly Ann.JPG"
+      ],
+    "description": [
+      "Model",
+      "Former Playboy Bunny"
+    ],
+    "credits": [
+      "Ricardo Marin/Cuando music video - actress (2021)",
+      "Breakfast TV - Model for Freedom Campaign",
+      "Diesel campaign",
+      "Spanish Tourist Board Commercial",
+      "Heathrow Airport Christmas Commercial",
+      "Film Extra"
+    ],
+    "websites": {},
+    "video": "static/video/talent/Kelly Ann.mp4",
+    "socials": {
+      "instagram": "https://www.instagram.com/kellyann.ann/?hl=en-gb"
     }
   },
   {
