@@ -116,23 +116,24 @@
   },
   {
 
-    "imgSrc": "static/img/talent/main/Marina_P.JPG",
-    "altText": "Marina P",
+    "imgSrc": "static/img/talent/main/Carolyne.JPG",
+    "altText": "Carolyne",
     "altImg": 
       [
-        "static/img/talent/alt/Marina_P.JPG"
+        "static/img/talent/alt/Carolyne.JPG"
       ],
-    "description": ["-Currently presenting for 'Cherry Bay' Producing party/luxury travel content ",
-      "-Made TV debut on reality TV aged 18, after dropping out of University",
-      "-Advanced level Skier",
-      "-Plays Trumpet at a professional level",
-      "-Tik Tok - over 3M views, 161.7K likes"],
-    "credits": ["TV:", " -Cherry Bay (2024)", "-Oatly Ad (2024) ", "-Rise & Fall (CH4, 2023)"],
+    "description": ["-Founder of Dynamic Astrology™",
+      "-A bestselling author, and a leading voice in modern mysticism, credited by Penguin Random House with pioneering the genre",
+      "-Described by The Telegraph and Forbes as “Britain’s Coolest Astrologer”",
+      "-Known for transforming astrology into a psychologically grounded tool for emotional intelligence, self-awareness, and personal growth.",
+      "-She draws on Buddhism, psychology, and the creative arts to shape her approach, moving astrology away from prediction and toward awareness and pattern recognition.",
+      "-First resident astrologer for the Soho House group"
+    ],
+    "credits": ["Books:", "-The Signs (2017)", "-Your Stars (2019)", "-Your Signs (2019)", "-The Signs in Love (2023)", "-Find Your Life Path (2024)"],
     "websites": {},
-    "video": "static/video/talent/Marina_P.mp4",
+    "video": "static/video/talent/Carolyne.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/marinapownall?igsh=anA0c3JzZHV5cTdq",
-      "tiktok": "https://www.tiktok.com/@marinapownall?_t=8rglpzTtqIy&_r=1"
+      "instagram": "https://www.instagram.com/carolynefaulknerofficial?igsh=Zm4wbmExdmp3N21u"
     }
   },
   {
