@@ -1,0 +1,23 @@
+  {
+    "imgSrc": "static/img/talent/main/Kristian.JPG",
+    "altText": "Kristian",
+    "altImg": 
+      [
+        "static/img/talent/alt/Kristian.JPG"
+      ],
+
+    "description": ["-Mancunian with 'Energiser Bunny' energy",
+      "-TV debut on Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)",
+      "-Known for crying when getting tattoos",
+      "-Trained Croupier",
+      "-MMA Boxer",
+      "-Gym enthusiast",
+      "-Former Bricklayer"],
+    "credits": ["TV:", " -'I Literally Just Told You' (CH4, 2023)"],
+    "websites": {},
+    "video": "static/video/talent/Kristian.mp4",
+    "socials": {
+      "instagram": "https://www.instagram.com/kristian_l89?igsh=eG52NXA3Y2s0OWNy",
+      "tiktok": "https://www.tiktok.com/@bigkdawg78?_t=8rgoZ40LjzF&_r=1"
+    }
+  },

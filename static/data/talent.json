@@ -52,31 +52,24 @@
     }
   },
   {
-    "imgSrc": "static/img/talent/main/Segun.JPG",
-    "altText": "Segun",
+    "imgSrc": "static/img/talent/main/Ex-the-Barber.JPG",
+    "altText": "Ex-the-Barber",
     "altImg": 
       [
-        "static/img/talent/alt/Segun.JPG"
+        "static/img/talent/alt/Ex-the-Barber.JPG"
       ],
-    "description": [
-      "Charity Videographer",
-      "Host for events like Cancer Research UK",
-      "Model"
-    ],
-    "credits": [
-      "Big Brother - semi finalist (CH5, 2024)",
-      "Model - Speedflex 'Fortis Champion Launch' (2022)"
-    ],
+    "description": ["Glasgow's Celebrity Barber, Clients include:", "-DJ Khalid", "-Ahmad Diallo", "-Rangers FC", "-Celtic FC", "-MUFC", "-Chris Eubank Jr",
+      "-Wes Nelson", "-Bash The Entertainer", "and many more."],
+    "credits": ["TV:", " -Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)",
+      "-Strangers on a Plane (CH4, 2022)"],
     "websites": {},
-    "video": "static/video/talent/Segun.mp4",
+    "video": "static/video/talent/Ex-the-Barber.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/segunshodipo/",
-      "tiktok": "https://www.tiktok.com/@segun.shodipo",
-      "youtube": "https://www.youtube.com/channel/UC6nZ4s1syGEGH-pJi5_QvOg"
+      "instagram": "https://www.instagram.com/exthebarber?igsh=MXFsamZrbzh3aTdlYg==",
+      "tiktok": "https://www.tiktok.com/@exthebarber?_t=8rgl1FIaQim&_r=1"
     }
   },
   {
-
     "imgSrc": "static/img/talent/main/Libby-Mae.JPG",
     "altText": "Libby-Mae",
     "altImg": 
@@ -96,23 +89,14 @@
     }
   },
   {
-
-    "imgSrc": "static/img/talent/main/Ex-the-Barber.JPG",
-    "altText": "Ex-the-Barber",
-    "altImg": 
-      [
-        "static/img/talent/alt/Ex-the-Barber.JPG"
-      ],
-    "description": ["Glasgow's Celebrity Barber, Clients include:", "-DJ Khalid", "-Ahmad Diallo", "-Rangers FC", "-Celtic FC", "-MUFC", "-Chris Eubank Jr",
-      "-Wes Nelson", "-Bash The Entertainer", "and many more."],
-    "credits": ["TV:", " -Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)",
-      "-Strangers on a Plane (CH4, 2022)"],
+    "imgSrc": "static/img/talent/main/Cameron.JPG",
+    "altText": "Cameron",
+    "altImg": ["static/img/talent/alt/Cameron.JPG"],
+    "description": [],
+    "credits": [],
     "websites": {},
-    "video": "static/video/talent/Ex-the-Barber.mp4",
-    "socials": {
-      "instagram": "https://www.instagram.com/exthebarber?igsh=MXFsamZrbzh3aTdlYg==",
-      "tiktok": "https://www.tiktok.com/@exthebarber?_t=8rgl1FIaQim&_r=1"
-    }
+    "video": "static/video/talent/Cameron.mp4",
+    "socials": {}
   },
   {
 
@@ -218,34 +202,27 @@
     }
   },
   {
-    "imgSrc": "static/img/talent/main/Lubomba.JPG",
-    "altText": "Lubomba",
+    "imgSrc": "static/img/talent/main/Segun.JPG",
+    "altText": "Segun",
     "altImg": 
       [
-        "static/img/talent/alt/Lubomba.JPG"
+        "static/img/talent/alt/Segun.JPG"
       ],
     "description": [
-      "Content Creator",
-      "Brand Ambassador",
-      "Entrepreneur/Architect graduate",
-      "Clothing brand owner 'Stay Dedicated'",
-      "Skater/BMX rider",
+      "Charity Videographer",
+      "Host for events like Cancer Research UK",
       "Model"
     ],
     "credits": [
-      "Strangers on a Plane (CH4, 2022)",
-      "Brand Ambassador 'Gym Shark' (2019 - 2023)",
-      "'My protein' (2018 - 2023)"
+      "Big Brother - semi finalist (CH5, 2024)",
+      "Model - Speedflex 'Fortis Champion Launch' (2022)"
     ],
-    "websites": {
-      "main": "https://ccreation.store/?srsltid=AfmBOor0_t3AwpWcdlvO-k7-jbKSCT1xABPNfxeVyKCiqTsQqMQ972WJ"
-    },
-    "video": "static/video/talent/Lubomba.mp4",
+    "websites": {},
+    "video": "static/video/talent/Segun.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/lubomba/?hl=en",
-      "tiktok": "https://www.tiktok.com/@_lubomba?lang=en",
-      "youtube": "https://www.youtube.com/@Lubomba",
-      "facebook": "https://www.facebook.com/Lubombmunkuli/"
+      "instagram": "https://www.instagram.com/segunshodipo/",
+      "tiktok": "https://www.tiktok.com/@segun.shodipo",
+      "youtube": "https://www.youtube.com/channel/UC6nZ4s1syGEGH-pJi5_QvOg"
     }
   },
   {
@@ -274,23 +251,34 @@
     }
   },
   {
-    "imgSrc": "static/img/talent/main/Letom.JPG",
-    "altText": "Letom",
+    "imgSrc": "static/img/talent/main/Lubomba.JPG",
+    "altText": "Lubomba",
     "altImg": 
       [
-        "static/img/talent/alt/Letom.JPG"
+        "static/img/talent/alt/Lubomba.JPG"
       ],
-
-    "description": ["-Owner of Labtainment/Labbeautystudios",
-      "-Dance styles include 'Break dancing', 'Old School Hip Hop', '90's Krump', 'Body Popping', 'Afro Beats' and 'Salsa'",
-      "-Music Producer", "-Voiceover artist "],
-    "credits": [],
-    "websites": {"Lab Beauty Studios":  "https://labbeautystudios.co.uk",
-      "Labtainment": "https://labtainment.com"},
-    "video": "static/video/talent/Letom.mp4",
+    "description": [
+      "Content Creator",
+      "Brand Ambassador",
+      "Entrepreneur/Architect graduate",
+      "Clothing brand owner 'Stay Dedicated'",
+      "Skater/BMX rider",
+      "Model"
+    ],
+    "credits": [
+      "Strangers on a Plane (CH4, 2022)",
+      "Brand Ambassador 'Gym Shark' (2019 - 2023)",
+      "'My protein' (2018 - 2023)"
+    ],
+    "websites": {
+      "main": "https://ccreation.store/?srsltid=AfmBOor0_t3AwpWcdlvO-k7-jbKSCT1xABPNfxeVyKCiqTsQqMQ972WJ"
+    },
+    "video": "static/video/talent/Lubomba.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/labtainment?igsh=MXh6anJvZzdrdjdydA==",
-      "tiktok": "https://www.tiktok.com/@letomlab?_t=8rgnsUfSXdx&_r=1"
+      "instagram": "https://www.instagram.com/lubomba/?hl=en",
+      "tiktok": "https://www.tiktok.com/@_lubomba?lang=en",
+      "youtube": "https://www.youtube.com/@Lubomba",
+      "facebook": "https://www.facebook.com/Lubombmunkuli/"
     }
   },
   {
@@ -431,27 +419,22 @@
     }
   },
   {
-    "imgSrc": "static/img/talent/main/Gus.JPG",
-    "altText": "Gus",
+    "imgSrc": "static/img/talent/main/Arnold.JPG",
+    "altText": "Arnold",
     "altImg": 
       [
-        "static/img/talent/alt/Gus.JPG"
+        "static/img/talent/alt/Arnold.JPG"
       ],
-    "description": ["-Reverend",
-      "-Presenter",
-      "-Actor",
-      "-Motivational Speaker"],
-    "credits": ["TV:", " -The Devil's Wild (2024)", "-Everybody Else Burns (2024)",
-      "-I Can See Your Voice (BBC, 2024)", "-Britain's Best Takeaway (BBC, 2021)",
-      "-Wonders of the Celtic Deep (2020)", "-Lazarus (2006)",
-    "Adverts:", "-Nartive (2024)", "-Chillblast (2024)", "-Greene King Euros (2024)", "-Durham University (2024)",
-      "-Manchester United/Merriot (2024)", "-6 Nations Greene King (2024)"],
-    "websites": {"Personal": "https://augustineihm.co.uk/contact-me/"},
-    "video": "static/video/talent/Gus.mp4",
-    "socials": {
-      "tiktok": "https://www.tiktok.com/@ihmaugustine14?_t=8rgmOhDrlEv&_r=1"
-    }
 
+    "description": ["-High energy dancer",
+      "styles include 'Break dancing', 'Roboting', and 'Body Popping'."],
+    "credits": ["TV:", " -Darling what have you done with your hair (CH4 2021)"],
+    "websites": {},
+    "video": "static/video/talent/Arnold.mp4",
+    "socials": {
+      "instagram": "https://www.instagram.com/arnoldbanigo?igsh=c2trMTEzOGNxcGx3",
+      "tiktok": "https://www.tiktok.com/@arnie_b?_t=8rgoA6pyzwH&_r=1"
+    }
   },
   {
 
@@ -695,7 +678,6 @@
     }
   },
   {
-
     "imgSrc": "static/img/talent/main/Erina.JPG",
     "altText": "Erina",
     "altImg": 
@@ -718,22 +700,25 @@
     }
   },
   {
-
-    "imgSrc": "static/img/talent/main/Arnold.JPG",
-    "altText": "Arnold",
+    "imgSrc": "static/img/talent/main/Gus.JPG",
+    "altText": "Gus",
     "altImg": 
       [
-        "static/img/talent/alt/Arnold.JPG"
+        "static/img/talent/alt/Gus.JPG"
       ],
-
-    "description": ["-High energy dancer",
-      "styles include 'Break dancing', 'Roboting', and 'Body Popping'."],
-    "credits": ["TV:", " -Darling what have you done with your hair (CH4 2021)"],
-    "websites": {},
-    "video": "static/video/talent/Arnold.mp4",
+    "description": ["-Reverend",
+      "-Presenter",
+      "-Actor",
+      "-Motivational Speaker"],
+    "credits": ["TV:", " -The Devil's Wild (2024)", "-Everybody Else Burns (2024)",
+      "-I Can See Your Voice (BBC, 2024)", "-Britain's Best Takeaway (BBC, 2021)",
+      "-Wonders of the Celtic Deep (2020)", "-Lazarus (2006)",
+    "Adverts:", "-Nartive (2024)", "-Chillblast (2024)", "-Greene King Euros (2024)", "-Durham University (2024)",
+      "-Manchester United/Merriot (2024)", "-6 Nations Greene King (2024)"],
+    "websites": {"Personal": "https://augustineihm.co.uk/contact-me/"},
+    "video": "static/video/talent/Gus.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/arnoldbanigo?igsh=c2trMTEzOGNxcGx3",
-      "tiktok": "https://www.tiktok.com/@arnie_b?_t=8rgoA6pyzwH&_r=1"
+      "tiktok": "https://www.tiktok.com/@ihmaugustine14?_t=8rgmOhDrlEv&_r=1"
     }
   },
   {
@@ -924,31 +909,26 @@
     }
   },
   {
-
-    "imgSrc": "static/img/talent/main/Kristian.JPG",
-    "altText": "Kristian",
+    "imgSrc": "static/img/talent/main/Letom.JPG",
+    "altText": "Letom",
     "altImg": 
       [
-        "static/img/talent/alt/Kristian.JPG"
+        "static/img/talent/alt/Letom.JPG"
       ],
 
-    "description": ["-Mancunian with 'Energiser Bunny' energy",
-      "-TV debut on Jimmy Carr's 'I Literally Just Told You' (CH4, 2023)",
-      "-Known for crying when getting tattoos",
-      "-Trained Croupier",
-      "-MMA Boxer",
-      "-Gym enthusiast",
-      "-Former Bricklayer"],
-    "credits": ["TV:", " -'I Literally Just Told You' (CH4, 2023)"],
-    "websites": {},
-    "video": "static/video/talent/Kristian.mp4",
+    "description": ["-Owner of Labtainment/Labbeautystudios",
+      "-Dance styles include 'Break dancing', 'Old School Hip Hop', '90's Krump', 'Body Popping', 'Afro Beats' and 'Salsa'",
+      "-Music Producer", "-Voiceover artist "],
+    "credits": [],
+    "websites": {"Lab Beauty Studios":  "https://labbeautystudios.co.uk",
+      "Labtainment": "https://labtainment.com"},
+    "video": "static/video/talent/Letom.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/kristian_l89?igsh=eG52NXA3Y2s0OWNy",
-      "tiktok": "https://www.tiktok.com/@bigkdawg78?_t=8rgoZ40LjzF&_r=1"
+      "instagram": "https://www.instagram.com/labtainment?igsh=MXh6anJvZzdrdjdydA==",
+      "tiktok": "https://www.tiktok.com/@letomlab?_t=8rgnsUfSXdx&_r=1"
     }
   },
   {
-
     "imgSrc": "static/img/talent/main/Tom.JPG",
     "altText": "Tom",
     "altImg": 
