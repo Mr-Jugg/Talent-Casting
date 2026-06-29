@@ -160,25 +160,17 @@
     }
   },
   {
-
-    "imgSrc": "static/img/talent/main/Ryan.JPG",
-    "altText": "Ryan",
+    "imgSrc": "static/img/talent/main/Raj.JPG",
+    "altText": "Dr Raj",
     "altImg": 
       [
-        "static/img/talent/alt/Ryan.JPG"
+        "static/img/talent/alt/Raj.JPG"
       ],
-
-    "description": ["-Scottish influencer with ",
-      "-Tik Tok - 1.9M followers, 25.1M likes and roughly 530k on Instagram",
-      "-known for Reading cheeky adult books, trying snacks from around the world and pronouncing different words with his Scottish accent.",
-      "-Ex Navy "],
-    "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)"],
+    "description": [],
+    "credits": [],
     "websites": {},
-    "video": "static/video/talent/Ryan.mp4",
-    "socials": {
-      "instagram": "https://www.instagram.com/rsullivan1991?igsh=MW0wanpwcmQ5c3JzYw==",
-      "tiktok": "https://www.tiktok.com/@rsullivan1991?_t=8rgmGJ7ccRV&_r=1"
-    }
+    "video": "static/video/talent/Raj.mp4",
+    "socials": {}
   },
   {
 
@@ -302,24 +294,22 @@
     }
   },
   {
-
-    "imgSrc": "static/img/talent/main/Mikie.JPG",
-    "altText": "Mikie",
+    "imgSrc": "static/img/talent/main/Ryan.JPG",
+    "altText": "Ryan",
     "altImg": 
       [
-        "static/img/talent/alt/Mikie.JPG"
+        "static/img/talent/alt/Ryan.JPG"
       ],
-
-    "description": ["-Social Media star with videos having a combined total of nearly 8 million views across social media platforms",
-      "-Nearly 500k followers and 6.5 million likes.",
-      "-Raising awareness of ADHD, through witty online content",
-      "-Avid gamer"],
-    "credits": ["TV:", " -Squid Games (Netflix, 2023)", "I Literally Just Told You (CH4, 2023)"],
+    "description": ["-Scottish influencer with ",
+      "-Tik Tok - 1.9M followers, 25.1M likes and roughly 530k on Instagram",
+      "-known for Reading cheeky adult books, trying snacks from around the world and pronouncing different words with his Scottish accent.",
+      "-Ex Navy "],
+    "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)"],
     "websites": {},
-    "video": "static/video/talent/Mikie.mp4",
+    "video": "static/video/talent/Ryan.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/immikieb?igsh=N2l5bDE3c2ZzYXhm",
-      "tiktok": "https://www.tiktok.com/@imadimeadozen?_t=8rgmDs9clZB&_r=1"
+      "instagram": "https://www.instagram.com/rsullivan1991?igsh=MW0wanpwcmQ5c3JzYw==",
+      "tiktok": "https://www.tiktok.com/@rsullivan1991?_t=8rgmGJ7ccRV&_r=1"
     }
   },
   {
@@ -541,30 +531,25 @@
       "tiktok": "https://www.tiktok.com/@ellieparis_?_t=8rgmwqpiqMj&_r=1"
     }
   },
-
   {
-
-    "imgSrc": "static/img/talent/main/Drew.JPG",
-    "altText": "Drew",
+    "imgSrc": "static/img/talent/main/Mikie.JPG",
+    "altText": "Mikie",
     "altImg": 
       [
-        "static/img/talent/alt/Drew.JPG"
+        "static/img/talent/alt/Mikie.JPG"
       ],
-
-    "description": ["-Afro Beat Music Producer/Singer",
-      "- Album 'A Flavoured Kid' released (2013) worldwide",
-      "-Check out his other 6 singles on ITunes "],
-    "credits": [],
+    "description": ["-Social Media star with videos having a combined total of nearly 8 million views across social media platforms",
+      "-Nearly 500k followers and 6.5 million likes.",
+      "-Raising awareness of ADHD, through witty online content",
+      "-Avid gamer"],
+    "credits": ["TV:", " -Squid Games (Netflix, 2023)", "I Literally Just Told You (CH4, 2023)"],
     "websites": {},
-    "video": "static/video/talent/Drew.mp4",
+    "video": "static/video/talent/Mikie.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/thatguydrew1?igsh=OHNzYmVrYXNlbHFu",
-      "tiktok": "https://www.tiktok.com/@1thatguydrew?_t=8rgmuGeIKWX&_r=1"
+      "instagram": "https://www.instagram.com/immikieb?igsh=N2l5bDE3c2ZzYXhm",
+      "tiktok": "https://www.tiktok.com/@imadimeadozen?_t=8rgmDs9clZB&_r=1"
     }
   },
-
-
-
   {
 
     "imgSrc": "static/img/talent/main/Emma.JPG",
@@ -700,25 +685,21 @@
     }
   },
   {
-    "imgSrc": "static/img/talent/main/Gus.JPG",
-    "altText": "Gus",
+    "imgSrc": "static/img/talent/main/Drew.JPG",
+    "altText": "Drew",
     "altImg": 
       [
-        "static/img/talent/alt/Gus.JPG"
+        "static/img/talent/alt/Drew.JPG"
       ],
-    "description": ["-Reverend",
-      "-Presenter",
-      "-Actor",
-      "-Motivational Speaker"],
-    "credits": ["TV:", " -The Devil's Wild (2024)", "-Everybody Else Burns (2024)",
-      "-I Can See Your Voice (BBC, 2024)", "-Britain's Best Takeaway (BBC, 2021)",
-      "-Wonders of the Celtic Deep (2020)", "-Lazarus (2006)",
-    "Adverts:", "-Nartive (2024)", "-Chillblast (2024)", "-Greene King Euros (2024)", "-Durham University (2024)",
-      "-Manchester United/Merriot (2024)", "-6 Nations Greene King (2024)"],
-    "websites": {"Personal": "https://augustineihm.co.uk/contact-me/"},
-    "video": "static/video/talent/Gus.mp4",
+    "description": ["-Afro Beat Music Producer/Singer",
+      "- Album 'A Flavoured Kid' released (2013) worldwide",
+      "-Check out his other 6 singles on ITunes "],
+    "credits": [],
+    "websites": {},
+    "video": "static/video/talent/Drew.mp4",
     "socials": {
-      "tiktok": "https://www.tiktok.com/@ihmaugustine14?_t=8rgmOhDrlEv&_r=1"
+      "instagram": "https://www.instagram.com/thatguydrew1?igsh=OHNzYmVrYXNlbHFu",
+      "tiktok": "https://www.tiktok.com/@1thatguydrew?_t=8rgmuGeIKWX&_r=1"
     }
   },
   {
@@ -1033,6 +1014,27 @@
     "video": "static/video/talent/Lianne.mp4",
     "socials": {
     }
+  },
+  {
+    "imgSrc": "static/img/talent/main/Gus.JPG",
+    "altText": "Gus",
+    "altImg": 
+      [
+        "static/img/talent/alt/Gus.JPG"
+      ],
+    "description": ["-Reverend",
+      "-Presenter",
+      "-Actor",
+      "-Motivational Speaker"],
+    "credits": ["TV:", " -The Devil's Wild (2024)", "-Everybody Else Burns (2024)",
+      "-I Can See Your Voice (BBC, 2024)", "-Britain's Best Takeaway (BBC, 2021)",
+      "-Wonders of the Celtic Deep (2020)", "-Lazarus (2006)",
+    "Adverts:", "-Nartive (2024)", "-Chillblast (2024)", "-Greene King Euros (2024)", "-Durham University (2024)",
+      "-Manchester United/Merriot (2024)", "-6 Nations Greene King (2024)"],
+    "websites": {"Personal": "https://augustineihm.co.uk/contact-me/"},
+    "video": "static/video/talent/Gus.mp4",
+    "socials": {
+      "tiktok": "https://www.tiktok.com/@ihmaugustine14?_t=8rgmOhDrlEv&_r=1"
+    }
   }
-  
 ]
