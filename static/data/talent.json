@@ -166,11 +166,18 @@
       [
         "static/img/talent/alt/Raj.JPG"
       ],
-    "description": [],
-    "credits": [],
+    "description": ["Raj Joshi is an expedition leader, doctor, and elite warrior. Uniquely experienced in leadership, survival, and endurance across desert, jungle, polar and mountainous terrain, both in peacetime and in war, he has summited the highest mountain on every continent, led David Beckham through the Amazon rainforest and helped Cheryl Cole and Gary Barlow."],
+    "credits": [
+      "Channel 4: Celebrity SAS Who Dares Wins (2024)",
+      "FOX: Special Forces Worlds Toughest Test (2023)",
+      "Channel 4: Celebrity SAS Who Dares Wins (2023)",
+      "Channel 4: SAS Who Dares Wins (2023)"
+    ],
     "websites": {},
     "video": "static/video/talent/Raj.mp4",
-    "socials": {}
+    "socials": {
+      "website": "https://www.theadventureboutique.org/expeditionleaders/raj-joshi/"
+    }
   },
   {
 
