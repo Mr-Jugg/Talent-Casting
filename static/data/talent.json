@@ -1043,5 +1043,22 @@
     "socials": {
       "tiktok": "https://www.tiktok.com/@ihmaugustine14?_t=8rgmOhDrlEv&_r=1"
     }
+  },
+  {
+    "imgSrc": "static/img/talent/main/Jamie-Pugh.JPG",
+    "altText": "Jamie Pugh",
+    "altImg": 
+      [
+        "static/img/talent/alt/Jamie-Pugh.JPG"
+      ],
+    "credits": ["I have been fortunate enough in my journey to spend time in the company of David & Carrie Grant ( Fame Academy, One Show and Songs of Praise ) Yvie Burnett ( X Factor/Britains Got Talent and Vocal Coach to the stars) Nigel Wright ( One of the world's leading music producers) and learnt about all the hard work and dedication it takes to achieve your dreams and full potential.", 
+      "In 2009 I was on Britain's Got Talent and 80 million YouTube views, sold out theatre tour and an independently released multi selling album later I stepped away from the world of music . Now I am back , trying to climb again , recording songs I love and looking forward to performing live again."
+    ],
+    "websites": {},
+    "video": "static/video/talent/Jamie-Pugh.mp4",
+    "socials": {
+      "facebook": "https://www.facebook.com/jamiewpugh",
+      "instagram": "https://www.instagram.com/jamiepughsinger?igsh=MTNhYXJ6Zzk0YW81MA=="
+    }
   }
 ]
