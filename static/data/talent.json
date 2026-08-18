@@ -121,22 +121,20 @@
     }
   },
   {
-    "imgSrc": "static/img/talent/main/Jack.JPG",
-    "altText": "Jack",
+    "imgSrc": "static/img/talent/main/Jamie-P.JPG",
+    "altText": "Jamie P",
     "altImg": 
       [
-        "static/img/talent/alt/Jack.JPG"
+        "static/img/talent/alt/Jamie-P.JPG"
       ],
-
-    "description": ["-Amputee and Disability Advocate",
-      "-Tik Tok star with roughly 300K followers/4.2 million likes/71 million views", "-Wheelchair Tennis/Rugby player"],
-    "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)", "-Money bags (CH4, 2021)", "-Creator Lab  (BBC, 2024)",
-    "Modelling:", "-Jaka Azman modelling (2024)"],
+    "credits": ["I have been fortunate enough in my journey to spend time in the company of David & Carrie Grant ( Fame Academy, One Show and Songs of Praise ) Yvie Burnett ( X Factor/Britains Got Talent and Vocal Coach to the stars) Nigel Wright ( One of the world's leading music producers) and learnt about all the hard work and dedication it takes to achieve your dreams and full potential.", 
+      "In 2009 I was on Britain's Got Talent and 80 million YouTube views, sold out theatre tour and an independently released multi selling album later I stepped away from the world of music . Now I am back , trying to climb again , recording songs I love and looking forward to performing live again."
+    ],
     "websites": {},
-    "video": "static/video/talent/Jack.mp4",
+    "video": "static/video/talent/Jamie-P.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/1legdancer?igsh=a3lzOG93czd3b293",
-      "tiktok": "https://www.tiktok.com/@1legdancer123?_t=8rglXqWAWNU&_r=1"
+      "facebook": "https://www.facebook.com/jamiewpugh",
+      "instagram": "https://www.instagram.com/jamiepughsinger?igsh=MTNhYXJ6Zzk0YW81MA=="
     }
   },
   {
@@ -201,27 +199,22 @@
     }
   },
   {
-    "imgSrc": "static/img/talent/main/Segun.JPG",
-    "altText": "Segun",
+    "imgSrc": "static/img/talent/main/Jack.JPG",
+    "altText": "Jack",
     "altImg": 
       [
-        "static/img/talent/alt/Segun.JPG"
+        "static/img/talent/alt/Jack.JPG"
       ],
-    "description": [
-      "Charity Videographer",
-      "Host for events like Cancer Research UK",
-      "Model"
-    ],
-    "credits": [
-      "Big Brother - semi finalist (CH5, 2024)",
-      "Model - Speedflex 'Fortis Champion Launch' (2022)"
-    ],
+
+    "description": ["-Amputee and Disability Advocate",
+      "-Tik Tok star with roughly 300K followers/4.2 million likes/71 million views", "-Wheelchair Tennis/Rugby player"],
+    "credits": ["TV:", " -I Literally Just Told You (CH4, 2023)", "-Money bags (CH4, 2021)", "-Creator Lab  (BBC, 2024)",
+    "Modelling:", "-Jaka Azman modelling (2024)"],
     "websites": {},
-    "video": "static/video/talent/Segun.mp4",
+    "video": "static/video/talent/Jack.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/segunshodipo/",
-      "tiktok": "https://www.tiktok.com/@segun.shodipo",
-      "youtube": "https://www.youtube.com/channel/UC6nZ4s1syGEGH-pJi5_QvOg"
+      "instagram": "https://www.instagram.com/1legdancer?igsh=a3lzOG93czd3b293",
+      "tiktok": "https://www.tiktok.com/@1legdancer123?_t=8rglXqWAWNU&_r=1"
     }
   },
   {
@@ -416,21 +409,27 @@
     }
   },
   {
-    "imgSrc": "static/img/talent/main/Arnold.JPG",
-    "altText": "Arnold",
+    "imgSrc": "static/img/talent/main/Segun.JPG",
+    "altText": "Segun",
     "altImg": 
       [
-        "static/img/talent/alt/Arnold.JPG"
+        "static/img/talent/alt/Segun.JPG"
       ],
-
-    "description": ["-High energy dancer",
-      "styles include 'Break dancing', 'Roboting', and 'Body Popping'."],
-    "credits": ["TV:", " -Darling what have you done with your hair (CH4 2021)"],
+    "description": [
+      "Charity Videographer",
+      "Host for events like Cancer Research UK",
+      "Model"
+    ],
+    "credits": [
+      "Big Brother - semi finalist (CH5, 2024)",
+      "Model - Speedflex 'Fortis Champion Launch' (2022)"
+    ],
     "websites": {},
-    "video": "static/video/talent/Arnold.mp4",
+    "video": "static/video/talent/Segun.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/arnoldbanigo?igsh=c2trMTEzOGNxcGx3",
-      "tiktok": "https://www.tiktok.com/@arnie_b?_t=8rgoA6pyzwH&_r=1"
+      "instagram": "https://www.instagram.com/segunshodipo/",
+      "tiktok": "https://www.tiktok.com/@segun.shodipo",
+      "youtube": "https://www.youtube.com/channel/UC6nZ4s1syGEGH-pJi5_QvOg"
     }
   },
   {
@@ -735,22 +734,21 @@
     }
   },
   {
-
-    "imgSrc": "static/img/talent/main/Ray.JPG",
-    "altText": "Ray",
+    "imgSrc": "static/img/talent/main/Arnold.JPG",
+    "altText": "Arnold",
     "altImg": 
       [
-        "static/img/talent/alt/Ray.JPG"
+        "static/img/talent/alt/Arnold.JPG"
       ],
 
-    "description": ["-3x British Champion", "-European finalist",
-      "-European U23 Finalist", "-BUCS long jump Champion & record holder", "-England senior long jump champion"],
-    "credits": [],
+    "description": ["-High energy dancer",
+      "styles include 'Break dancing', 'Roboting', and 'Body Popping'."],
+    "credits": ["TV:", " -Darling what have you done with your hair (CH4 2021)"],
     "websites": {},
-    "video": "static/video/talent/Ray.mp4",
+    "video": "static/video/talent/Arnold.mp4",
     "socials": {
-      "instagram": "https://www.instagram.com/ray_banigo?igsh=d2hjNnpyZ2E5am4x",
-      "tiktok": "https://www.tiktok.com/@ray_banigo?_t=8rglaYRvHZx&_r=1"
+      "instagram": "https://www.instagram.com/arnoldbanigo?igsh=c2trMTEzOGNxcGx3",
+      "tiktok": "https://www.tiktok.com/@arnie_b?_t=8rgoA6pyzwH&_r=1"
     }
   },
   {
@@ -1045,20 +1043,21 @@
     }
   },
   {
-    "imgSrc": "static/img/talent/main/Jamie-Pugh.JPG",
-    "altText": "Jamie Pugh",
+    "imgSrc": "static/img/talent/main/Ray.JPG",
+    "altText": "Ray",
     "altImg": 
       [
-        "static/img/talent/alt/Jamie-Pugh.JPG"
+        "static/img/talent/alt/Ray.JPG"
       ],
-    "credits": ["I have been fortunate enough in my journey to spend time in the company of David & Carrie Grant ( Fame Academy, One Show and Songs of Praise ) Yvie Burnett ( X Factor/Britains Got Talent and Vocal Coach to the stars) Nigel Wright ( One of the world's leading music producers) and learnt about all the hard work and dedication it takes to achieve your dreams and full potential.", 
-      "In 2009 I was on Britain's Got Talent and 80 million YouTube views, sold out theatre tour and an independently released multi selling album later I stepped away from the world of music . Now I am back , trying to climb again , recording songs I love and looking forward to performing live again."
-    ],
+
+    "description": ["-3x British Champion", "-European finalist",
+      "-European U23 Finalist", "-BUCS long jump Champion & record holder", "-England senior long jump champion"],
+    "credits": [],
     "websites": {},
-    "video": "static/video/talent/Jamie-Pugh.mp4",
+    "video": "static/video/talent/Ray.mp4",
     "socials": {
-      "facebook": "https://www.facebook.com/jamiewpugh",
-      "instagram": "https://www.instagram.com/jamiepughsinger?igsh=MTNhYXJ6Zzk0YW81MA=="
+      "instagram": "https://www.instagram.com/ray_banigo?igsh=d2hjNnpyZ2E5am4x",
+      "tiktok": "https://www.tiktok.com/@ray_banigo?_t=8rglaYRvHZx&_r=1"
     }
   }
 ]
